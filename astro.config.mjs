@@ -5,7 +5,8 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://cheese-nexus.ai',
+  site: 'https://jackykit0116.github.io',
+  base: '/cheese-nexus',
   integrations: [
     react(),
     tailwind({
