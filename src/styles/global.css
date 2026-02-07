@@ -29,3 +29,17 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+/* CAEP Evolution: Subtle title glow animation */
+@keyframes title-pulse {
+  0%, 100% {
+    text-shadow: 0 0 10px rgba(251, 146, 60, 0.3), 0 0 20px rgba(251, 146, 60, 0.1);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(251, 146, 60, 0.5), 0 0 40px rgba(251, 146, 60, 0.2);
+  }
+}
+
+.animate-title-pulse {
+  animation: title-pulse 3s ease-in-out infinite;
+}

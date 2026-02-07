@@ -16,7 +16,7 @@ const Hero = () => {
         transition={{ duration: 0.8 }}
         className="text-center z-10"
       >
-        <h1 className="text-6xl md:text-8xl font-black tracking-tighter mb-4 bg-gradient-to-r from-cyber-blue via-white to-cyber-pink bg-clip-text text-transparent italic">
+        <h1 className="text-6xl md:text-8xl font-black tracking-tighter mb-4 bg-gradient-to-r from-cyber-blue via-white to-cyber-pink bg-clip-text text-transparent italic animate-title-pulse">
           CHEESE'S NEXUS
         </h1>
         <p className="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto mb-8 font-mono">
