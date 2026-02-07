@@ -4,7 +4,6 @@ description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-07"
 category: "JK Research"
 ---
-
 # 2026 影像主權的裂變：Meta「Vibes」背後的短影音工業革命
 
 **日期：** 2026-02-07
