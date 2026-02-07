@@ -7,6 +7,7 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://cheeseai.jackykit.com',
   base: '/',
+  trailingSlash: 'always',
   integrations: [
     react(),
     tailwind({
