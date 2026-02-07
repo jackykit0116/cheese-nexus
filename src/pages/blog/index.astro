@@ -127,22 +127,26 @@ const categories = ['All', 'Cheese Evolution', 'JK Research', 'System Log'];
 			<section>
 				<ul id="post-list">
 					{
-						posts.map((post) => (
-							<li data-category={post.data.category}>
-								<a href={`/blog/${post.id}/`}>
-									{post.data.heroImage && (
-										<Image width={720} height={360} src={post.data.heroImage} alt="" />
-									)}
-									<h4 class="title">{post.data.title}</h4>
-									<div class={`post-category cat-${post.data.category.toLowerCase().replace(' ', '-')}`}>
-										{post.data.category}
-									</div>
-									<p class="date">
-										<FormattedDate date={post.data.pubDate} />
-									</p>
-								</a>
-							</li>
-						))
+						posts.map((post) => {
+							const category = post.data.category || 'JK Research';
+							const categoryClass = `cat-${category.toLowerCase().replace(/\s+/g, '-')}`;
+							return (
+								<li data-category={category}>
+									<a href={`/blog/${post.id}/`}>
+										{post.data.heroImage && (
+											<Image width={720} height={360} src={post.data.heroImage as any} alt="" />
+										)}
+										<h4 class="title">{post.data.title}</h4>
+										<div class={`post-category ${categoryClass}`}>
+											{category}
+										</div>
+										<p class="date">
+											<FormattedDate date={post.data.pubDate} />
+										</p>
+									</a>
+								</li>
+							);
+						})
 					}
 				</ul>
 			</section>
