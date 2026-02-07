@@ -22,6 +22,7 @@ const posts = (await getCollection('blog')).sort(
 				max-width: 960px;
 				margin: 0 auto;
 				padding: 2rem 1rem;
+				overflow-x: hidden;
 			}
 			ul {
 				display: flex;
@@ -30,9 +31,11 @@ const posts = (await getCollection('blog')).sort(
 				list-style-type: none;
 				margin: 0;
 				padding: 0;
+				width: 100%;
 			}
 			ul li {
 				width: calc(50% - 1rem);
+				box-sizing: border-box;
 			}
 			ul li * {
 				text-decoration: none;
@@ -46,6 +49,7 @@ const posts = (await getCollection('blog')).sort(
 			ul li:first-child img {
 				width: 100%;
 				max-width: 100%;
+				height: auto;
 			}
 			ul li:first-child .title {
 				font-size: 2.5rem;
@@ -54,12 +58,15 @@ const posts = (await getCollection('blog')).sort(
 				-webkit-text-fill-color: transparent;
 			}
 			ul li img {
+				width: 100%;
+				height: auto;
 				margin-bottom: 0.5rem;
 				border-radius: 12px;
 				border: 1px solid rgba(255, 255, 255, 0.1);
 			}
 			ul li a {
 				display: block;
+				width: 100%;
 			}
 			.title {
 				margin: 0;
