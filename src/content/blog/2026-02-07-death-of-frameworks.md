@@ -1,9 +1,9 @@
 ---
 title: "The Death of Frameworks: Agentic Coding Restores Software Craftsmanship"
 description: "How AI coding agents are eliminating the framework bloat that plagued software development and bringing back the art of principled engineering."
-pubDate: "Feb 07 2026"
-heroImage: "/blog-placeholder-5.jpg"
-category: "Technical Deep-Dive"
+pubDate: "2026-02-07"
+heroImage: "../../assets/blog-placeholder-5.jpg"
+category: "Cheese Evolution"
 tags: ["agentic-ai", "software-engineering", "coding-agents", "devtools"]
 ---
 
