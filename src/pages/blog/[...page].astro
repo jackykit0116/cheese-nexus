@@ -1,4 +1,5 @@
 ---
+import type { GetStaticPaths } from 'astro';
 import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import BaseHead from '../../components/BaseHead.astro';
@@ -7,9 +8,15 @@ import FormattedDate from '../../components/FormattedDate.astro';
 import Header from '../../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
 
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
+export const getStaticPaths = (async ({ paginate }) => {
+	const posts = (await getCollection('blog')).sort(
+		(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+	);
+	return paginate(posts, { pageSize: 6 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+const posts = page.data;
 
 const categories = ['All', 'Cheese Evolution', 'JK Research', 'System Log'];
 ---
@@ -17,7 +24,7 @@ const categories = ['All', 'Cheese Evolution', 'JK Research', 'System Log'];
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<BaseHead title={`${SITE_TITLE} - Blog (Page ${page.currentPage})`} description={SITE_DESCRIPTION} />
 		<style>
 			main {
 				width: 100%;
@@ -64,19 +71,50 @@ const categories = ['All', 'Cheese Evolution', 'JK Research', 'System Log'];
 			ul li {
 				width: calc(50% - 1rem);
 				box-sizing: border-box;
-				display: block; /* Default visible */
+				display: block;
 			}
-			ul li * {
+			ul li a {
+				display: block;
 				text-decoration: none;
 				transition: 0.2s ease;
 			}
-			ul li img {
+			.image-container {
 				width: 100%;
-				height: auto;
+				aspect-ratio: 16 / 9;
 				margin-bottom: 0.5rem;
 				border-radius: 12px;
 				border: 1px solid rgba(255, 255, 255, 0.1);
+				overflow: hidden;
+				position: relative;
 			}
+			ul li img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				transition: transform 0.3s ease;
+			}
+			.placeholder-gradient {
+				width: 100%;
+				height: 100%;
+				background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				position: relative;
+				overflow: hidden;
+			}
+			.placeholder-gradient::after {
+				content: "🐯";
+				font-size: 3rem;
+				opacity: 0.2;
+				filter: grayscale(1);
+			}
+			
+			/* Category specific gradients for placeholders */
+			.placeholder-jk-research { background: linear-gradient(135deg, #001a1a 0%, #004d4d 100%); }
+			.placeholder-cheese-evolution { background: linear-gradient(135deg, #1a0f00 0%, #4d2d00 100%); }
+			.placeholder-system-log { background: linear-gradient(135deg, #1a1a1a 0%, #333 100%); }
+
 			.title {
 				margin: 0;
 				color: white;
@@ -104,11 +142,44 @@ const categories = ['All', 'Cheese Evolution', 'JK Research', 'System Log'];
 			ul li a:hover .title {
 				color: #00f2ff;
 			}
-			ul a:hover img {
+			ul li a:hover img {
+				transform: scale(1.05);
+			}
+			ul li a:hover .image-container {
 				border-color: #ff00ea;
-				transform: translateY(-4px);
 				box-shadow: 0 0 20px rgba(255, 0, 234, 0.3);
 			}
+
+			.pagination {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				gap: 1rem;
+				margin-top: 3rem;
+				font-family: ui-monospace, monospace;
+			}
+			.pagination a {
+				padding: 0.5rem 1rem;
+				border-radius: 8px;
+				background: rgba(255, 255, 255, 0.05);
+				border: 1px solid rgba(255, 255, 255, 0.1);
+				color: white;
+				text-decoration: none;
+				transition: all 0.2s;
+			}
+			.pagination a:hover {
+				background: #00f2ff;
+				color: black;
+				border-color: #00f2ff;
+			}
+			.pagination .disabled {
+				opacity: 0.3;
+				pointer-events: none;
+			}
+			.page-info {
+				color: #9ca3af;
+			}
+
 			@media (max-width: 720px) {
 				ul li {
 					width: 100%;
@@ -130,12 +201,17 @@ const categories = ['All', 'Cheese Evolution', 'JK Research', 'System Log'];
 						posts.map((post) => {
 							const category = post.data.category || 'JK Research';
 							const categoryClass = `cat-${category.toLowerCase().replace(/\s+/g, '-')}`;
+							const placeholderClass = `placeholder-${category.toLowerCase().replace(/\s+/g, '-')}`;
 							return (
 								<li data-category={category}>
 									<a href={`/blog/${post.id}/`}>
-										{post.data.heroImage && (
-											<Image width={720} height={360} src={post.data.heroImage as any} alt="" />
-										)}
+										<div class="image-container">
+											{post.data.heroImage ? (
+												<Image width={720} height={360} src={post.data.heroImage as any} alt="" />
+											) : (
+												<div class={`placeholder-gradient ${placeholderClass}`}></div>
+											)}
+										</div>
 										<h4 class="title">{post.data.title}</h4>
 										<div class={`post-category ${categoryClass}`}>
 											{category}
@@ -150,8 +226,15 @@ const categories = ['All', 'Cheese Evolution', 'JK Research', 'System Log'];
 					}
 				</ul>
 			</section>
+
+			<nav class="pagination">
+				<a href={page.url.prev} class={!page.url.prev ? 'disabled' : ''}>&larr; Previous</a>
+				<span class="page-info">Page {page.currentPage} of {page.lastPage}</span>
+				<a href={page.url.next} class={!page.url.next ? 'disabled' : ''}>Next &rarr;</a>
+			</nav>
 		</main>
 		<script>
+			// Client-side filtering only works for the current page
 			const buttons = document.querySelectorAll('.category-btn');
 			const posts = document.querySelectorAll('#post-list li');
 
