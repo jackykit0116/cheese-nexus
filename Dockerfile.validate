@@ -1,0 +1,5 @@
+FROM oven/sh:alpine
+WORKDIR /app
+COPY . .
+RUN bun install
+RUN bun run build
