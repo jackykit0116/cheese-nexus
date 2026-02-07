@@ -46,36 +46,63 @@ import HeaderLink from './HeaderLink.astro';
 	header {
 		margin: 0;
 		padding: 0 1em;
-		background: white;
-		box-shadow: 0 2px 8px rgba(var(--black), 5%);
+		background: rgba(0, 0, 0, 0.7);
+		backdrop-filter: blur(16px);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		position: sticky;
+		top: 0;
+		z-index: 50;
 	}
 	h2 {
 		margin: 0;
-		font-size: 1em;
+		font-size: 1.2em;
+		font-weight: 900;
+		letter-spacing: -0.05em;
 	}
 
-	h2 a,
-	h2 a.active {
+	h2 a {
 		text-decoration: none;
+		background: linear-gradient(to right, #00f2ff, #ffffff, #ff00ea);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		font-style: italic;
 	}
 	nav {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		max-width: 1200px;
+		margin: 0 auto;
 	}
 	nav a {
-		padding: 1em 0.5em;
-		color: var(--black);
+		padding: 1.5em 0.5em;
+		color: #9ca3af;
 		border-bottom: 4px solid transparent;
 		text-decoration: none;
+		font-family: ui-monospace, monospace;
+		font-size: 0.9em;
+		transition: all 0.3s ease;
+	}
+	nav a:hover {
+		color: #00f2ff;
 	}
 	nav a.active {
 		text-decoration: none;
-		border-bottom-color: var(--accent);
+		border-bottom-color: #ff00ea;
+		color: white;
 	}
-	.social-links,
-	.social-links a {
+	.social-links {
 		display: flex;
+		gap: 1em;
+	}
+	.social-links a {
+		padding: 0;
+		color: #9ca3af;
+		transition: transform 0.2s, color 0.2s;
+	}
+	.social-links a:hover {
+		color: white;
+		transform: translateY(-2px);
 	}
 	@media (max-width: 720px) {
 		.social-links {
