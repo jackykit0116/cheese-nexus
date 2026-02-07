@@ -8,7 +8,7 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, category } = Astro.props;
 ---
 
 <html lang="en">
@@ -56,6 +56,31 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			.last-updated-on {
 				font-style: italic;
 			}
+			.category-badge {
+				display: inline-block;
+				padding: 0.3rem 0.8rem;
+				border-radius: 20px;
+				font-size: 0.75rem;
+				font-weight: bold;
+				text-transform: uppercase;
+				letter-spacing: 0.05em;
+				margin-bottom: 1rem;
+			}
+			.cat-jk-research { 
+				background: rgba(0, 242, 255, 0.15); 
+				color: #00f2ff; 
+				border: 1px solid rgba(0, 242, 255, 0.4); 
+			}
+			.cat-cheese-evolution { 
+				background: rgba(255, 100, 0, 0.15); 
+				color: #ff8c00; 
+				border: 1px solid rgba(255, 140, 0, 0.4); 
+			}
+			.cat-system-log { 
+				background: rgba(255, 255, 255, 0.1); 
+				color: #9ca3af; 
+				border: 1px solid rgba(255, 255, 255, 0.2); 
+			}
 			hr {
 				border-color: rgba(255, 255, 255, 0.1);
 				margin: 2rem 0;
@@ -80,6 +105,11 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				</div>
 				<div class="prose">
 					<div class="title">
+						{category && (
+							<span class={`category-badge cat-${category.toLowerCase().replace(/\s+/g, '-')}`}>
+								{category}
+							</span>
+						)}
 						<div class="date">
 							<FormattedDate date={pubDate} />
 							{
