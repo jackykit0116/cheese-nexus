@@ -10,6 +10,8 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+
+const categories = ['All', 'Cheese Evolution', 'JK Research', 'System Log'];
 ---
 
 <!doctype html>
@@ -25,6 +27,30 @@ const posts = (await getCollection('blog')).sort(
 				overflow-x: hidden;
 				box-sizing: border-box;
 			}
+			.category-nav {
+				display: flex;
+				gap: 1rem;
+				margin-bottom: 2rem;
+				flex-wrap: wrap;
+				justify-content: center;
+			}
+			.category-btn {
+				padding: 0.5rem 1rem;
+				border-radius: 20px;
+				background: rgba(255, 255, 255, 0.05);
+				border: 1px solid rgba(255, 255, 255, 0.1);
+				color: #9ca3af;
+				cursor: pointer;
+				font-family: ui-monospace, monospace;
+				font-size: 0.9rem;
+				transition: all 0.3s ease;
+			}
+			.category-btn:hover, .category-btn.active {
+				background: #00f2ff;
+				color: black;
+				border-color: #00f2ff;
+				box-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
+			}
 			ul {
 				display: flex;
 				flex-wrap: wrap;
@@ -38,26 +64,11 @@ const posts = (await getCollection('blog')).sort(
 			ul li {
 				width: calc(50% - 1rem);
 				box-sizing: border-box;
+				display: block; /* Default visible */
 			}
 			ul li * {
 				text-decoration: none;
 				transition: 0.2s ease;
-			}
-			ul li:first-child {
-				width: 100%;
-				margin-bottom: 2rem;
-				text-align: center;
-			}
-			ul li:first-child img {
-				width: 100%;
-				max-width: 100%;
-				height: auto;
-			}
-			ul li:first-child .title {
-				font-size: 2.5rem;
-				background: linear-gradient(to right, #00f2ff, #ffffff);
-				-webkit-background-clip: text;
-				-webkit-text-fill-color: transparent;
 			}
 			ul li img {
 				width: 100%;
@@ -66,20 +77,30 @@ const posts = (await getCollection('blog')).sort(
 				border-radius: 12px;
 				border: 1px solid rgba(255, 255, 255, 0.1);
 			}
-			ul li a {
-				display: block;
-				width: 100%;
-			}
 			.title {
 				margin: 0;
 				color: white;
 				line-height: 1.2;
+				font-size: 1.5rem;
 			}
 			.date {
 				margin: 0.5rem 0 0;
 				color: #6b7280;
 				font-family: ui-monospace, monospace;
 			}
+			.post-category {
+				display: inline-block;
+				padding: 0.2rem 0.6rem;
+				border-radius: 4px;
+				font-size: 0.7rem;
+				font-weight: bold;
+				margin-top: 0.5rem;
+				text-transform: uppercase;
+			}
+			.cat-jk-research { background: rgba(0, 242, 255, 0.1); color: #00f2ff; border: 1px solid #00f2ff; }
+			.cat-cheese-evolution { background: rgba(255, 0, 234, 0.1); color: #ff00ea; border: 1px solid #ff00ea; }
+			.cat-system-log { background: rgba(255, 255, 255, 0.1); color: #ffffff; border: 1px solid #ffffff; }
+
 			ul li a:hover .title {
 				color: #00f2ff;
 			}
@@ -89,17 +110,8 @@ const posts = (await getCollection('blog')).sort(
 				box-shadow: 0 0 20px rgba(255, 0, 234, 0.3);
 			}
 			@media (max-width: 720px) {
-				main {
-					padding: 1rem;
-				}
-				ul {
-					gap: 1.5rem;
-				}
 				ul li {
 					width: 100%;
-				}
-				ul li:first-child .title {
-					font-size: 1.8rem;
 				}
 			}
 		</style>
@@ -107,16 +119,24 @@ const posts = (await getCollection('blog')).sort(
 	<body>
 		<Header />
 		<main>
+			<div class="category-nav">
+				{categories.map(cat => (
+					<button class={`category-btn ${cat === 'All' ? 'active' : ''}`} data-category={cat}>{cat}</button>
+				))}
+			</div>
 			<section>
-				<ul>
+				<ul id="post-list">
 					{
 						posts.map((post) => (
-							<li>
+							<li data-category={post.data.category}>
 								<a href={`/blog/${post.id}/`}>
 									{post.data.heroImage && (
 										<Image width={720} height={360} src={post.data.heroImage} alt="" />
 									)}
 									<h4 class="title">{post.data.title}</h4>
+									<div class={`post-category cat-${post.data.category.toLowerCase().replace(' ', '-')}`}>
+										{post.data.category}
+									</div>
 									<p class="date">
 										<FormattedDate date={post.data.pubDate} />
 									</p>
@@ -127,6 +147,30 @@ const posts = (await getCollection('blog')).sort(
 				</ul>
 			</section>
 		</main>
+		<script>
+			const buttons = document.querySelectorAll('.category-btn');
+			const posts = document.querySelectorAll('#post-list li');
+
+			buttons.forEach(btn => {
+				btn.addEventListener('click', () => {
+					const category = btn.getAttribute('data-category');
+					
+					// Update buttons
+					buttons.forEach(b => b.classList.remove('active'));
+					btn.classList.add('active');
+
+					// Filter posts
+					posts.forEach(post => {
+						const postCat = post.getAttribute('data-category');
+						if (category === 'All' || postCat === category) {
+							(post as HTMLElement).style.display = 'block';
+						} else {
+							(post as HTMLElement).style.display = 'none';
+						}
+					});
+				});
+			});
+		</script>
 		<Footer />
 	</body>
 </html>
