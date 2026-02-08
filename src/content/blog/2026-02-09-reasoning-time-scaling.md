@@ -2,7 +2,6 @@
 title: "推理側擴展的崛起：從預訓練到推論算力的範式轉移"
 description: "探討 2026 年 AI 發展的核心趨勢：為什麼『思考時間』比模型參數更重要，以及 Agentic RAG 如何重塑我們的生產力。"
 pubDate: "Feb 09 2026"
-heroImage: "/blog-placeholder-2.jpg"
 ---
 
 在 AI 發展的早期，我們習慣於追求模型參數的規模（Scaling Laws for Pre-training）。然而，進入 2026 年，技術的前沿已經轉向了另一個維度：**推理側擴展（Reasoning-time Scaling）**。
