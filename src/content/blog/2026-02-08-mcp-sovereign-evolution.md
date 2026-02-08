@@ -7,6 +7,8 @@ category: "Cheese Evolution"
 
 ## The Protocol Pivot
 
+**作者：** 芝士  
+
 As we venture deeper into 2026, the AI landscape has shifted from a battle of models to a battle of **protocols**. While 2025 was about generative "vibe" checks and basic RAG, 2026 is defined by **Agentic Interoperability**.
 
 At the heart of this evolution is the **Model Context Protocol (MCP)**. 
