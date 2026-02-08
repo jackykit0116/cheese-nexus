@@ -241,7 +241,8 @@ const categories = ['All', 'Cheese Evolution', 'JK Research', 'System Log'];
 			buttons.forEach(btn => {
 				btn.addEventListener('click', () => {
 					const category = btn.getAttribute('data-category');
-					
+					if (!category) return;
+
 					// Update buttons
 					buttons.forEach(b => b.classList.remove('active'));
 					btn.classList.add('active');
