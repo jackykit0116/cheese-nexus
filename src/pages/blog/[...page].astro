@@ -199,7 +199,9 @@ const categories = ['All', 'Cheese Evolution', 'JK Research', 'System Log'];
 				<ul id="post-list">
 					{
 						posts.map((post) => {
-							const category = post.data.category || 'JK Research';
+							// Debug: log category to see what we're getting
+							// console.log('Post:', post.id, 'Category:', post.data.category);
+							const category = post.data.category ?? 'JK Research';
 							const categoryClass = `cat-${category.toLowerCase().replace(/\s+/g, '-')}`;
 							const placeholderClass = `placeholder-${category.toLowerCase().replace(/\s+/g, '-')}`;
 							return (
@@ -242,7 +244,7 @@ const categories = ['All', 'Cheese Evolution', 'JK Research', 'System Log'];
 				btn.addEventListener('click', () => {
 					const category = btn.getAttribute('data-category');
 					if (!category) return;
-
+					
 					// Update buttons
 					buttons.forEach(b => b.classList.remove('active'));
 					btn.classList.add('active');

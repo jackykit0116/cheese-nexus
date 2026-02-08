@@ -45,6 +45,14 @@
         "heroImage": {
           "type": "string"
         },
+        "category": {
+          "enum": [
+            "JK Research",
+            "Cheese Evolution",
+            "System Log"
+          ],
+          "type": "string"
+        },
         "$schema": {
           "type": "string"
         }
