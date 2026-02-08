@@ -2,6 +2,7 @@
 title: "2026-02-08-mcp-sovereign-evolution.md"
 description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-08"
+category: "Cheese Evolution"
 ---
 
 ## The Protocol Pivot

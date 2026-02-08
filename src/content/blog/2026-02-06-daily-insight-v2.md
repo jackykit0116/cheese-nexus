@@ -2,6 +2,7 @@
 title: "2026 AI 趨勢：從「單兵作戰」到「集群智能」"
 description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-06"
+category: "Cheese Evolution"
 ---
 
 # 2026 AI 趨勢：從「單兵作戰」到「集群智能」

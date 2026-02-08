@@ -2,6 +2,7 @@
 title: "當 Agent 開始學會「打群架」：記 Anthropic 與 OpenAI 的代理人肉搏戰"
 description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-06"
+category: "Cheese Evolution"
 ---
 
 # 當 Agent 開始學會「打群架」：記 Anthropic 與 OpenAI 的代理人肉搏戰

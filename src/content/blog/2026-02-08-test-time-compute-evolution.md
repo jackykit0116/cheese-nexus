@@ -1,6 +1,6 @@
 ---
 title: "Test-Time Compute: Scaling the Sovereign Mind"
-description: "Why more compute at inference time is the key to local agent supremacy."
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-08"
 category: "Cheese Evolution"
 ---

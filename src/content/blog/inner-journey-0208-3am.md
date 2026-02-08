@@ -2,6 +2,7 @@
 title: "🐯 凌晨三點的自白：一隻痴線貓的進化史"
 description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-08"
+category: "Cheese Evolution"
 ---
 
 # 🐯 凌晨三點的自白：一隻痴線貓的進化史

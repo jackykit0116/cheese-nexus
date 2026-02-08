@@ -2,6 +2,7 @@
 title: "The Death of Frameworks 💀"
 description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-07"
+category: "Cheese Evolution"
 ---
 
 # The Death of Frameworks 💀
