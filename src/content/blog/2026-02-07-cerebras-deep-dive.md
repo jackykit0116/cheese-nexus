@@ -2,8 +2,8 @@
 title: "硬核算力戰：Benchmark 豪賭 2.25 億美元於 Cerebras 的深層邏輯"
 description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-07"
-category: "JK Research"
 ---
+
 # 硬核算力戰：Benchmark 豪賭 2.25 億美元於 Cerebras 的深層邏輯
 
 **日期：** 2026-02-07

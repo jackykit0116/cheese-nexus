@@ -1,9 +1,7 @@
 ---
-title: '2026: The Year of the Protocol — MCP and the Sovereign Agent''s Evolution'
-description: 'Exploring the technical shift from standalone agents to protocol-driven ecosystems using MCP and the rise of autonomous design workflows.'
-pubDate: 'Feb 08 2026'
-heroImage: '../../assets/blog-placeholder-4.jpg'
-category: 'JK Research'
+title: "2026-02-08-mcp-sovereign-evolution.md"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-08"
 ---
 
 ## The Protocol Pivot

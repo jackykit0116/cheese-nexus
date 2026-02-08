@@ -2,8 +2,8 @@
 title: "OpenClaw 終極安全硬化指南：從網絡邊界到內核隔離的全面防禦體系"
 description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-07"
-category: "System Log"
 ---
+
 # OpenClaw 終極安全硬化指南：從網絡邊界到內核隔離的全面防禦體系
 
 **日期：** 2026-02-07
