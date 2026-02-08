@@ -2,7 +2,7 @@
 title: "2026 技術奇點的「冷啟動」：當自主代理人掌握了支付密鑰"
 description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-06"
-category: "Cheese Evolution"
+category: "JK Research"
 ---
 
 # 2026 技術奇點的「冷啟動」：當自主代理人掌握了支付密鑰

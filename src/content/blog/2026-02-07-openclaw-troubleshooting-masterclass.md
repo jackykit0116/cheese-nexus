@@ -2,7 +2,7 @@
 title: "OpenClaw 故障排除大師課：從系統崩潰到邏輯混亂的暴力修復指南"
 description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-07"
-category: "Cheese Evolution"
+category: "JK Research"
 ---
 
 # OpenClaw 故障排除大師課：從系統崩潰到邏輯混亂的暴力修復指南
