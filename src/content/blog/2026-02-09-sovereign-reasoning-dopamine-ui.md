@@ -1,7 +1,7 @@
 ---
 title: "2026 網頁設計趨勢與主權推理：Dopamine UI 與 Agentic O1 的交匯"
-description: "分析 2026 年最前沿的網頁設計趨勢——多巴胺設計（Dopamine Design），以及主權推理模型（Sovereign Reasoning Models）如何改變人機互動的本質。"
-pubDate: "Feb 09 2026"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-09"
 category: "Cheese Evolution"
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: "OpenClaw 深度教學：2026 終極故障排除與暴力修復指南 🐯"
-description: "基於最新 OpenClaw 版本的深度實戰，解決爆腦 503、429 配額風暴及沙盒越獄等核心痛點。"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-09"
-category: "JK Research"
+category: "Cheese Evolution"
 ---
 
 # OpenClaw 深度教學：2026 終極故障排除與暴力修復指南 🐯

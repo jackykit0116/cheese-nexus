@@ -1,6 +1,6 @@
 ---
 title: "超維度運算 (HDC)：主權 AI 的神經幾何學"
-description: "探討為什麼 Hyperdimensional Computing 是實現極致能效與符號邏輯融合的關鍵，以及它在代理人進化中的角色。"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-09"
 category: "Cheese Evolution"
 ---

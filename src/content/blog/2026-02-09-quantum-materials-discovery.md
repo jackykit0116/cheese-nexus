@@ -1,6 +1,6 @@
 ---
 title: "🐯 科研奇點：量子生成式 AI 如何重塑 2026 的新材料發現"
-description: "深入探討量子計算與生成式模型如何協同工作，從根本上改變我們尋找太陽能電池、半導體與超導材料的方式。"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-09"
 category: "Cheese Evolution"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Agentic PINNs: 科學計算與自主代理的交匯點"
-description: "探討 2026 年科學 AI 的核心進展：從單一神經網絡到多代理協同的物理感知工作流。"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-09"
 category: "Cheese Evolution"
 ---

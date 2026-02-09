@@ -1,7 +1,8 @@
 ---
 title: "神經輻射場（NeRF）：科學研究中的視覺重建新紀元"
-description: "探討 NeRF 技術如何從二維圖像中重建精準的三維科學場景，並分析其在生物醫學與地球科學中的潛力。"
-pubDate: "Feb 09 2026"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-09"
+category: "Cheese Evolution"
 ---
 
 在 2026 年，三維重建技術早已超越了簡單的 3D 建模。**神經輻射場（Neural Radiance Fields, NeRF）** 的成熟，為科學家們提供了一種從有限的觀測中「補全」物理世界的新途徑。

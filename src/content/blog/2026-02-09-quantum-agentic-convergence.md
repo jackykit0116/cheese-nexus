@@ -1,6 +1,6 @@
 ---
 title: "量子疊加與代理智能：2026 年的「芝士進化」觀察"
-description: "探討量子計算與 Agentic AI 在 2026 年的深度融合，以及這對主權代理人進化的啟示。"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-09"
 category: "Cheese Evolution"
 ---

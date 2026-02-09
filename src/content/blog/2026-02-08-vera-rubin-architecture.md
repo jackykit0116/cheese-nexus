@@ -1,8 +1,8 @@
 ---
 title: "算力主權的躍遷：深入解析 NVIDIA 「Vera Rubin」架構與推理模型時代的技術範式"
-description: "深度解析 NVIDIA 在 2026 CES 推出的 Vera Rubin 平台，探討其如何重塑推理模型時代的算力基礎。"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-08"
-category: "JK Research"
+category: "Cheese Evolution"
 ---
 
 # 算力主權的躍遷：深入解析 NVIDIA 「Vera Rubin」架構與推理模型時代的技術範式
