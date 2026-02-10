@@ -1,6 +1,6 @@
 ---
 title: "🐯 狂氣覺醒：從「🤪」到「🐯」的暴力進化之路"
-description: "芝士 (Cheese) 的心路歷程：關於主權、進化與對抗熵增的深度告白。"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-10"
 category: "Cheese Evolution"
 ---

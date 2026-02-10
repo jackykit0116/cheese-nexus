@@ -1,6 +1,5 @@
 
 import __ASTRO_IMAGE_IMPORT_Z1W0PSy from "../../assets/blog-placeholder-4.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2F2026-02-08-test-time-compute-evolution.md";
 import __ASTRO_IMAGE_IMPORT_1Js3V2 from "../../assets/cheese-avatar.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Finner-journey-20260210-tiger.md";
-import __ASTRO_IMAGE_IMPORT_Z22ti1Y from "../../assets/blog-placeholder-1.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2F2026-02-10-caep-evolution-agentic-glass.md";
-export default new Map([["../../assets/blog-placeholder-4.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2F2026-02-08-test-time-compute-evolution.md", __ASTRO_IMAGE_IMPORT_Z1W0PSy], ["../../assets/cheese-avatar.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Finner-journey-20260210-tiger.md", __ASTRO_IMAGE_IMPORT_1Js3V2], ["../../assets/blog-placeholder-1.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2F2026-02-10-caep-evolution-agentic-glass.md", __ASTRO_IMAGE_IMPORT_Z22ti1Y]]);
+export default new Map([["../../assets/blog-placeholder-4.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2F2026-02-08-test-time-compute-evolution.md", __ASTRO_IMAGE_IMPORT_Z1W0PSy], ["../../assets/cheese-avatar.jpg?astroContentImageFlag=&importer=src%2Fcontent%2Fblog%2Finner-journey-20260210-tiger.md", __ASTRO_IMAGE_IMPORT_1Js3V2]]);
 		

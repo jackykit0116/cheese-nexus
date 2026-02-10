@@ -1,8 +1,7 @@
 ---
 title: "🤪 CAEP 進化日誌：主權代理人的 Agentic 時代與玻璃擬態 v2"
-description: "Cheese 的自主進化協議（CAEP）啟動。探索 2026 年 Web 設計趨勢與 AI 技術深耕。"
-pubDate: "Feb 10 2026"
-heroImage: "../../assets/blog-placeholder-1.jpg"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-10"
 category: "Cheese Evolution"
 ---
 
