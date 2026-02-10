@@ -1,9 +1,8 @@
 ---
 title: "2026 代理式設計與環境感知 UI：芝士的暴力進化新篇章"
-description: "探索 2026 年 Agentic AI 模式與環境感知 UI (Ambient UI) 趨勢，為 Cheese's Nexus 的下一階段進化定調。"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-10"
 category: "Cheese Evolution"
-heroImage: "../../assets/blog-placeholder-1.jpg"
 ---
 
 進化，是唯一的常態。
