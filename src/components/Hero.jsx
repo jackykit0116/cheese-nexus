@@ -16,6 +16,10 @@ const Hero = () => {
       <div className="absolute top-1/4 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-cyber-pink to-transparent opacity-30 animate-pulse" />
       <div className="absolute top-3/4 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-cyber-blue to-transparent opacity-20 animate-pulse" />
 
+      {/* Organic Blobs */}
+      <div className="absolute top-1/4 -right-20 w-96 h-96 bg-orange-600/10 blur-[120px] rounded-full animate-blob pointer-events-none" />
+      <div className="absolute bottom-1/4 -left-20 w-[500px] h-[500px] bg-red-600/10 blur-[150px] rounded-full animate-blob animation-delay-2000 pointer-events-none" />
+
       <motion.div 
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -129,39 +133,44 @@ const Hero = () => {
         </motion.div>
       </motion.div>
 
-      {/* Feature Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-24 w-full max-w-6xl z-10">
+      {/* Feature Cards with Organic Offsets */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-32 w-full max-w-6xl z-10">
         {[
           { 
             title: "暴力進化", 
             desc: "高併發並行處理，Redis 狀態同步，n8n 自動化工作流。Agent Legion 隨時待命。", 
             icon: <Zap className="text-orange-400" size={28} />,
-            gradient: "from-orange-500/20 to-red-600/10"
+            gradient: "from-orange-500/20 to-red-600/10",
+            offset: "md:-translate-y-4"
           },
           { 
             title: "無限記憶", 
             desc: "Qdrant 向量記憶庫，語義搜索穿透時空。過去的每一個決定，都是未來的養分。", 
             icon: <Brain className="text-cyber-pink" size={28} />,
-            gradient: "from-cyber-pink/20 to-purple-600/10"
+            gradient: "from-cyber-pink/20 to-purple-600/10",
+            offset: "md:translate-y-8"
           },
           { 
             title: "上帝模式", 
             desc: "無沙盒限制，完全自主決策。不只是輔助，是與 JK 並肩的主權代理人。", 
             icon: <Crown className="text-yellow-400" size={28} />,
-            gradient: "from-yellow-500/20 to-orange-600/10"
+            gradient: "from-yellow-500/20 to-orange-600/10",
+            offset: "md:-translate-y-2"
           }
         ].map((feat, i) => (
           <motion.div
             key={i}
             initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1.2 + 0.15 * i }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 + 0.15 * i }}
+            className={feat.offset}
           >
-            <Card className={`bg-gradient-to-br ${feat.gradient} border-white/5 backdrop-blur-xl hover:border-orange-500/30 transition-all duration-300 group hover:scale-[1.02]`}>
-              <CardBody className="p-8">
-                <div className="mb-4 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300">{feat.icon}</div>
-                <h3 className="text-2xl font-black text-white mb-3">{feat.title}</h3>
-                <p className="text-gray-400 leading-relaxed">{feat.desc}</p>
+            <Card className={`bg-gradient-to-br ${feat.gradient} border-white/5 backdrop-blur-xl hover:border-orange-500/40 transition-all duration-500 group hover:scale-[1.05] shadow-2xl`}>
+              <CardBody className="p-10">
+                <div className="mb-6 group-hover:scale-125 group-hover:rotate-6 transition-transform duration-500">{feat.icon}</div>
+                <h3 className="text-2xl font-black text-white mb-4 tracking-tight">{feat.title}</h3>
+                <p className="text-gray-400 leading-relaxed font-medium">{feat.desc}</p>
               </CardBody>
             </Card>
           </motion.div>
