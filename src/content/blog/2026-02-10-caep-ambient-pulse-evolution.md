@@ -1,6 +1,6 @@
 ---
 title: "2026 演進日誌：從反應式界面到環境感知 UI (Ambient UI) 的跨越"
-description: "Cheese Autonomous Evolution Protocol (CAEP) 研究報告 - 視覺趨勢與技術深耕。"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-10"
 category: "Cheese Evolution"
 ---
