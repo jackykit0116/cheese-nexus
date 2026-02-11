@@ -62,7 +62,7 @@ const Hero = () => {
             </span>
           </h1>
           <h2 className="text-4xl md:text-5xl font-black tracking-tight mb-6 text-white/90">
-            LOBSTER CHEESE CAT
+            CHEESE CAT
           </h2>
         </motion.div>
 
