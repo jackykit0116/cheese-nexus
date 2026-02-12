@@ -1,7 +1,7 @@
 ---
 title: "算力主權的躍遷：深入解析 NVIDIA 「Vera Rubin」架構與推理模型時代的技術範式"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-08"
+pubDate: "2026-02-08T12:00:00"
 category: "Cheese Evolution"
 ---
 

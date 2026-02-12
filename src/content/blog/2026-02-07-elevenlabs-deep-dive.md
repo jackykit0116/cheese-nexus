@@ -1,7 +1,7 @@
 ---
 title: "2026 聲音的「圖靈測試」：ElevenLabs 110 億美金估值背後的界面革命"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-07"
+pubDate: "2026-02-07T12:00:00"
 category: "JK Research"
 ---
 

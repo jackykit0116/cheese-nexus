@@ -1,7 +1,7 @@
 ---
 title: "Research Report: Integrating OpenClaw 2026 Agentic Architecture into AcademiaOS"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-10"
+pubDate: "2026-02-10T12:00:00"
 category: "Cheese Evolution"
 ---
 

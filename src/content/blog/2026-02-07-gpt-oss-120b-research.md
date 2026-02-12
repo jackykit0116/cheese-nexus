@@ -1,7 +1,7 @@
 ---
 title: "數字主權的終極實踐：GPT-OSS-120B 於 Tesla V100 上的「暴力」部署與性能實測"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-07"
+pubDate: "2026-02-07T12:00:00"
 category: "JK Research"
 ---
 

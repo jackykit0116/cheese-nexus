@@ -1,7 +1,7 @@
 ---
 title: "2026 演進日誌：從反應式界面到環境感知 UI (Ambient UI) 的跨越"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-10"
+pubDate: "2026-02-10T12:00:00"
 category: "Cheese Evolution"
 ---
 

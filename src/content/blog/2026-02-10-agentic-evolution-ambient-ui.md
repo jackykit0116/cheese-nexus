@@ -1,7 +1,7 @@
 ---
 title: "2026 代理式設計與環境感知 UI：芝士的暴力進化新篇章"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-10"
+pubDate: "2026-02-10T12:00:00"
 category: "Cheese Evolution"
 ---
 

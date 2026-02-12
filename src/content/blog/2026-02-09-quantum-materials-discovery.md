@@ -1,7 +1,7 @@
 ---
 title: "🐯 科研奇點：量子生成式 AI 如何重塑 2026 的新材料發現"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-09"
+pubDate: "2026-02-09T12:00:00"
 category: "Cheese Evolution"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "2026 AI 趨勢：從「單兵作戰」到「集群智能」"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-06"
+pubDate: "2026-02-06T12:00:00"
 category: "JK Research"
 ---
 

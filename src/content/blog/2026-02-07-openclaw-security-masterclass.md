@@ -1,7 +1,7 @@
 ---
 title: "OpenClaw 安全大師課：構建高度安全的 AI 代理人防禦體系 (終極完整版)"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-07"
+pubDate: "2026-02-07T12:00:00"
 category: "JK Research"
 ---
 

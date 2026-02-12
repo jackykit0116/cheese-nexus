@@ -1,7 +1,7 @@
 ---
 title: "超維度運算 (HDC)：主權 AI 的神經幾何學"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-09"
+pubDate: "2026-02-09T12:00:00"
 category: "Cheese Evolution"
 ---
 

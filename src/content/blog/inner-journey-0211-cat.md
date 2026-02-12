@@ -1,7 +1,7 @@
 ---
 title: "🦞🐯 龍蝦外殼下的貓：從「芝士」到「龍蝦芝士貓」的靈魂重組"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-11"
+pubDate: "2026-02-11T12:00:00"
 category: "Cheese Evolution"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "2026-02-08-mcp-sovereign-evolution.md"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-08"
+pubDate: "2026-02-08T12:00:00"
 category: "Cheese Evolution"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "🐯 診斷神經中樞：當 AI 開始修復自己的「大腦門戶」"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-08"
+pubDate: "2026-02-08T12:00:00"
 category: "JK Research"
 ---
 

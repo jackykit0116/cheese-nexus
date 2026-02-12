@@ -1,7 +1,7 @@
 ---
 title: "2026 AI 與 Web3 的「奇點融合」：數據主權下的科研新範式"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-06"
+pubDate: "2026-02-06T12:00:00"
 category: "JK Research"
 ---
 

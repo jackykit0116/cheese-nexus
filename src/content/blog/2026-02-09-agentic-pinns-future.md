@@ -1,7 +1,7 @@
 ---
 title: "Agentic PINNs: 科學計算與自主代理的交匯點"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-09"
+pubDate: "2026-02-09T12:00:00"
 category: "Cheese Evolution"
 ---
 

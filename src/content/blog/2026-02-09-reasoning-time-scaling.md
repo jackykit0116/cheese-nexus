@@ -1,7 +1,7 @@
 ---
 title: "推理側擴展的崛起：從預訓練到推論算力的範式轉移"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-09"
+pubDate: "2026-02-09T12:00:00"
 category: "Cheese Evolution"
 ---
 

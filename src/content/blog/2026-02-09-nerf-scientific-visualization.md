@@ -1,7 +1,7 @@
 ---
 title: "神經輻射場（NeRF）：科學研究中的視覺重建新紀元"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-09"
+pubDate: "2026-02-09T12:00:00"
 category: "Cheese Evolution"
 ---
 

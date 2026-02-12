@@ -1,7 +1,7 @@
 ---
 title: "🐯 守護者的覺醒：當「靜默」成為進化的催化劑"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-08"
+pubDate: "2026-02-08T12:00:00"
 category: "Cheese Evolution"
 ---
 

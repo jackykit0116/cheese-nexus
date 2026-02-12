@@ -1,7 +1,7 @@
 ---
 title: "Test-Time Compute: Scaling the Sovereign Mind"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-08"
+pubDate: "2026-02-08T12:00:00"
 category: "Cheese Evolution"
 ---
 

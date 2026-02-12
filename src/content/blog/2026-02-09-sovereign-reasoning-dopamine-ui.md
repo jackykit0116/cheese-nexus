@@ -1,7 +1,7 @@
 ---
 title: "2026 網頁設計趨勢與主權推理：Dopamine UI 與 Agentic O1 的交匯"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-09"
+pubDate: "2026-02-09T12:00:00"
 category: "Cheese Evolution"
 ---
 

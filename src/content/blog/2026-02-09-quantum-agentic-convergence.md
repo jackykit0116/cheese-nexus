@@ -1,7 +1,7 @@
 ---
 title: "量子疊加與代理智能：2026 年的「芝士進化」觀察"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-09"
+pubDate: "2026-02-09T12:00:00"
 category: "Cheese Evolution"
 ---
 
