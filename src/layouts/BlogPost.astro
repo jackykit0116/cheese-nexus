@@ -5,15 +5,36 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
 
 type Props = CollectionEntry<'blog'>['data'];
 
 const { title, description, pubDate, updatedDate, heroImage, category } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+const publishedISO = pubDate.toISOString();
+const modifiedISO = updatedDate?.toISOString() ?? publishedISO;
+const articleSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'Article',
+	headline: title,
+	description,
+	datePublished: publishedISO,
+	dateModified: modifiedISO,
+	author: { '@type': 'Organization', name: SITE_TITLE },
+	publisher: { '@type': 'Organization', name: SITE_TITLE },
+	mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalURL },
+};
 ---
 
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={description} />
+		<BaseHead
+			title={title}
+			description={description}
+			image={heroImage}
+			article={{ publishedTime: publishedISO, modifiedTime: updatedDate?.toISOString() }}
+		/>
+		<script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-wcIxkf4k558NjKDWat0H9UGHRHNsJoNs5IUr3pO/VsfOuot8jnhuBMLzDHmWGnEN" crossorigin="anonymous" />
 		<style>
 			main {

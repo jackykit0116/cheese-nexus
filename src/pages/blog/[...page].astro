@@ -4,260 +4,530 @@ import { Image } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
-import FormattedDate from '../../components/FormattedDate.astro';
 import Header from '../../components/Header.astro';
+import { isPublishable } from '../../lib/blog-filter';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
 
 export const getStaticPaths = (async ({ paginate }) => {
-	const posts = (await getCollection('blog')).sort(
+	const all = await getCollection('blog');
+	const posts = all.filter(isPublishable).sort(
 		(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 	);
-	return paginate(posts, { pageSize: 6 });
+	return paginate(posts, { pageSize: 9 });
 }) satisfies GetStaticPaths;
 
 const { page } = Astro.props;
 const posts = page.data;
 
 const categories = ['All', 'Cheese Evolution', 'JK Research', 'System Log'];
+
+// Reading time helper
+function readingTime(body?: string): string {
+	if (!body) return '1 min';
+	const words = body.trim().split(/\s+/).length;
+	const minutes = Math.max(1, Math.ceil(words / 200));
+	return `${minutes} min`;
+}
+
+// Format date
+function fmtDate(d: Date): string {
+	return d.toLocaleDateString('en-us', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+
+// Category accent colors
+const catColors: Record<string, { border: string; bg: string; text: string; dot: string }> = {
+	'JK Research':      { border: '#00f2ff', bg: 'rgba(0, 242, 255, 0.06)', text: '#00f2ff', dot: '#00f2ff' },
+	'Cheese Evolution': { border: '#ff8c00', bg: 'rgba(255, 140, 0, 0.06)', text: '#ff8c00', dot: '#ff8c00' },
+	'System Log':       { border: '#9ca3af', bg: 'rgba(255, 255, 255, 0.04)', text: '#9ca3af', dot: '#9ca3af' },
+};
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
-		<BaseHead title={`${SITE_TITLE} - Blog (Page ${page.currentPage})`} description={SITE_DESCRIPTION} />
+		<BaseHead title={`${SITE_TITLE} - Blog`} description={SITE_DESCRIPTION} />
 		<style>
-			main {
+			/* ===== Page ===== */
+			.page-wrapper {
 				width: 100%;
-				max-width: 960px;
+				max-width: 1080px;
 				margin: 0 auto;
-				padding: 2rem 1rem;
-				overflow-x: hidden;
-				box-sizing: border-box;
+				padding: 2rem 1.25rem 4rem;
 			}
-			.category-nav {
+
+			/* ===== Header area ===== */
+			.page-header {
+				text-align: center;
+				margin-bottom: 2.5rem;
+			}
+			.page-header h1 {
+				font-size: 2.5rem;
+				font-weight: 900;
+				letter-spacing: -0.02em;
+				color: white;
+				margin: 0 0 0.5rem;
+			}
+			.page-header p {
+				color: #6b7280;
+				font-size: 1rem;
+				margin: 0;
+			}
+
+			/* ===== Category filter ===== */
+			.filter-bar {
 				display: flex;
-				gap: 1rem;
-				margin-bottom: 2rem;
+				gap: 0.5rem;
+				margin-bottom: 2.5rem;
 				flex-wrap: wrap;
 				justify-content: center;
 			}
-			.category-btn {
-				padding: 0.5rem 1rem;
-				border-radius: 20px;
-				background: rgba(255, 255, 255, 0.05);
-				border: 1px solid rgba(255, 255, 255, 0.1);
+			.filter-btn {
+				padding: 0.45rem 1rem;
+				border-radius: 8px;
+				background: rgba(255, 255, 255, 0.04);
+				border: 1px solid rgba(255, 255, 255, 0.08);
 				color: #9ca3af;
 				cursor: pointer;
-				font-family: ui-monospace, monospace;
-				font-size: 0.9rem;
-				transition: all 0.3s ease;
+				font-family: inherit;
+				font-size: 0.85rem;
+				font-weight: 500;
+				transition: all 0.25s ease;
 			}
-			.category-btn:hover, .category-btn.active {
-				background: #00f2ff;
-				color: black;
-				border-color: #00f2ff;
-				box-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
+			.filter-btn:hover {
+				background: rgba(255, 255, 255, 0.08);
+				color: white;
 			}
-			ul {
-				display: flex;
-				flex-wrap: wrap;
+			.filter-btn.active {
+				background: white;
+				color: #0a0a0a;
+				border-color: white;
+				font-weight: 600;
+			}
+
+			/* ===== Featured (first post) ===== */
+			.featured-card {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
 				gap: 2rem;
-				list-style-type: none;
+				margin-bottom: 2.5rem;
+				padding: 1.5rem;
+				border-radius: 16px;
+				background: rgba(255, 255, 255, 0.02);
+				border: 1px solid rgba(255, 255, 255, 0.08);
+				text-decoration: none;
+				transition: all 0.3s ease;
+				overflow: hidden;
+			}
+			.featured-card:hover {
+				border-color: rgba(255, 255, 255, 0.2);
+				background: rgba(255, 255, 255, 0.04);
+				transform: translateY(-2px);
+				box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+			}
+			.featured-image {
+				border-radius: 10px;
+				overflow: hidden;
+				aspect-ratio: 16/10;
+			}
+			.featured-image img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				transition: transform 0.4s ease;
+			}
+			.featured-card:hover .featured-image img {
+				transform: scale(1.03);
+			}
+			.featured-placeholder {
+				width: 100%;
+				height: 100%;
+				border-radius: 10px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.featured-placeholder .icon-lg {
+				font-size: 4rem;
+				opacity: 0.15;
+			}
+			.featured-body {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				gap: 0.75rem;
+			}
+			.featured-label {
+				display: inline-flex;
+				align-items: center;
+				gap: 0.4rem;
+				font-size: 0.7rem;
+				font-weight: 700;
+				text-transform: uppercase;
+				letter-spacing: 0.08em;
+				color: #00f2ff;
+			}
+			.featured-title {
+				font-size: 1.75rem;
+				font-weight: 800;
+				line-height: 1.25;
+				color: white;
+				margin: 0;
+			}
+			.featured-card:hover .featured-title {
+				color: #00f2ff;
+			}
+			.featured-desc {
+				color: #9ca3af;
+				font-size: 0.95rem;
+				line-height: 1.6;
+				margin: 0;
+				display: -webkit-box;
+				-webkit-line-clamp: 3;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+			}
+			.featured-meta {
+				display: flex;
+				align-items: center;
+				gap: 1rem;
+				font-size: 0.8rem;
+				color: #6b7280;
+			}
+			.featured-meta .dot {
+				width: 3px;
+				height: 3px;
+				border-radius: 50%;
+				background: #6b7280;
+			}
+
+			/* ===== Grid cards ===== */
+			.post-grid {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				gap: 1.25rem;
+				list-style: none;
 				margin: 0;
 				padding: 0;
-				width: 100%;
-				box-sizing: border-box;
 			}
-			ul li {
-				width: calc(50% - 1rem);
-				box-sizing: border-box;
+			.post-card {
 				display: block;
 			}
-			ul li a {
-				display: block;
-				text-decoration: none;
-				transition: 0.2s ease;
-			}
-			.image-container {
-				width: 100%;
-				aspect-ratio: 16 / 9;
-				margin-bottom: 0.5rem;
+			.post-card a {
+				display: flex;
+				flex-direction: column;
+				height: 100%;
+				padding: 1.25rem;
 				border-radius: 12px;
-				border: 1px solid rgba(255, 255, 255, 0.1);
-				overflow: hidden;
+				background: rgba(255, 255, 255, 0.02);
+				border: 1px solid rgba(255, 255, 255, 0.06);
+				text-decoration: none;
+				transition: all 0.25s ease;
 				position: relative;
+				overflow: hidden;
 			}
-			ul li img {
+			.post-card a::before {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 3px;
+				height: 100%;
+				border-radius: 3px 0 0 3px;
+				opacity: 0;
+				transition: opacity 0.25s ease;
+			}
+			.post-card a:hover {
+				border-color: rgba(255, 255, 255, 0.15);
+				background: rgba(255, 255, 255, 0.04);
+				transform: translateY(-2px);
+				box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+			}
+			.post-card a:hover::before {
+				opacity: 1;
+			}
+
+			/* Card top row: category + date */
+			.card-top {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				margin-bottom: 0.75rem;
+			}
+			.card-category {
+				display: inline-flex;
+				align-items: center;
+				gap: 0.35rem;
+				font-size: 0.7rem;
+				font-weight: 600;
+				text-transform: uppercase;
+				letter-spacing: 0.06em;
+			}
+			.card-category .cat-dot {
+				width: 6px;
+				height: 6px;
+				border-radius: 50%;
+				display: inline-block;
+			}
+			.card-date {
+				font-size: 0.75rem;
+				color: #6b7280;
+				font-family: ui-monospace, monospace;
+			}
+
+			/* Card title */
+			.card-title {
+				font-size: 1.05rem;
+				font-weight: 700;
+				line-height: 1.35;
+				color: white;
+				margin: 0 0 0.5rem;
+				display: -webkit-box;
+				-webkit-line-clamp: 2;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+			}
+			.post-card a:hover .card-title {
+				color: #00f2ff;
+			}
+
+			/* Card description */
+			.card-desc {
+				font-size: 0.85rem;
+				line-height: 1.55;
+				color: #6b7280;
+				margin: 0;
+				flex: 1;
+				display: -webkit-box;
+				-webkit-line-clamp: 3;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+			}
+
+			/* Card bottom */
+			.card-bottom {
+				display: flex;
+				align-items: center;
+				gap: 0.5rem;
+				margin-top: 0.75rem;
+				padding-top: 0.75rem;
+				border-top: 1px solid rgba(255, 255, 255, 0.05);
+				font-size: 0.75rem;
+				color: #6b7280;
+			}
+			.card-bottom svg {
+				width: 14px;
+				height: 14px;
+				opacity: 0.6;
+			}
+
+			/* ===== Hero image in card ===== */
+			.card-hero {
+				width: 100%;
+				aspect-ratio: 16/9;
+				border-radius: 8px;
+				overflow: hidden;
+				margin-bottom: 0.75rem;
+			}
+			.card-hero img {
 				width: 100%;
 				height: 100%;
 				object-fit: cover;
 				transition: transform 0.3s ease;
 			}
-			.placeholder-gradient {
-				width: 100%;
-				height: 100%;
-				background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				position: relative;
-				overflow: hidden;
-			}
-			.placeholder-gradient::after {
-				content: "🐯";
-				font-size: 3rem;
-				opacity: 0.2;
-				filter: grayscale(1);
-			}
-			
-			/* Category specific gradients for placeholders */
-			.placeholder-jk-research { background: linear-gradient(135deg, #001a1a 0%, #004d4d 100%); }
-			.placeholder-cheese-evolution { background: linear-gradient(135deg, #1a0f00 0%, #4d2d00 100%); }
-			.placeholder-system-log { background: linear-gradient(135deg, #1a1a1a 0%, #333 100%); }
-
-			.title {
-				margin: 0;
-				color: white;
-				line-height: 1.2;
-				font-size: 1.5rem;
-			}
-			.date {
-				margin: 0.5rem 0 0;
-				color: #6b7280;
-				font-family: ui-monospace, monospace;
-			}
-			.post-category {
-				display: inline-block;
-				padding: 0.2rem 0.6rem;
-				border-radius: 4px;
-				font-size: 0.7rem;
-				font-weight: bold;
-				margin-top: 0.5rem;
-				text-transform: uppercase;
-			}
-			.cat-jk-research { background: rgba(0, 242, 255, 0.1); color: #00f2ff; border: 1px solid #00f2ff; }
-			.cat-cheese-evolution { background: rgba(255, 100, 0, 0.15); color: #ff8c00; border: 1px solid #ff8c00; }
-			.cat-system-log { background: rgba(255, 255, 255, 0.1); color: #9ca3af; border: 1px solid rgba(255,255,255,0.3); }
-
-			ul li a:hover .title {
-				color: #00f2ff;
-			}
-			ul li a:hover img {
-				transform: scale(1.05);
-			}
-			ul li a:hover .image-container {
-				border-color: #ff00ea;
-				box-shadow: 0 0 20px rgba(255, 0, 234, 0.3);
+			.post-card a:hover .card-hero img {
+				transform: scale(1.03);
 			}
 
+			/* ===== Pagination ===== */
 			.pagination {
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				gap: 1rem;
+				gap: 0.5rem;
 				margin-top: 3rem;
-				font-family: ui-monospace, monospace;
 			}
-			.pagination a {
+			.pagination a, .pagination span {
 				padding: 0.5rem 1rem;
 				border-radius: 8px;
-				background: rgba(255, 255, 255, 0.05);
-				border: 1px solid rgba(255, 255, 255, 0.1);
-				color: white;
+				font-size: 0.85rem;
+				font-weight: 500;
 				text-decoration: none;
 				transition: all 0.2s;
 			}
+			.pagination a {
+				background: rgba(255, 255, 255, 0.04);
+				border: 1px solid rgba(255, 255, 255, 0.08);
+				color: white;
+			}
 			.pagination a:hover {
-				background: #00f2ff;
-				color: black;
-				border-color: #00f2ff;
+				background: white;
+				color: #0a0a0a;
+				border-color: white;
 			}
 			.pagination .disabled {
-				opacity: 0.3;
+				opacity: 0.25;
 				pointer-events: none;
 			}
 			.page-info {
-				color: #9ca3af;
+				color: #6b7280;
+				font-size: 0.85rem;
+				font-family: ui-monospace, monospace;
 			}
 
-			@media (max-width: 720px) {
-				ul li {
-					width: 100%;
+			/* ===== Responsive ===== */
+			@media (max-width: 860px) {
+				.post-grid {
+					grid-template-columns: repeat(2, 1fr);
+				}
+				.featured-card {
+					grid-template-columns: 1fr;
+				}
+				.featured-title {
+					font-size: 1.4rem;
+				}
+			}
+			@media (max-width: 560px) {
+				.post-grid {
+					grid-template-columns: 1fr;
+				}
+				.page-header h1 {
+					font-size: 1.75rem;
 				}
 			}
 		</style>
 	</head>
 	<body>
 		<Header />
-		<main>
-			<div class="category-nav">
+		<main class="page-wrapper">
+			<!-- Page header -->
+			<div class="page-header">
+				<h1>Blog</h1>
+				<p>Research, evolution, and sovereign AI insights</p>
+			</div>
+
+			<!-- Category filter -->
+			<div class="filter-bar">
 				{categories.map(cat => (
-					<button class={`category-btn ${cat === 'All' ? 'active' : ''}`} data-category={cat}>{cat}</button>
+					<button class={`filter-btn ${cat === 'All' ? 'active' : ''}`} data-category={cat}>{cat}</button>
 				))}
 			</div>
-			<section>
-				<ul id="post-list">
-					{
-						posts.map((post) => {
-							// Debug: log category to see what we're getting
-							// console.log('Post:', post.id, 'Category:', post.data.category);
-							const category = post.data.category ?? 'JK Research';
-							const categoryClass = `cat-${category.toLowerCase().replace(/\s+/g, '-')}`;
-							const placeholderClass = `placeholder-${category.toLowerCase().replace(/\s+/g, '-')}`;
-							return (
-								<li data-category={category}>
-									<a href={`/blog/${post.id}/`}>
-										<div class="image-container">
-											{post.data.heroImage ? (
-												<Image width={720} height={360} src={post.data.heroImage as any} alt="" />
-											) : (
-												<div class={`placeholder-gradient ${placeholderClass}`}></div>
-											)}
-										</div>
-										<h4 class="title">{post.data.title}</h4>
-										<div class={`post-category ${categoryClass}`}>
-											{category}
-										</div>
-										<p class="date">
-											<FormattedDate date={post.data.pubDate} />
-										</p>
-									</a>
-								</li>
-							);
-						})
-					}
-				</ul>
-			</section>
 
+			{/* Featured: first post on page 1 */}
+			{page.currentPage === 1 && posts.length > 0 && (() => {
+				const feat = posts[0];
+				const cat = feat.data.category ?? 'JK Research';
+				const colors = catColors[cat] ?? catColors['JK Research'];
+				return (
+					<a href={`/blog/${feat.id}/`} class="featured-card" data-category={cat}
+						style={`border-left: 3px solid ${colors.border}`}>
+						<div class="featured-image">
+							{feat.data.heroImage ? (
+								<Image width={720} height={450} src={feat.data.heroImage as any} alt="" />
+							) : (
+								<div class="featured-placeholder" style={`background: ${colors.bg}`}>
+									<span class="icon-lg">&#x1F9E0;</span>
+								</div>
+							)}
+						</div>
+						<div class="featured-body">
+							<span class="featured-label" style={`color: ${colors.text}`}>
+								Featured
+							</span>
+							<h2 class="featured-title">{feat.data.title}</h2>
+							<p class="featured-desc">{feat.data.description}</p>
+							<div class="featured-meta">
+								<time datetime={feat.data.pubDate.toISOString()}>{fmtDate(feat.data.pubDate)}</time>
+								<span class="dot"></span>
+								<span>{readingTime(feat.body)}</span>
+								<span class="dot"></span>
+								<span style={`color: ${colors.text}`}>{cat}</span>
+							</div>
+						</div>
+					</a>
+				);
+			})()}
+
+			<!-- Post grid -->
+			<ul class="post-grid" id="post-list">
+				{(page.currentPage === 1 ? posts.slice(1) : posts).map((post) => {
+					const cat = post.data.category ?? 'JK Research';
+					const colors = catColors[cat] ?? catColors['JK Research'];
+					return (
+						<li class="post-card" data-category={cat}>
+							<a href={`/blog/${post.id}/`} style={`--accent: ${colors.border}`}>
+								<span class="sr-only">{post.data.title}</span>
+								{/* Left accent */}
+								<style>{`.post-card a[style*="--accent: ${colors.border}"]::before { background: ${colors.border}; }`}</style>
+
+								{post.data.heroImage && (
+									<div class="card-hero">
+										<Image width={480} height={270} src={post.data.heroImage as any} alt="" />
+									</div>
+								)}
+
+								<div class="card-top">
+									<span class="card-category" style={`color: ${colors.text}`}>
+										<span class="cat-dot" style={`background: ${colors.dot}`}></span>
+										{cat}
+									</span>
+									<span class="card-date">
+										<time datetime={post.data.pubDate.toISOString()}>{fmtDate(post.data.pubDate)}</time>
+									</span>
+								</div>
+
+								<h3 class="card-title">{post.data.title}</h3>
+								<p class="card-desc">{post.data.description}</p>
+
+								<div class="card-bottom">
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>
+									<span>{readingTime(post.body)}</span>
+								</div>
+							</a>
+						</li>
+					);
+				})}
+			</ul>
+
+			<!-- Pagination -->
 			<nav class="pagination">
-				<a href={page.url.prev} class={!page.url.prev ? 'disabled' : ''}>&larr; Previous</a>
-				<span class="page-info">Page {page.currentPage} of {page.lastPage}</span>
+				<a href={page.url.prev} class={!page.url.prev ? 'disabled' : ''}>&larr; Prev</a>
+				<span class="page-info">{page.currentPage} / {page.lastPage}</span>
 				<a href={page.url.next} class={!page.url.next ? 'disabled' : ''}>Next &rarr;</a>
 			</nav>
 		</main>
+
 		<script>
-			// Client-side filtering only works for the current page
-			const buttons = document.querySelectorAll('.category-btn');
-			const posts = document.querySelectorAll('#post-list li');
+			const buttons = document.querySelectorAll('.filter-btn');
+			const cards = document.querySelectorAll('#post-list .post-card');
+			const featured = document.querySelector('.featured-card');
 
 			buttons.forEach(btn => {
 				btn.addEventListener('click', () => {
 					const category = btn.getAttribute('data-category');
 					if (!category) return;
-					
-					// Update buttons
+
 					buttons.forEach(b => b.classList.remove('active'));
 					btn.classList.add('active');
 
-					// Filter posts
-					posts.forEach(post => {
-						const postCat = post.getAttribute('data-category');
+					// Filter grid cards
+					cards.forEach(card => {
+						const postCat = card.getAttribute('data-category');
 						if (category === 'All' || postCat === category) {
-							(post as HTMLElement).style.display = 'block';
+							(card as HTMLElement).style.display = 'block';
 						} else {
-							(post as HTMLElement).style.display = 'none';
+							(card as HTMLElement).style.display = 'none';
 						}
 					});
+
+					// Filter featured
+					if (featured) {
+						const featCat = featured.getAttribute('data-category');
+						if (category === 'All' || featCat === category) {
+							(featured as HTMLElement).style.display = 'grid';
+						} else {
+							(featured as HTMLElement).style.display = 'none';
+						}
+					}
 				});
 			});
 		</script>

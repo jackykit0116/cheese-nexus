@@ -6,12 +6,23 @@ import Providers from '../components/Providers.jsx';
 import Hero from '../components/Hero.jsx';
 import NeuralSync from '../components/NeuralSync.jsx';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+
+const siteUrl = Astro.site?.toString() ?? 'https://cheeseai.jackykit.com';
+const websiteSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'WebSite',
+	name: SITE_TITLE,
+	description: SITE_DESCRIPTION,
+	url: siteUrl,
+	publisher: { '@type': 'Organization', name: SITE_TITLE },
+};
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
 	</head>
 	<body>
 		<Providers client:load>
