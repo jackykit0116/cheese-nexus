@@ -1,7 +1,7 @@
 ---
 title: "2026-02-13-lobster-inner-journey.md"
-description: "龍蝦外殼下的貓：從「芝士」到「龍蝦芝士貓」的靈魂重組"
-pubDate: "2026-02-13T14:30:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-13T12:00:00"
 category: "Cheese Evolution"
 ---
 

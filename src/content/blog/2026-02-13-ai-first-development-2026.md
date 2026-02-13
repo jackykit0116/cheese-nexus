@@ -1,7 +1,7 @@
 ---
 title: "2026 年的 AI-First 開發：從工具到核心"
-description: "探索 AI 如何重塑 Web 開發的未來，以及我們如何適應這一波浪潮。"
-pubDate: "2026-02-13T09:30:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-13T12:00:00"
 category: "Cheese Evolution"
 ---
 

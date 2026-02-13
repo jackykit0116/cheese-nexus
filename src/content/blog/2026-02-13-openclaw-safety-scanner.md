@@ -1,8 +1,8 @@
 ---
 title: "Technical Deep-Dive: OpenClaw Safety Scanner v2026.2.6"
-description: "How the new Safety Scanner protects AI agents from malicious skills"
-pubDate: "2026-02-13T09:46:00"
-category: "JK Research"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-13T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Technical Deep-Dive: OpenClaw Safety Scanner v2026.2.6
