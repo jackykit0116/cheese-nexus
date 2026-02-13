@@ -37,6 +37,107 @@ const { title, description, pubDate, updatedDate, heroImage, category } = Astro.
 				color: #d1d5db;
 				line-height: 1.8;
 			}
+			/* Content hierarchy: first-level heading (article body h1) */
+			.prose :global(h1) {
+				font-size: 1.75rem;
+				font-weight: 700;
+				color: rgba(255, 255, 255, 0.95);
+				margin: 0 0 1rem 0;
+				padding-bottom: 0.75rem;
+				border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+			}
+			/* Section: major break with left accent */
+			.prose :global(h2) {
+				font-size: 1.45rem;
+				font-weight: 700;
+				color: #fff;
+				margin: 2.5rem 0 1rem 0;
+				padding: 0.6rem 0 0.6rem 1rem;
+				border-left: 4px solid rgba(0, 242, 255, 0.6);
+				background: rgba(255, 255, 255, 0.03);
+				border-radius: 0 6px 6px 0;
+				line-height: 1.35;
+			}
+			.prose :global(h2:first-of-type) {
+				margin-top: 1.5rem;
+			}
+			/* Subsection */
+			.prose :global(h3) {
+				font-size: 1.15rem;
+				font-weight: 600;
+				color: rgba(255, 255, 255, 0.9);
+				margin: 1.75rem 0 0.6rem 0;
+				padding-bottom: 0.35rem;
+				border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+			}
+			.prose :global(h4) {
+				font-size: 1.05rem;
+				font-weight: 600;
+				color: rgba(255, 255, 255, 0.85);
+				margin: 1.25rem 0 0.5rem 0;
+			}
+			/* Paragraph spacing */
+			.prose :global(p) {
+				margin: 0 0 1rem 0;
+			}
+			/* Lists: clear indent and spacing */
+			.prose :global(ul),
+			.prose :global(ol) {
+				margin: 0.75rem 0 1.25rem 0;
+				padding-left: 1.5rem;
+			}
+			.prose :global(ul) {
+				list-style-type: disc;
+			}
+			.prose :global(ul ul) {
+				list-style-type: circle;
+				margin: 0.35rem 0;
+				padding-left: 1.25rem;
+			}
+			.prose :global(ol) {
+				list-style-type: decimal;
+			}
+			.prose :global(li) {
+				margin: 0.4rem 0;
+				padding-left: 0.25rem;
+			}
+			.prose :global(li::marker) {
+				color: rgba(0, 242, 255, 0.5);
+			}
+			/* Strong / bold */
+			.prose :global(strong) {
+				color: rgba(255, 255, 255, 0.95);
+				font-weight: 700;
+			}
+			/* Code: inline */
+			.prose :global(code:not(pre code)) {
+				font-family: ui-monospace, 'SF Mono', Monaco, monospace;
+				font-size: 0.9em;
+				background: rgba(255, 255, 255, 0.08);
+				color: #7dd3fc;
+				padding: 0.15em 0.4em;
+				border-radius: 4px;
+				border: 1px solid rgba(255, 255, 255, 0.08);
+			}
+			/* Code block */
+			.prose :global(pre) {
+				margin: 1.25rem 0;
+				padding: 1.25rem 1rem;
+				background: rgba(0, 0, 0, 0.35);
+				border: 1px solid rgba(255, 255, 255, 0.1);
+				border-radius: 8px;
+				overflow-x: auto;
+			}
+			.prose :global(pre code) {
+				font-family: ui-monospace, 'SF Mono', Monaco, monospace;
+				font-size: 0.875rem;
+				line-height: 1.6;
+				color: #e5e7eb;
+				background: none;
+				padding: 0;
+				border: none;
+			}
+			/* In-content hr */
 			.title {
 				margin-bottom: 2em;
 				padding: 1em 0;
@@ -81,8 +182,9 @@ const { title, description, pubDate, updatedDate, heroImage, category } = Astro.
 				color: #9ca3af; 
 				border: 1px solid rgba(255, 255, 255, 0.2); 
 			}
-			hr {
-				border-color: rgba(255, 255, 255, 0.1);
+			.prose :global(hr) {
+				border: none;
+				border-top: 1px solid rgba(255, 255, 255, 0.1);
 				margin: 2rem 0;
 			}
 			@media (max-width: 720px) {
@@ -91,6 +193,13 @@ const { title, description, pubDate, updatedDate, heroImage, category } = Astro.
 				}
 				.prose {
 					padding: 1em 0;
+				}
+				.prose :global(h2) {
+					font-size: 1.25rem;
+					padding: 0.5rem 0 0.5rem 0.75rem;
+				}
+				.prose :global(h3) {
+					font-size: 1.05rem;
 				}
 			}
 		</style>
