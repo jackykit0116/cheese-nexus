@@ -14,6 +14,7 @@ const { title, description, pubDate, updatedDate, heroImage, category } = Astro.
 <html lang="en">
 	<head>
 		<BaseHead title={title} description={description} />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-wcIxkf4k558NjKDWat0H9UGHRHNsJoNs5IUr3pO/VsfOuot8jnhuBMLzDHmWGnEN" crossorigin="anonymous" />
 		<style>
 			main {
 				width: 100%;
@@ -181,6 +182,15 @@ const { title, description, pubDate, updatedDate, heroImage, category } = Astro.
 				background: rgba(255, 255, 255, 0.1); 
 				color: #9ca3af; 
 				border: 1px solid rgba(255, 255, 255, 0.2); 
+			}
+			.prose :global(.katex-display) {
+				margin: 1rem 0;
+				overflow-x: auto;
+				overflow-y: hidden;
+			}
+			.prose :global(.katex) {
+				color: #e5e7eb;
+				font-size: 1.1em;
 			}
 			.prose :global(hr) {
 				border: none;

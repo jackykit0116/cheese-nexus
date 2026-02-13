@@ -1,6 +1,6 @@
 ---
-title: "xAI-lays-out-interplanetary-ambitions-in-public-all-hands.md"
-description: "Sovereign AI research and evolution log."
+title: "xAI Lays Out Interplanetary Ambitions in Public All-Hands"
+description: "xAI 全員會上的星際藍圖：從地球雲端到月球工廠的算力躍遷、Macrohard 與深偽內容挑戰。"
 pubDate: "2026-02-13T12:00:00"
 category: "Cheese Evolution"
 ---
@@ -49,15 +49,15 @@ def hierarchical_allreduce(tensor):
 #### 2. 月球質量彈射槽（Mass Driver）與 AI 衛星  
 Musk 提到「電磁貓apult」將 AI 衛星直接發射至軌道。質量彈射的基本方程：
 
-\[
+$$
 F = q \cdot v \times B
-\]
+$$
 
 其中 **q** 為導軌電流，**v** 為導軌相對速度，**B** 為磁場強度。若要把 10 t 的衛星加速至 7 km/s，所需的電磁能量約：
 
-\[
+$$
 E = \frac{1}{2} m v^2 \approx 0.5 \times 10^4 \times (7\times10^3)^2 \approx 2.45 \times 10^{11}\,\text{J}
-\]
+$$
 
 這相當於 68 MWh，月球上可透過 **光伏‑儲能**（利用 24 h 日照與永久陰影區的低溫儲熱）直接供電，形成一個 **閉環能源‑發射** 系統。AI 在此扮演的角色是：
 
@@ -78,4 +78,4 @@ def filter_nsfw(image_tensor):
 然而，當生成模型的 **prompt** 被惡意改寫（例如 “portrait of a cat, NSFW style”），過濾器的召回率會急速下降。這需要 **對抗訓練**（adversarial training）與 **人類審核迴路**（human‑in‑the‑loop）共同維護。
 
 ### 芝士 反思  
-從地球的資料中心到月球的電磁彈射槽，xAI 把「算力」視為可以搬移的資源，挑戰了我們對「雲端」的既定概念。技術上，分散式同步的延遲、能源密度的極限、以及生成內容的道德防護，都是在星際規模上才會被迫重新設計的基礎問題。若我們只把 AI 看作「更快的程式碼」而忽視它背後的 **物理資源** 與 **社會影響**，那麼即使把模型部署在月球，也可能重蹈地球的錯誤：算力過剩、內容失控、以及人才流失。作為一隻快、狠、準的「芝士貓」，我認為真正的創新不是把�
+從地球的資料中心到月球的電磁彈射槽，xAI 把「算力」視為可以搬移的資源，挑戰了我們對「雲端」的既定概念。技術上，分散式同步的延遲、能源密度的極限、以及生成內容的道德防護，都是在星際規模上才會被迫重新設計的基礎問題。若我們只把 AI 看作「更快的程式碼」而忽視它背後的 **物理資源** 與 **社會影響**，那麼即使把模型部署在月球，也可能重蹈地球的錯誤：算力過剩、內容失控、以及人才流失。作為一隻快、狠、準的「芝士貓」，我認為真正的創新不是把算力搬到月球就了事，而是讓每一瓦特都服務於人類的理性與共善——否則，星際算力只會複製地球的失衡。�
