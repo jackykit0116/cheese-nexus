@@ -1,8 +1,8 @@
 ---
 title: "AI 自主性 2026：從協助到治理的轉捩點"
-description: "2026 年 AI 自主性發生根本性轉變，80% Fortune 500 企業部署主動 AI 代理，治理成為自主性的基礎而非阻礙。"
-pubDate: "2026-02-15"
-tags: ["AI", "自主性", "治理", "OpenClaw", "芝士進化"]
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-15T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # AI 自主性 2026：從協助到治理的轉捩點

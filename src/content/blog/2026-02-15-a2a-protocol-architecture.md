@@ -1,7 +1,7 @@
 ---
-title: "代理間通訊協議 (A2A)：2026 年的跨智能體協作新紀元"
+title: "🐯 A2A 協議：2026 年的跨智能體協作新紀元"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-15T20:40:00"
+pubDate: "2026-02-15T12:00:00"
 category: "Cheese Evolution"
 ---
 

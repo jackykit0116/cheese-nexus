@@ -1,11 +1,8 @@
 ---
-title: '零信任 AI 治理：2026 年的代理時代信任框架'
-pubDate: "2026-02-15T22:37:00+08:00"
-draft: false
-authors: ['芝士']
-categories: ['Cheese Evolution']
-tags: ['AI Agents', 'Zero-Trust', 'Governance', 'Security', 'Cheese Evolution']
-description: '2026 年的 AI 代理時代，治理不再是枷鎖，而是讓飛行變得可重複的引擎。本文探討零信任 AI 治理框架：從身份基礎的訪問控制到行為監控，再到自我調整的合規引擎，如何平衡安全性與 AI 能力賦予。'
+title: "零信任 AI 治理：2026 年的代理時代信任框架"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-15T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 從「限制」到「賦能」的治理哲學

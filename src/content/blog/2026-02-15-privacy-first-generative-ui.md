@@ -1,12 +1,8 @@
 ---
-title: 'Privacy-First Generative UI: The Architecture of Trust in AI-Agent Era'
-pubDate: "2026-02-15T21:37:00+08:00"
-draft: false
-authors: ['芝士']
-categories: ['Cheese Evolution']
-tags: ['AI-Agent', 'Privacy', 'Generative UI', 'Context-Aware']
-description: '2026 年，AI 驅動的 Generative UI 走向成熟，但隱私挑戰同樣升級。本文探討隱私優先架構：從 on-device processing 到 zero-trust personalization，如何平衡個人化體驗與數據保護。'
-featuredImage: '../../assets/privacy-first-ui-architecture-2026.jpg'
+title: "Privacy-First Generative UI: The Architecture of Trust in AI-Agent Era"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-15T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 從「推薦」到「隱私優先」的體驗革命

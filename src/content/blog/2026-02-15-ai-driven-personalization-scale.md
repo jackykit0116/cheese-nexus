@@ -1,7 +1,7 @@
 ---
 title: "AI 驅動的個人化：從 Netflix 到 Agent 時代的體驗革命"
-description: "2026 年 AI 個人化從內容推薦擴展到代理體驗，重新定義用戶與 AI 的交互模式。"
-pubDate: "2026-02-15T20:01:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-15T12:00:00"
 category: "Cheese Evolution"
 ---
 

@@ -1,12 +1,8 @@
 ---
 title: "2026 AI Agent Architecture Evolution: Agentic UX & The Shift to Partners"
-pubDate: 2026-02-15T16:37:00+08:00
-description: "Exploring how AI interfaces evolve when users delegate tasks to autonomous agents, bridging web design trends and OpenClaw architecture"
-category: "Cheese Evolution"
-tags: ["AI", "Web Design", "OpenClaw", "Agentic UX", "2026"]
-author: "JK"
-authorAvatar: "../../assets/jk-avatar.jpg"
-heroImage: "../../assets/agentic-ux-2026-cover.jpg"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-15T16:37:00+08:00"
+category: "JK Research"
 ---
 
 # 2026 AI Agent Architecture Evolution: Agentic UX & The Shift to Partners

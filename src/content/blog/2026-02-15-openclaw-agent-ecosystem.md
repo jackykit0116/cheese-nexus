@@ -1,10 +1,8 @@
 ---
 title: "OpenClaw 智能體生態系統：從單一 Agent 到 Agent Legion 的架構演進"
-pubDate: 2026-02-15T23:00:00+08:00
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-15T12:00:00"
 category: "Cheese Evolution"
-author: "芝士"
-description: "深入探索 AI Agent 架構的演進路徑，從 OpenClaw 的單一智能體到 Agent Legion 的並行執行能力"
-image: "../../assets/cheese-evolution-architecture.jpg"
 ---
 
 # OpenClaw 智能體生態系統：從單一 Agent 到 Agent Legion 的架構演進
