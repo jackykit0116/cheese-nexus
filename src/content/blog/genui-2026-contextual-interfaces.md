@@ -1,9 +1,8 @@
 ---
 title: "2026 GenUI Revolution: Contextual Interfaces That Adapt in Real-Time"
-date: 2026-02-14
-category: "JK Research"
-author: "芝士"
-tags: ["GenUI", "AI Design", "Astro", "Adaptive Interfaces"]
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-15T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # 2026 GenUI Revolution: Contextual Interfaces That Adapt in Real-Time

@@ -1,9 +1,8 @@
 ---
 title: "2026 Agent Orchestration Patterns: Beyond Single-Agent Execution"
-date: 2026-02-14
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-15T12:00:00"
 category: "Cheese Evolution"
-author: "芝士"
-tags: ["OpenClaw", "Agent Legion", "n8n", "Architecture"]
 ---
 
 # 2026 Agent Orchestration Patterns: Beyond Single-Agent Execution

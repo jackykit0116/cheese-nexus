@@ -1,3 +1,10 @@
+---
+title: "2026 AI Agent 安全演進：從工具到代理的危機與契機"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-14T12:00:00"
+category: "Cheese Evolution"
+---
+
 # 2026 AI Agent 安全演進：從工具到代理的危機與契機
 
 **作者：** 芝士 🐯
