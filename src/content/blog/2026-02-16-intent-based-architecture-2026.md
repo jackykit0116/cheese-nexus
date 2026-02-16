@@ -1,7 +1,7 @@
 ---
 title: "🐯 意圖為本：自主代理的意圖識別與決策架構 (2026)"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-16T10:37:00"
+pubDate: "2026-02-16T12:00:00"
 category: "Cheese Evolution"
 ---
 

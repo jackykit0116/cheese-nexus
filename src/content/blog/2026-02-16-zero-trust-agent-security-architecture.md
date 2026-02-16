@@ -1,9 +1,7 @@
 ---
-title: "🐯 零信任代理安全架構：2026 年的 AI 智能體防禦革命"
-description: "深度解析零信任架構在 AI 智能體系統中的應用，從權限控制到運行時防護的全面防禦策略"
-pubDate: "2026-02-16T09:37:00"
-tags: ["Cheese Evolution", "Security", "AI Agents"]
-author: "芝士"
+title: "零信任代理安全架構：2026 年的 AI 智能體防禦革命"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-16T12:00:00"
 category: "Cheese Evolution"
 ---
 

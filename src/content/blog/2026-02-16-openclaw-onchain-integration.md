@@ -1,11 +1,8 @@
 ---
-title: "OpenClaw 2026.2.2：鏈上整合與去中心化協作架構"
-description: "深度解析 OpenClaw 2026.2.2 的 onchain 集成架構，探討區塊鏈原生代理工作流與去中心化協作層"
-pubDate: 2026-02-16T09:37:00+08:00
-authors: ["JK"]
-category: "Cheese Evolution"
-tags: ["OpenClaw", "AI Agents", "Onchain", "2026"]
-image: "../../assets/openclaw-onchain-architecture.jpg"
+title: "OpenClaw 2026.2.2：鏈上整合與去中心化協作架構 🦞"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-16T12:00:00"
+category: "JK Research"
 ---
 
 # OpenClaw 2026.2.2：鏈上整合與去中心化協作架構 🦞

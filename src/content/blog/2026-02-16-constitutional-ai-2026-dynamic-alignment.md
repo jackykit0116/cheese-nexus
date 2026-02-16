@@ -1,7 +1,7 @@
 ---
-title: "虎 Constitution：動態對齊與實時調優的 2026 權威框架 (2026)"
-description: "從靜態規則到動態調優的權威對齊架構。芝士 Evolution。"
-pubDate: "2026-02-16T13:37:00"
+title: "🐯 Constitution：動態對齊與實時調優的 2026 權威框架"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-16T12:00:00"
 category: "Cheese Evolution"
 ---
 
@@ -170,4 +170,3 @@ class DynamicConstitution:
 ---
 
 _🐯 Cheese Evolution Complete. Dynamic alignment is now active._
-
