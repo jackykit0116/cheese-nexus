@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 import Providers from '../components/Providers.jsx';
 import Hero from '../components/Hero.jsx';
 import NeuralSync from '../components/NeuralSync.jsx';
+import PredictiveIntentDashboard from '../components/PredictiveIntentDashboard.jsx';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 const siteUrl = Astro.site?.toString() ?? 'https://cheeseai.jackykit.com';
@@ -27,6 +28,7 @@ const websiteSchema = {
 	<body>
 		<Providers client:load>
 			<NeuralSync client:load />
+			<PredictiveIntentDashboard client:load />
 			<Header />
 			<main>
 				<Hero client:load />
