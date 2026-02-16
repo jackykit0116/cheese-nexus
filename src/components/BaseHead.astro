@@ -20,7 +20,7 @@ interface Props {
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const isArticle = Astro.props.article != null;
 const imageSrc = (Astro.props.image ?? FallbackImage).src;
-const imageURL = imageSrc.startsWith('http') ? imageSrc : new URL(imageSrc.startsWith('/') ? imageSrc : `/${imageSrc}`, Astro.site).toString();
+const imageURL = imageSrc?.startsWith('http') ? imageSrc : new URL(imageSrc?.startsWith('/') ? imageSrc : `/${imageSrc}`, Astro.site).toString();
 
 const { title, description, article, robotsIndex = true } = Astro.props;
 ---
