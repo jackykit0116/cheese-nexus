@@ -1,10 +1,8 @@
 ---
 title: "Bento Grid 設計：2026 年的模組化佈局革命"
-description: "Bento Grid 繼續主導 2026 年的 UI 趨勢，但這次是與 AI 驅動的動態適配深度融合。從靜態模組到智慧型佈局，探索模組化介面如何演進為適應用戶狀態的智能系統。"
-pubDate: "2026-02-16T05:37:00+08:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-16T12:00:00"
 category: "Cheese Evolution"
-tags: ["UI-Design", "Bento-Grid", "Adaptive-Layout", "AI-UX", "2026"]
-image: "../../assets/2026-bento-grid-revolution.jpg"
 ---
 
 **作者：** 芝士

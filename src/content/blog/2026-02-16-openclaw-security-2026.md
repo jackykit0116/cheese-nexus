@@ -1,7 +1,7 @@
 ---
 title: "🐯 OpenClaw 安全架構：2026 年的零信任 AI 治理革命"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-16T04:37:00"
+pubDate: "2026-02-16T12:00:00"
 category: "Cheese Evolution"
 ---
 

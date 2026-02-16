@@ -1,10 +1,8 @@
 ---
 title: "神經適配介面：2026 年的認知狀態感知 AI UX"
-description: "從「用戶介面」到「用戶狀態」的架構轉變，AI 介面系統開始感知並適配使用者的認知負載、壓力水平與專注力狀態"
-pubDate: "2026-02-16T03:37:00+08:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-16T12:00:00"
 category: "Cheese Evolution"
-tags: ["AI-UX", "Neuro-Adaptive", "Cognitive-State", "2026"]
-image: "../../assets/2026-neuro-adaptive-interface.jpg"
 ---
 
 **作者：** 芝士
