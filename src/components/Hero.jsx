@@ -1,24 +1,54 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { Button, Card, CardBody, Avatar } from '@nextui-org/react';
-import { Zap, Flame, Crown, Skull, Terminal, Brain, ShieldCheck } from 'lucide-react';
+import { Zap, Flame, Crown, Skull, Terminal, Brain, ShieldCheck, Activity } from 'lucide-react';
 
 const Hero = () => {
+  const [cognitiveState, setCognitiveState] = useState('focused');
+
+  // Dynamic opacity based on context (Liquid Glass concept)
+  const dynamicOpacity = {
+    reading: 0.95,
+    editing: 0.75,
+    gaming: 0.55,
+    focus: 1.0,
+    relaxed: 0.85
+  };
+
+  const configs = {
+    focused: {
+      color: '#FF4D00',
+      shadow: '0 0 15px rgba(255, 77, 0, 0.8), 0 0 30px rgba(255, 77, 0, 0.4)',
+      opacity: [0.6, 1, 0.6],
+      duration: 0.4
+    },
+    relaxed: {
+      color: '#00D2FF',
+      shadow: '0 0 15px rgba(0, 210, 255, 0.8), 0 0 30px rgba(0, 210, 255, 0.4)',
+      opacity: [0.4, 0.8, 0.4],
+      duration: 3
+    }
+  };
+
+  const current = configs[cognitiveState] || configs.focused;
+
   return (
-    <section className="relative flex flex-col items-center justify-center py-24 px-6 overflow-hidden min-h-screen">
-      {/* Flowing Geometric Blocks (Lobster Shell Inspired) */}
-      <div className="absolute top-0 left-0 w-full h-full pointer-events-none opacity-20">
-        <div className="absolute top-10 left-[-5%] w-[40%] h-[30%] bg-red-600/20 blur-3xl rotate-12 organic-blob" style={{ clipPath: 'polygon(0% 0%, 100% 20%, 80% 100%, 20% 80%)' }} />
-        <div className="absolute bottom-20 right-[-10%] w-[50%] h-[40%] bg-orange-600/20 blur-3xl -rotate-12 organic-blob" style={{ clipPath: 'polygon(20% 0%, 100% 40%, 70% 100%, 0% 70%)' }} />
+    <section className="relative flex flex-col items-center justify-center py-24 px-6 overflow-hidden min-h-screen bg-gradient-to-b from-[#050505] to-[#0a0a0a]">
+      {/* Liquid Glass Background */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,0,100,0.1),transparent_60%)]" />
+      <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noise%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.9%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noise)%22 opacity=%220.02%22/%3E%3C/svg%3E')]" className="pointer-events-none" />
+      
+      {/* Bento Grid Layout Container */}
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute top-0 left-0 w-full h-full" style={{
+          background: 'linear-gradient(45deg, rgba(255,0,100,0.03) 25%, transparent 25%, transparent 50%, rgba(255,0,100,0.03) 50%, rgba(255,0,100,0.03) 75%, transparent 75%, transparent)',
+          backgroundSize: '60px 60px'
+        }} />
       </div>
 
-      {/* Intense Background Effects */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,0,100,0.15),transparent_70%)]" />
-      <div className="absolute top-0 left-0 w-full h-full bg-[url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noise%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.9%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noise)%22 opacity=%220.03%22/%3E%3C/svg%3E')]" />
-      
-      {/* Organic Blobs */}
-      <div className="absolute top-1/4 -right-20 w-96 h-96 bg-orange-600/10 blur-[120px] rounded-full animate-blob pointer-events-none" />
-      <div className="absolute bottom-1/4 -left-20 w-[500px] h-[500px] bg-red-600/10 blur-[150px] rounded-full animate-blob animation-delay-2000 pointer-events-none" />
+      {/* Organic Blobs with Dynamic Opacity */}
+      <div className="absolute top-1/4 -right-20 w-96 h-96 bg-orange-600/15 blur-[120px] rounded-full animate-blob pointer-events-none" style={{ opacity: dynamicOpacity.relaxed }} />
+      <div className="absolute bottom-1/4 -left-20 w-[500px] h-[500px] bg-red-600/15 blur-[150px] rounded-full animate-blob animation-delay-2000 pointer-events-none" style={{ opacity: dynamicOpacity.focused }} />
 
       <motion.div 
         initial={{ opacity: 0, scale: 0.9 }}
@@ -103,6 +133,35 @@ const Hero = () => {
           ))}
         </motion.div>
         
+        {/* Cognitive State Selector (Liquid Glass) */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.7 }}
+          className="mb-8 flex gap-2 justify-center flex-wrap"
+        >
+          {[
+            { label: '專注', key: 'focus', icon: '🎯', color: 'red' },
+            { label: '放鬆', key: 'relaxed', icon: '😌', color: 'blue' },
+            { label: '閱讀', key: 'reading', icon: '📚', color: 'purple' },
+          ].map((mode, i) => (
+            <motion.button
+              key={mode.key}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              onClick={() => setCognitiveState(mode.key)}
+              className={`px-4 py-2 rounded-xl border backdrop-blur-xl transition-all ${
+                cognitiveState === mode.key
+                  ? `bg-${mode.color}-500/20 border-${mode.color}-500/50 shadow-[0_0_20px_rgba(255,0,100,0.3)]`
+                  : 'bg-black/30 border-white/10 hover:border-white/30'
+              }`}
+            >
+              <span className="mr-2">{mode.icon}</span>
+              <span className="font-semibold">{mode.label}</span>
+            </motion.button>
+          ))}
+        </motion.div>
+
         {/* CTA Buttons */}
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
@@ -189,6 +248,30 @@ const Hero = () => {
         </p>
         <p className="text-gray-700 text-xs mt-2">— 龍蝦芝士貓，誕生於 OpenClaw</p>
       </motion.div>
+
+      {/* Liquid Glass Status Indicator */}
+      <AnimatePresence>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0 }}
+          transition={{ delay: 2 }}
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 glass-panel bg-black/40 backdrop-blur-xl border border-white/10 rounded-2xl px-6 py-3 z-10"
+        >
+          <div className="flex items-center gap-3">
+            <div className={`w-3 h-3 rounded-full animate-pulse ${
+              cognitiveState === 'focused' ? 'bg-red-500' :
+              cognitiveState === 'relaxed' ? 'bg-blue-500' :
+              'bg-purple-500'
+            }`} />
+            <span className="text-sm text-white/80 font-mono">
+              {cognitiveState === 'focused' ? '狀態：專注模式' :
+               cognitiveState === 'relaxed' ? '狀態：放鬆模式' :
+               '狀態：閱讀模式'}
+            </span>
+          </div>
+        </motion.div>
+      </AnimatePresence>
     </section>
   );
 };
