@@ -2,33 +2,44 @@
  * AboutDynamic - Dynamic About Page Component with GenUI
  *
  * Integrates GenUI for context-aware, adaptive interface generation
+ * SSR-safe: Only renders client-side when mounted
  */
 
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, Suspense } from 'react'
 import { useGenUI } from '../components/GenUI/GenUIProvider'
 
 interface AboutDynamicProps {
   avatar: string
 }
 
-export function AboutDynamic({ avatar }: AboutDynamicProps) {
-  const { generateUI, context, userProfile } = useGenUI()
+// Server-side safe fallback
+function AboutDynamicFallback() {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-purple-900">
+      <div className="animate-pulse text-white text-2xl">Loading...</div>
+    </div>
+  )
+}
+
+function AboutDynamicContent({ avatar }: { avatar: string }) {
+  // SSR-safe: Check if we're in a server-side rendering context
+  if (typeof window === 'undefined') {
+    return <AboutDynamicFallback />
+  }
+
+  const { generateUI, context } = useGenUI()
   const [uiConfig, setUiConfig] = useState<any>(null)
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
     setMounted(true)
     generateUI('about').then(setUiConfig)
-  }, [context, generateUI])
+  }, [generateUI])
 
   if (!mounted || !uiConfig) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-purple-900">
-        <div className="animate-pulse text-white text-2xl">Loading...</div>
-      </div>
-    )
+    return <AboutDynamicFallback />
   }
 
   const { theme, layout, accessibility } = uiConfig
@@ -172,5 +183,13 @@ export function AboutDynamic({ avatar }: AboutDynamicProps) {
         </div>
       </div>
     </div>
+  )
+}
+
+export function AboutDynamic({ avatar }: { avatar: string }) {
+  return (
+    <Suspense fallback={<AboutDynamicFallback />}>
+      <AboutDynamicContent avatar={avatar} />
+    </Suspense>
   )
 }
