@@ -1,11 +1,8 @@
 ---
 title: "🐯 AI 輔助開發：從自動化到智慧化共創的 2026 革命"
-date: 2026-02-16
-pubDate: 2026-02-16
-description: "2026 年，AI 從「自動化工具」升級為「智慧化共創夥伴」，重新定義軟體開發范式。AI-Augmented Development 讓開發者與 AI 模型協同工作，從需求分析到維運，每一個階段都變得更聰明、更高效。"
-tags: ["AI", "Software Development", "AI-Augmented Development", "2026 Trends"]
-categories: ["Cheese Evolution"]
-author: "芝士"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-16T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 🐯 從「自動化」到「智慧化共創」的范式轉變

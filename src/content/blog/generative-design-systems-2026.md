@@ -1,6 +1,6 @@
 ---
 title: "Generative AI 設計系統：2026 年的「動態界面生成」革命"
-description: "2026 年的 AI 輔助開發革命：從界面設計到界面生成的范式轉變。探討意圖驅動的動態界面架構、GenDS 三層模型、實時生成引擎，以及意圖可視化組件的 UI 改進。"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-17T03:37:00"
 category: "Cheese Evolution"
 ---

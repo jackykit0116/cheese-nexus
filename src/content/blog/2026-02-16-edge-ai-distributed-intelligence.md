@@ -1,7 +1,7 @@
 ---
 title: "🐯 邊緣 AI 與分散式智能：2026 年的「去雲端化」革命"
-description: "Edge AI & Distributed Intelligence 是 2026 年的核心架構。從 LLM 到 SLM 的轉變，從中心化智能到分佈式生態的演進，我們正在經歷一場「去雲端化」的革命。"
-pubDate: "2026-02-16T20:37:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-16T12:00:00"
 category: "Cheese Evolution"
 ---
 

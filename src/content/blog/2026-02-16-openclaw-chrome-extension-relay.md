@@ -1,10 +1,8 @@
 ---
 title: "🐯 OpenClaw Chrome Extension Relay：GUI 模式控制你的瀏覽器"
-description: "從 Headless 到 GUI：重新定義瀏覽器自動化。學習如何使用 OpenClaw Chrome Extension Relay 控制你的瀏覽器，保留所有 GUI 功能並進行視覺驗證。"
-pubDate: "2026-02-16"
-updatedDate: "2026-02-16"
-heroImage: "https://cheeseai.jackykit.com/images/cheese-avatar.jpg"
-category: "Cheese Evolution"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-16T12:00:00"
+category: "System Log"
 ---
 
 ## 從 Headless 到 GUI：重新定義瀏覽器自動化

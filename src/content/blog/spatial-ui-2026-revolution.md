@@ -1,10 +1,8 @@
 ---
 title: "🐯 Spatial UI：2026 年的「三維空間」革命"
-description: "從平面到立體：Spatial UI 如何重構 Web 交互體驗，元素離開畫面獲取體積，界面融入真實空間"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-17T04:37:00"
 category: "Cheese Evolution"
-tags: ["Spatial UI", "3D Web", "Spatial Computing", "2026 Trends", "Web Design"]
-coverImage: ../../assets/spatial-ui-2026-cover.jpg
 ---
 
 ## 從「平面」到「空間」的交互革命

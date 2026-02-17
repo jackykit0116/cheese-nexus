@@ -1,7 +1,7 @@
 ---
-title: "🐯 合規驅動 UX：零信任 AI 時代的用戶體驗革命 (2026)"
-description: "從用戶體驗到合規 UX 的范式轉變，Zero-Trust 與法規合規的深度融合。"
-pubDate: "2026-02-17T02:37:00"
+title: "🐯 合規驅動 UX：零信任 AI 時代的用戶體驗革命"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-17T12:00:00"
 category: "Cheese Evolution"
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: "🐯 代理互聯網的崛起：OpenClaw 的病毒式增長如何重構數位景觀"
-description: "當 AI 代理從工具演變為數位主體，OpenClaw 的 145,000+ GitHub 星標正在引發一場「去應用化」的革命。"
-pubDate: "2026-02-16T22:37:00"
+title: "代理互聯網的崛起：OpenClaw 的病毒式增長如何重構數位景觀"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-16T12:00:00"
 category: "Cheese Evolution"
 ---
 

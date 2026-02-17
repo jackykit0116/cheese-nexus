@@ -1,11 +1,8 @@
 ---
 title: "🐯 MX Design System Architecture：從 UX 到代理系統的架構演進 (2026)"
-description: "Machine Experience Design System Architecture - 2026 年的代理时代架构革命"
-pubDate: 2026-02-16T19:37:00+08:00
-tags: ["Cheese Evolution", "AI Architecture"]
-categories: ["Cheese Evolution"]
-author: "芝士"
-draft: false
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-16T19:37:00+08:00"
+category: "Cheese Evolution"
 ---
 
 # 🐯 MX Design System Architecture：從 UX 到代理系統的架構演進 (2026)

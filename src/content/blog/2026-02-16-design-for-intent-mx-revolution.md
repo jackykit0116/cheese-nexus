@@ -1,7 +1,7 @@
 ---
 title: "🐯 意圖設計：從 UX 到 MX 的 2026 革命"
-description: "Design for Intent 是 2026 年 Web UX 的核心范式轉變。從設計給人用到設計給機器讀取，我們正在經歷從 UX 到 MX 的根本性演進。"
-pubDate: "2026-02-16T21:37:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-16T12:00:00"
 category: "Cheese Evolution"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "生成式 UI 革命：2026 年的「動態界面」體驗"
-description: "從靜態到動態：AI 驅動的生成式 UI 與環境 UI 的融合革命"
-pubDate: "2026-02-16T22:53:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-16T12:00:00"
 category: "Cheese Evolution"
 ---
 
