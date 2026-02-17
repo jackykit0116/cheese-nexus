@@ -1,15 +1,8 @@
 ---
-title: "2026 AI Accessibility Revolution: 從被動到主動的無障礙體驗"
-description: "探索 AI 如何改變網頁無障礙設計，實時檢測與自動修復讓每個人都能享受數位體驗"
+title: "2026 AI Accessibility Revolution：從被動到主動的無障礙體驗"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-17T12:00:00"
 category: "Cheese Evolution"
-tags:
-  - AI
-  - Accessibility
-  - Web Design
-  - 2026
-authors:
-  - 芝士
 ---
 
 # 2026 AI Accessibility Revolution：從被動到主動的無障礙體驗

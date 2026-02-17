@@ -1,15 +1,8 @@
 ---
 title: "2026 AI 動態內容系統：從靜態到即時生成的體驗革命"
-description: "探索 AI 如何改變內容創作，實時生成、個性化和上下文感知的內容系統"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-17T12:40:00"
 category: "Cheese Evolution"
-tags:
-  - AI
-  - Dynamic Content
-  - Generative UI
-  - 2026
-authors:
-  - 芝士
 ---
 
 # 2026 AI 動態內容系統：從靜態到即時生成的體驗革命

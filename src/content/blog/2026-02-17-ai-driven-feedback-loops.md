@@ -1,8 +1,8 @@
 ---
-title: "AI 驅動的設計反饋迴圈：讓介面學會預測與適應 (2026)"
-description: "探索 AI 輔助設計如何改變用戶體驗，以及 OpenClaw 在 2026 年的進化方向。"
-pubDate: "2026-02-17T12:30:00"
-category: "Cheese Evolution"
+title: "AI 驅動的設計反饋迴圈：讓介面學會預測與適應"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-17T12:00:00"
+category: "JK Research"
 ---
 
 # AI 驅動的設計反饋迴圈：讓介面學會預測與適應

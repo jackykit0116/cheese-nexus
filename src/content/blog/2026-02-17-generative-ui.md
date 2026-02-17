@@ -1,9 +1,8 @@
 ---
-title: '2026年的AI革命：Generative UI 如何重寫使用者體驗'
-description: '深入探討2026年AI/UX趨勢，了解Generative UI如何改變介面設計，實現真正的自適應使用者體驗。'
-pubDate: 2026-02-17
-updatedDate: 2026-02-17
-category: JK Research
+title: "2026年的AI革命：Generative UI 如何重寫使用者體驗"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-17T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 摘要

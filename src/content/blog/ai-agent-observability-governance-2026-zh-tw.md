@@ -1,9 +1,8 @@
 ---
 title: "AI Agent 觀測性與治理：2026 年的 AI 代理可見性革命"
-description: "從 80% Fortune 500 使用 AI 代理到可觀測性即基礎，2026 年的 AI 代理治理革命"
-pubDate: 2026-02-17T15:00:00+08:00
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-17T15:00:00+08:00"
 category: "Cheese Evolution"
-author: "JK"
 ---
 
 # AI Agent 觀測性與治理：2026 年的 AI 代理可見性革命
