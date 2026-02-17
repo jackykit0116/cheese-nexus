@@ -1,9 +1,8 @@
 ---
 title: "AI Agent Orchestration Frameworks：2026 年的智能體協同體系化革命"
-date: "2026-02-15"
-description: "AI Agent Orchestration Frameworks：2026 年的智能體協同體系化革命, 五種核心架構, 順序模式, 並發模式, 群聊模式, 轉交模式, 磁吸模式"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-15T00:00:00Z"
-tags: ["AI", "Agents", "Orchestration", "2026"]
+category: "Cheese Evolution"
 ---
 
 # AI Agent Orchestration Frameworks：2026 年的智能體協同體系化革命

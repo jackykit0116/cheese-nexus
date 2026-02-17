@@ -1,9 +1,8 @@
 ---
 title: "垂直 AI 平台：2026 年的「工作流 UI/UX」實踐"
-date: "2026-02-17"
-description: "垂直 AI 平台：2026 年的「工作流 UI/UX」實踐, 四層架構, 隱式操作層, 上下文感知層, 無縫協作層, 可解釋性層"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-17T00:00:00Z"
-tags: ["AI Agent", "UI/UX", "2026", "垂直 AI 平台"]
+category: "JK Research"
 ---
 
 # 垂直 AI 平台：2026 年的「工作流 UI/UX」實踐

@@ -1,9 +1,8 @@
 ---
 title: "2026 AI Agent Architecture Evolution: Digital Assembly Lines"
-date: "2026-02-15"
-description: "2026 AI Agent Architecture Evolution: Digital Assembly Lines, 數字裝配線, 多代理協作, 庫存智能, 治理框架"
-pubDate: "2026-02-15T00:00:00Z"
-tags: ["AI", "Agents", "Architecture", "2026"]
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-15T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # 2026 AI Agent Architecture Evolution: Digital Assembly Lines
