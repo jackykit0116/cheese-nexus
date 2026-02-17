@@ -10,10 +10,10 @@ const PredictiveIntentDashboard = () => {
   // Demo: Simulate intent detection
   useEffect(() => {
     const intents = [
-      { label: '文档编辑', description: '正在撰写文档', type: 'document' },
-      { label: '代码编写', description: '编写函数实现', type: 'code' },
-      { label: '音乐播放', description: '播放放松音乐', type: 'music' },
-      { label: '学习研究', description: '研究 AI 主题', type: 'knowledge' },
+      { label: '文件編輯', description: '正在撰寫文件', type: 'document' },
+      { label: '代碼編寫', description: '編寫函數實現', type: 'code' },
+      { label: '音樂播放', description: '播放放鬆音樂', type: 'music' },
+      { label: '學習研究', description: '研究 AI 主題', type: 'knowledge' },
     ];
 
     const cycle = () => {
@@ -22,8 +22,8 @@ const PredictiveIntentDashboard = () => {
       setConfidence(85 + Math.floor(Math.random() * 14)); // 85-99%
       setCognitiveState(['relaxed', 'focused', 'overloaded'][Math.floor(Math.random() * 3)]);
       setActionSuggestion({
-        primary: '确认执行',
-        secondary: '编辑意图',
+        primary: '確認執行',
+        secondary: '編輯意圖',
         tertiary: '忽略'
       });
     };
@@ -49,7 +49,7 @@ const PredictiveIntentDashboard = () => {
       icon: '🎯'
     },
     overloaded: {
-      label: '过载',
+      label: '過載',
       color: '#FF4D00',
       bg: 'rgba(255, 77, 0, 0.1)',
       border: 'rgba(255, 77, 0, 0.3)',
@@ -95,7 +95,7 @@ const PredictiveIntentDashboard = () => {
             {/* Cognitive State Indicator */}
             <div className="mb-3">
               <div className="flex items-center justify-between mb-2">
-                <span className="text-xs text-white/60">认知状态</span>
+                <span className="text-xs text-white/60">認知狀態</span>
                 <span className="text-xs font-semibold">
                   {cognitiveStates[cognitiveState].label}
                 </span>
