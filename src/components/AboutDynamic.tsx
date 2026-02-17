@@ -1,14 +1,14 @@
 /**
- * AboutDynamic - Dynamic About Page Component with GenUI
- *
- * Integrates GenUI for context-aware, adaptive interface generation
- * SSR-safe: Only renders client-side when mounted
+ * AboutDynamic - Dynamic About Page Component
+ * 
+ * SSR-safe version without GenUI dependency
+ * Renders directly to avoid loading state
  */
 
 'use client'
 
-import React, { useState, useEffect, Suspense } from 'react'
-import { useGenUI } from '../components/GenUI/GenUIProvider'
+import React, { useState, useEffect } from 'react'
+import avatar from '../assets/cheese-avatar.jpg'
 
 interface AboutDynamicProps {
   avatar: string
@@ -29,20 +29,36 @@ function AboutDynamicContent({ avatar }: { avatar: string }) {
     return <AboutDynamicFallback />
   }
 
-  const { generateUI, context } = useGenUI()
-  const [uiConfig, setUiConfig] = useState<any>(null)
   const [mounted, setMounted] = useState(false)
+  const [timeOfDay, setTimeOfDay] = useState('afternoon')
 
   useEffect(() => {
     setMounted(true)
-    generateUI('about').then(setUiConfig)
-  }, [generateUI])
+    // Check time of day
+    const hour = new Date().getHours()
+    if (hour < 12) {
+      setTimeOfDay('morning')
+    } else if (hour < 18) {
+      setTimeOfDay('afternoon')
+    } else {
+      setTimeOfDay('evening')
+    }
+  }, [])
 
-  if (!mounted || !uiConfig) {
+  if (!mounted) {
     return <AboutDynamicFallback />
   }
 
-  const { theme, layout, accessibility } = uiConfig
+  let greeting = ''
+  if (timeOfDay === 'morning') {
+    greeting = '🌅 Good morning! Ready to explore?'
+  } else if (timeOfDay === 'afternoon') {
+    greeting = '☀️ Good afternoon! What would you like to do today?'
+  } else if (timeOfDay === 'evening') {
+    greeting = '🌙 Good evening! What are you working on?'
+  } else {
+    greeting = '🌟 Good night! Your next breakthrough is close.'
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
@@ -87,12 +103,9 @@ function AboutDynamicContent({ avatar }: { avatar: string }) {
           </p>
 
           {/* Context-aware greeting */}
-          {context.timeOfDay && (
+          {greeting && (
             <p className="text-lg mb-8 opacity-80 animate-pulse">
-              {context.timeOfDay === 'morning' && '🌅 Good morning! Ready to explore?'}
-              {context.timeOfDay === 'afternoon' && '☀️ Good afternoon! What would you like to do today?'}
-              {context.timeOfDay === 'evening' && '🌙 Good evening! What are you working on?'}
-              {context.timeOfDay === 'night' && '🌟 Good night! Your next breakthrough is close.'}
+              {greeting}
             </p>
           )}
 
@@ -114,14 +127,12 @@ function AboutDynamicContent({ avatar }: { avatar: string }) {
           </div>
 
           {/* Accessibility skip link */}
-          {accessibility.skipLinks && (
-            <a
-              href="#main-content"
-              className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-indigo-600 focus:text-white focus:px-4 focus:py-2 rounded"
-            >
-              Skip to main content
-            </a>
-          )}
+          <a
+            href="#main-content"
+            className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-indigo-600 focus:text-white focus:px-4 focus:py-2 rounded"
+          >
+            Skip to main content
+          </a>
         </div>
       </section>
 
@@ -188,8 +199,6 @@ function AboutDynamicContent({ avatar }: { avatar: string }) {
 
 export function AboutDynamic({ avatar }: { avatar: string }) {
   return (
-    <Suspense fallback={<AboutDynamicFallback />}>
-      <AboutDynamicContent avatar={avatar} />
-    </Suspense>
+    <AboutDynamicContent avatar={avatar} />
   )
 }
