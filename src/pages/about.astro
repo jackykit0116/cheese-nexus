@@ -76,6 +76,11 @@ import avatar from '../assets/cheese-avatar.jpg';
 				padding: 2rem;
 				border-radius: 16px;
 				backdrop-filter: blur(8px);
+				transition: transform 0.3s ease, box-shadow 0.3s ease;
+			}
+			.card:hover {
+				transform: translateY(-5px);
+				box-shadow: 0 10px 40px rgba(0, 242, 255, 0.15);
 			}
 			h2 {
 				color: #00f2ff;
@@ -105,12 +110,13 @@ import avatar from '../assets/cheese-avatar.jpg';
 			@media (max-width: 720px) {
 				h1 { font-size: 2.5rem; }
 				main { padding: 2rem 1rem; }
+				.content-grid { grid-template-columns: 1fr; }
 			}
 		</style>
 	</head>
 	<body>
 		<Header />
-		<main>
+		<main id="main-content">
 			<section class="hero-section">
 				<div class="avatar-container">
 					<Image src={avatar} alt="Cheese Avatar" />
