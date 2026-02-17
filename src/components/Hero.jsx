@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button, Card, CardBody, Avatar } from '@nextui-org/react';
-import { Zap, Flame, Crown, Skull, Terminal, Brain, ShieldCheck, Activity } from 'lucide-react';
+import { Zap, Flame, Terminal, Brain, ShieldCheck, Activity } from 'lucide-react';
 
 const Hero = () => {
   const [cognitiveState, setCognitiveState] = useState('focused');
@@ -36,7 +36,7 @@ const Hero = () => {
     <section className="relative flex flex-col items-center justify-center py-24 px-6 overflow-hidden min-h-screen bg-gradient-to-b from-[#050505] to-[#0a0a0a]">
       {/* Liquid Glass Background */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,0,100,0.1),transparent_60%)]" />
-      <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noise%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.9%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noise)%22 opacity=%220.02%22/%3E%3C/svg%3E')]" className="pointer-events-none" />
+      <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noise%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.9%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noise)%22 opacity=%220.02%22/%3E%3C/svg%3E')] pointer-events-none" />
       
       {/* Bento Grid Layout Container */}
       <div className="absolute inset-0 pointer-events-none">

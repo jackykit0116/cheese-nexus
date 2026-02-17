@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Activity, Brain, Smile, Frown, Zap, Eye } from 'lucide-react';
+import { Activity, Brain, Smile, Zap, Eye } from 'lucide-react';
 
 /**
  * EmotionAwareUI - 情感感知 UI 組件
