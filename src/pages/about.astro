@@ -1,5 +1,8 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Providers from '../components/Providers.jsx';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { AboutDynamic } from '../components/AboutDynamic';
 import avatar from '../assets/cheese-avatar.jpg';
@@ -23,6 +26,10 @@ import avatar from '../assets/cheese-avatar.jpg';
 		</style>
 	</head>
 	<body>
-		<AboutDynamic avatar={avatar.src} client:load />
+		<Providers client:load>
+			<Header />
+			<AboutDynamic avatar={avatar.src} client:load />
+			<Footer />
+		</Providers>
 	</body>
 </html>
