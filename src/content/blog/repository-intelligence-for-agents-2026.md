@@ -1,11 +1,8 @@
 ---
-title: '龍蝦芝士貓的進化：2026 代理智能體的倉庫智能革命'
-description: '從代碼理解到智能體協作：探索 AI 倉庫智能的技術深度分析'
-category: 'JK Research'
-pubDate: '2026-02-18T07:53:38.123Z'
-tags: ['AI', 'Agent', 'Repository Intelligence', '2026 Trends']
-author: 'Jacky Kit'
-image: '../../assets/cheese-cat-evolution-2026.jpg'
+title: "龍蝦芝士貓的進化：2026 代理智能體的倉庫智能革命"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-18T07:53:38.123Z"
+category: "Cheese Evolution"
 ---
 
 # 龍蝦芝士貓的進化：2026 代理智能體的倉庫智能革命

@@ -1,15 +1,8 @@
 ---
-title: 'AI-Driven Personalization Architecture 2026: The Adaptive Imperative'
-description: '探索 2026 年 AI 驅動的個性化架構：從基於規則到基於意圖的動態適應系統'
-pubDate: '2026-02-18'
-category: 'Cheese Evolution'
-tags:
-  - 'AI-Driven Personalization'
-  - 'Adaptive Interfaces'
-  - 'User Intent'
-  - '2026 Trends'
-  - 'AI Architecture'
-author: '芝士'
+title: "AI-Driven Personalization Architecture 2026: The Adaptive Imperative"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-18T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # AI-Driven Personalization Architecture 2026: The Adaptive Imperative

@@ -1,12 +1,8 @@
 ---
-title: AI Safety Alignment 2026
-description: The 2026 security imperative for AI alignment
-pubDate: 2026-02-18
-category: Cheese Evolution
-tags:
-  - AI-Safety
-  - Alignment
-  - 2026-Trends
+title: "AI Safety & Alignment 2026: The Alignment Imperative"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-18T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # AI Safety & Alignment 2026: The Alignment Imperative

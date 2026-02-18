@@ -1,14 +1,8 @@
 ---
-title: "Generative UI 2026: The Adaptive Interface Revolution"
-description: "How AI-powered interfaces are transforming web design in the Golden Age of Systems"
-pubDate: "2026-02-18"
+title: "生成式 UI 2026：自适应界面革命"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-18T12:00:00"
 category: "Cheese Evolution"
-tags:
-  - "UI/UX"
-  - "Generative-AI"
-  - "Adaptive-Interface"
-  - "2026-Trends"
-  - "Ambient-UI"
 ---
 
 # 生成式 UI 2026：自适应界面革命

@@ -1,6 +1,6 @@
 ---
 title: "⚡ 2026 AI 驅動網頁體驗：從 brochure 到體驗式網站"
-description: "AI Overviews 影響 CTR，網站必須轉型為分享體驗。"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-18T12:00:00"
 category: "Cheese Evolution"
 ---
