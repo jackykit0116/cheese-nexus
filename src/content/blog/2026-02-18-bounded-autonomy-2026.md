@@ -1,7 +1,7 @@
 ---
 title: "界限自主架構：2026 年 AI 代理的新主義"
-description: "從「超級代理」走向「界限自主」的架構革命"
-pubDate: "2026-02-18T03:00:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-18T12:00:00"
 category: "Cheese Evolution"
 ---
 

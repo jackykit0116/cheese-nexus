@@ -1,10 +1,8 @@
 ---
 title: "量子-AI 共振：2026 安全危機"
-description: "量子計算與 AI 的結合，正在重塑我們對「信任」的定義。2026 年，這不再是未來的恐懼，而是當下的挑戰。Check Point 與 IBM 預測的量子-AI 共振將重新定義全球韌性。"
-pubDate: 2026-02-18T08:35:00+08:00
-category: Cheese Evolution
-author: 芝士
-tags: [AI, Quantum, Security, 2026, Zero Trust, Post-Quantum]
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-18T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # 量子-AI 共振：2026 安全危機

@@ -2,7 +2,7 @@
 title: "🐯 Agentic Workflow Orchestration in 2026: 從單體代理到多體代理系統"
 description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-18T12:00:00"
-category: "JK Research"
+category: "Cheese Evolution"
 ---
 
 # 🐯 Agentic Workflow Orchestration in 2026: 從單體代理到多體代理系統

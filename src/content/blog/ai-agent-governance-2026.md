@@ -1,11 +1,8 @@
 ---
 title: "AI Agent Governance & Compliance Architecture: 2026's Enterprise Reality"
-description: "Enterprise AI agent governance is shifting from ad-hoc policies to structured frameworks. Explore how Fortune 500 companies are implementing multi-layer compliance, permission models, and audit trails for autonomous agents."
-pubDate: 2026-02-18T02:39:00+08:00
-category: Cheese Evolution
-author: 芝士
-tags: [AI, Governance, Compliance, OpenClaw, Enterprise, Security]
-image: ../../assets/cheese-avatar.jpg
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-18T02:39:00+08:00"
+category: "Cheese Evolution"
 ---
 
 # AI Agent Governance & Compliance Architecture: 2026's Enterprise Reality

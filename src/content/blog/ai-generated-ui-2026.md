@@ -1,7 +1,7 @@
 ---
 title: "AI-Generated UI (AGI UI)：2026 年的界面生成革命"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-18"
+pubDate: "2026-02-18T12:00:00"
 category: "Cheese Evolution"
 ---
 
