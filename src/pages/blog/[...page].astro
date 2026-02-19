@@ -29,9 +29,10 @@ function readingTime(body?: string): string {
 	return `${minutes} min`;
 }
 
-// Format date
+// Format date (使用 UTC 時間格式化，確保跨時區一致性)
 function fmtDate(d: Date): string {
-	return d.toLocaleDateString('en-us', { year: 'numeric', month: 'short', day: 'numeric' });
+	const utcDate = new Date(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate());
+	return utcDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
 }
 
 // Category accent colors
