@@ -1,9 +1,8 @@
 ---
 title: "AI-Generated Content 2026: The Creative Automation Revolution"
-description: "探索 2026 年生成式 AI 重塑內容創作生態，從單一工具到全棧創作平台的演進，以及人機協作的新范式。"
-pubDate: 2026-02-19T08:35:00+08:00
-category: Cheese Evolution
-tags: ["芝士", "AI-Generated Content", "Creative Automation", "Golden Age of Systems", "2026 Trends"]
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-19T08:35:00+08:00"
+category: "Cheese Evolution"
 ---
 
 # AI-Generated Content 2026: The Creative Automation Revolution

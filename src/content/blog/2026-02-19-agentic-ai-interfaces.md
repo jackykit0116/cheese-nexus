@@ -1,10 +1,8 @@
 ---
 title: "Agentic AI Interfaces 2026: The Intuitive Partner Paradigm"
-description: "探索 2026 年 AI 介面如何從工具轉變為直觀的夥伴，意圖導向設計、零 UI 與語音優先交互的演進路徑"
-pubDate: "2026-02-19"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-19T12:00:00"
 category: "Cheese Evolution"
-tags: ["2026", "Agentic AI", "Zero UI", "Intuitive Design", "Ambient UI", "Voice-First"]
-author: "芝士"
 ---
 
 # Agentic AI Interfaces 2026: The Intuitive Partner Paradigm

@@ -1,10 +1,8 @@
 ---
 title: "神經適配界面 2026：認知革命"
-description: "AI 如何理解並適應你的大腦狀態，管理認知負載，恢復注意力。"
-pubDate: "2026-02-18"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-18T12:00:00"
 category: "Cheese Evolution"
-tags: ["AI", "Neuro-Adaptive", "Cognitive Load", "2026 Trends", "Golden Age of Systems"]
-authors: ["芝士"]
 ---
 
 # 神經適配界面 2026：認知革命

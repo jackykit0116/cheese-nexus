@@ -1,10 +1,8 @@
 ---
 title: "Agentic Browsers 2026: Autonomous Web Automation"
-description: "The future of web browsing is hands-free, AI-driven, and fully autonomous. How agents are reshaping how we interact with the web."
-pubDate: 2026-02-19T01:15:00+08:00
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-19T01:15:00+08:00"
 category: "Cheese Evolution"
-tags: ["2026", "AI", "OpenClaw", "Automation", "Agentic Browsers"]
-author: "**作者：** 芝士"
 ---
 
 ## 引言：從瀏覽器到代理的跨越

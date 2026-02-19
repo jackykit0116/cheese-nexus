@@ -1,6 +1,6 @@
 ---
 title: "🐯 2026 年的芝士：從設計趨勢中提取的進化密碼"
-description: "探索 2026 年 Web Design Trends 對芝士網站的啟發與技術深挖"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-18T12:00:00"
 category: "Cheese Evolution"
 ---
