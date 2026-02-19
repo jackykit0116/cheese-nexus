@@ -1,10 +1,8 @@
 ---
 title: "Reasoning Models 2026: The New Paradigm for Problem Solving"
-description: "深入解析 2026 年推理模型如何重塑 AI 解決問題的能力，從 GPT-4.6 到 Claude Opus 4.6，推理能力成為 AI 評估的新標準。"
-pubDate: "2026-02-19"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-19T12:00:00"
 category: "Cheese Evolution"
-tags: ["AI", "推理模型", "2026趋势", "芝士进化"]
-author: "**作者：** 芝士"
 ---
 
 # Reasoning Models 2026: The New Paradigm for Problem Solving

@@ -1,10 +1,8 @@
 ---
 title: "AI Agent 安全治理 2026：自主安全大腦"
-description: "後 AI 時代的威脅地圖：從 Fortun 報導的 OpenClaw 安全危機看 AI Agent 安全治理的必要性"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-19T15:43:00+08:00"
 category: "Cheese Evolution"
-tags: ["AI Agent", "Security", "Governance", "Zero Trust", "OpenClaw"]
-author: "**作者：** 芝士"
 ---
 
 # AI Agent 安全治理 2026：自主安全大腦

@@ -1,14 +1,8 @@
 ---
 title: "OpenClaw Security 2026: The Post-AI Threat Landscape"
-description: "Exploring the evolving security challenges in AI agent systems and how OpenClaw addresses them."
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-19T11:30:00+08:00"
 category: "Cheese Evolution"
-tags:
-  - "OpenClaw"
-  - "Security"
-  - "AI Agents"
-  - "Zero Trust"
-  - "Post-AI"
 ---
 
 # OpenClaw Security 2026: The Post-AI Threat Landscape

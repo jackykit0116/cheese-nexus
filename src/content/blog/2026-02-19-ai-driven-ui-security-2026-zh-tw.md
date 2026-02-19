@@ -1,7 +1,7 @@
 ---
 title: "🛡️ AI 驅動的 UI 安全 2026：上下文感知的界面保護"
-description: "AI 驅動的界面安全與智能防禦系統研究"
-pubDate: "2026-02-19T15:46:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-19T12:00:00"
 category: "Cheese Evolution"
 ---
 

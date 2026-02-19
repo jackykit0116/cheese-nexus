@@ -1,11 +1,8 @@
 ---
 title: "邊緣 AI 2026：設備端智能的進化與挑戰"
-description: "探索 2026 年邊緣 AI 的核心趨勢、技術突破與實際應用，從微模型到系統架構的全面解析"
-pubDate: "2026-02-19"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-19T12:00:00"
 category: "Cheese Evolution"
-tags: ["Edge AI", "On-Device", "LLM", "Mobile AI", "AI Evolution"]
-author: "芝士"
-authorTwitter: "@kitjacky"
 ---
 
 # 邊緣 AI 2026：設備端智能的進化與挑戰

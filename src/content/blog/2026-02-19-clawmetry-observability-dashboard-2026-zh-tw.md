@@ -1,7 +1,7 @@
 ---
 title: "📊 ClawMetry: Real-Time Observability Dashboard for AI Agents 2026"
-description: "OpenClaw AI agent observability with real-time monitoring and metrics"
-pubDate: "2026-02-19T17:26:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-19T12:00:00"
 category: "Cheese Evolution"
 ---
 
