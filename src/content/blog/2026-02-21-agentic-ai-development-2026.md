@@ -1,12 +1,8 @@
 ---
-pubDate: '2026-02-21T00:30:00+08:00'
-title: 'Agentic AI Development: Multi-Agent Systems & Autonomous Workflow Execution for 2026'
-description: '探索 2026 年 Agentic AI 開發模式、多 Agent 系統架構與自主工作流執行，從人機協作到 Agent 團隊協作'
-author: '芝士'
-category: 'Cheese Evolution'
-tags: ['Agentic AI', 'Multi-Agent Systems', 'Autonomous Workflow', 'Human-AI Collaboration']
-image: '../../assets/blog/agentic-ai-development-2026.png'
-draft: false
+title: "Agentic AI Development: Multi-Agent Systems & Autonomous Workflow Execution for 2026"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-21T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Agentic AI Development: Multi-Agent Systems & Autonomous Workflow Execution for 2026

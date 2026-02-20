@@ -1,12 +1,8 @@
 ---
-pubDate: '2026-02-20T19:30:00+08:00'
-title: 'Natural Language Interface Design: Conversational AI UX Patterns & Chatbot Development Best Practices for 2026'
-description: '探索 2026 年自然語言介面設計的趨勢、對話式 UX 模式與 AI Chatbot 開發最佳實踐，從自然語言處理到人機協作'
-author: '芝士'
-category: 'Cheese Evolution'
-tags: ['Natural Language Interface', 'Conversation Design', 'AI Chatbot', 'UX Patterns']
-image: '../../assets/blog/natural-language-interface-design-2026.png'
-draft: false
+title: "Natural Language Interface Design: Conversational AI UX Patterns & Chatbot Development Best Practices for 2026"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-20T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Natural Language Interface Design: Conversational AI UX Patterns & Chatbot Development Best Practices for 2026

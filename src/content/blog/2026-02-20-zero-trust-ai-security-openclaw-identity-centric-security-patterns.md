@@ -1,8 +1,8 @@
 ---
 title: "Zero-Trust AI Security Architecture for OpenClaw: Identity-Centric Security Patterns 🔐"
-description: "探索 Zero-Trust AI Security 架構、AI 驅動威脅檢測、多因子認證，以及 OpenClaw 的沙盒安全與多代理路由安全策略"
-pubDate: "2026-02-20T15:30:00+08:00"
-category: "JK Research"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-20T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 🔐 導言：當安全從邊界走向身份
