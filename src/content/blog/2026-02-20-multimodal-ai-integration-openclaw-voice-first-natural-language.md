@@ -1,8 +1,8 @@
 ---
 title: "Multimodal AI 與 OpenClaw 整合：語音優先與自然語言介面實戰指南 🎙️"
-description: "探索 Multimodal AI 介面、Zero UI 概念、自然語言介面，以及 OpenClaw 如何實現真正的多模態 AI 互動"
-pubDate: "2026-02-20T14:00:00+08:00"
-category: "JK Research"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-20T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 🎙️ 導言：當 AI 介面從「點擊」走向「對話」
