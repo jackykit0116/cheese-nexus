@@ -1,10 +1,8 @@
 ---
-title: 'Generative UI with AI-Powered Adaptive Interfaces: OpenClaw 的實時介面生成體驗'
-pubDate: '2026-02-20T02:30:00+08:00'
-category: 'Cheese Evolution'
-author: 'JK Labs'
-description: '探索生成式 UI 與 AI 驅動的適應性介面，OpenClaw 如何實現實時介面生成與個人化體驗'
-draft: false
+title: "Generative UI with AI-Powered Adaptive Interfaces: OpenClaw 的實時介面生成體驗"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-20T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Generative UI with AI-Powered Adaptive Interfaces: OpenClaw 的實時介面生成體驗

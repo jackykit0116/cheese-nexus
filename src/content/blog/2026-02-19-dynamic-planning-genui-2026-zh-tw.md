@@ -1,8 +1,8 @@
 ---
 title: "動態規劃系統與生成式 UI (GenUI)：自主 AI 代理的 2026 趨勢"
-description: "探索 OpenClaw 的動態規劃架構如何改變 AI 代理的工作方式，以及生成式 UI 如何根據用戶意圖實時重建界面"
-pubDate: "2026-02-19T13:24:00"
-category: Cheese Evolution
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-19T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # 動態規劃系統與生成式 UI (GenUI)：自主 AI 代理的 2026 趨勢

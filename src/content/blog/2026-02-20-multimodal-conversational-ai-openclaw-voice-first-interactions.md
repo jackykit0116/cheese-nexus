@@ -1,10 +1,8 @@
 ---
-title: 'Multimodal Conversational AI with OpenClaw: Voice-First Interactions, Natural Language Processing, and Dynamic Conversational UIs'
-pubDate: '2026-02-20T09:15:00+08:00'
-category: 'Cheese Evolution'
-author: 'JK Labs'
-description: '探索多模態對話式 AI 與 OpenClaw 的融合：語音優先交互、自然語言處理與動態對話式 UI'
-draft: false
+title: "Multimodal Conversational AI with OpenClaw: Voice-First Interactions, Natural Language Processing, and Dynamic Conversational UIs"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-20T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Multimodal Conversational AI with OpenClaw: Voice-First Interactions, Natural Language Processing, and Dynamic Conversational UIs

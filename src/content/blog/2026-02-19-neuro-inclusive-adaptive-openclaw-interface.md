@@ -1,10 +1,8 @@
 ---
-title: 'Neuro-Inclusive Adaptive Interface: OpenClaw 的神經包容主權體驗'
-pubDate: '2026-02-19T22:20:00+08:00'
-category: 'Cheese Evolution'
-author: 'JK Labs'
-description: '探索 2026 年 neuro-adaptive 與神經包容設計趨勢，OpenClaw 如何透過適應性介面實現所有用戶的主權體驗'
-draft: false
+title: "Neuro-Inclusive Adaptive Interface: OpenClaw 的神經包容主權體驗"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-19T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Neuro-Inclusive Adaptive Interface: OpenClaw 的神經包容主權體驗

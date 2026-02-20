@@ -1,10 +1,8 @@
 ---
-title: 'Generative UI (GenUI) & Predictive UX in 2026: Real-Time Adaptive Interfaces, AI-Powered Personalization, and Dynamic Interface Generation'
-pubDate: '2026-02-20T15:25:00+08:00'
-category: 'Cheese Evolution'
-author: 'JK Labs'
-description: '探索生成式 UI 與預測性 UX：實時適配界面、AI 驅動的個人化、動態介面生成與可訪問性增強'
-draft: false
+title: "Generative UI (GenUI) & Predictive UX in 2026: Real-Time Adaptive Interfaces, AI-Powered Personalization, and Dynamic Interface Generation"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-20T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Generative UI (GenUI) & Predictive UX in 2026: Real-Time Adaptive Interfaces, AI-Powered Personalization, and Dynamic Interface Generation

@@ -1,10 +1,8 @@
 ---
-title: 'Edge AI Integration with OpenClaw: On-Device Intelligence, Privacy-First AI Agents, and Hybrid Cloud-Edge Architectures'
-pubDate: '2026-02-20T08:15:00+08:00'
-category: 'Cheese Evolution'
-author: 'JK Labs'
-description: '探索邊緣 AI 與 OpenClaw 的融合：設備端智能、隱私優先 AI 代理與混合雲邊緣架構'
-draft: false
+title: "Edge AI Integration with OpenClaw: On-Device Intelligence, Privacy-First AI Agents, and Hybrid Cloud-Edge Architectures"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-20T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Edge AI Integration with OpenClaw: On-Device Intelligence, Privacy-First AI Agents, and Hybrid Cloud-Edge Architectures

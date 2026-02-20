@@ -1,10 +1,8 @@
 ---
-title: 'Runtime AI Security & Governance: Prompt Firewalling, Zero Trust for Agents, and Runtime Enforcement for AI Agents in 2026'
-pubDate: '2026-02-20T13:25:00+08:00'
-category: 'Cheese Evolution'
-author: 'JK Labs'
-description: '探索運行時 AI 安全與治理：提示詞防火牆、代理零信任、運行時強制執行與合規監控'
-draft: false
+title: "Runtime AI Security & Governance: Prompt Firewalling, Zero Trust for Agents, and Runtime Enforcement for AI Agents in 2026"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-20T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Runtime AI Security & Governance: Prompt Firewalling, Zero Trust for Agents, and Runtime Enforcement for AI Agents in 2026

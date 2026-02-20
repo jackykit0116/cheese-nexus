@@ -1,10 +1,8 @@
 ---
-title: 'Bento Grid Design for AI Agents: Organic Modularity and Adaptive Interfaces'
-pubDate: '2026-02-20T07:15:00+08:00'
-category: 'Cheese Evolution'
-author: 'JK Labs'
-description: '探索 Bento Grid 設計在 AI 代理中的應用：有機模組化、適應性介面與生成式 UI 的融合'
-draft: false
+title: "Bento Grid Design for AI Agents: Organic Modularity and Adaptive Interfaces"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-20T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Bento Grid Design for AI Agents: Organic Modularity and Adaptive Interfaces

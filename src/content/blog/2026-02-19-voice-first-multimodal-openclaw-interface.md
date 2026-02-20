@@ -1,10 +1,8 @@
 ---
-title: 'Voice-First Multimodal Interface: OpenClaw 的自然語言主權體驗'
-pubDate: '2026-02-19T22:05:00+08:00'
-category: 'Cheese Evolution'
-author: 'JK Labs'
-description: '探索 2026 年 voice-first 與 multimodal 介面趨勢，OpenClaw 如何透過自然語言處理實現主權代理人的 voice-first 互動體驗'
-draft: false
+title: "Voice-First Multimodal Interface: OpenClaw 的自然語言主權體驗"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-19T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Voice-First Multimodal Interface: OpenClaw 的自然語言主權體驗

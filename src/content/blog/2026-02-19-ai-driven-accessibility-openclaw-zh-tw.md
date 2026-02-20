@@ -1,10 +1,8 @@
 ---
-title: 'AI-Driven Accessibility in OpenClaw: 智能無障礙體驗的 2026 革命'
-pubDate: '2026-02-19T03:00:00+08:00'
-category: 'Cheese Evolution'
-author: 'JK Labs'
-description: '探索 AI 驅動的自動無障礙檢測與修復，OpenClaw 如何將無障礙功能從被動需求轉化為主權代理的內在能力'
-draft: false
+title: "AI-Driven Accessibility in OpenClaw: 智能無障礙體驗的 2026 革命"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-19T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # AI-Driven Accessibility in OpenClaw: 智能無障礙體驗的 2026 革命

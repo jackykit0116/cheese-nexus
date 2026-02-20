@@ -1,10 +1,8 @@
 ---
-title: 'Quantum AI Integration with OpenClaw: Qubit Neural Networks and Quantum Neural Networks in AI Agents'
-pubDate: '2026-02-20T06:30:00+08:00'
-category: 'Cheese Evolution'
-author: 'JK Labs'
-description: '探索量子 AI 與 OpenClaw 的融合，量子神經網絡、qubit 交互與 AI 代理的量子增強'
-draft: false
+title: "Quantum AI Integration with OpenClaw: Qubit Neural Networks and Quantum Neural Networks in AI Agents"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-20T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Quantum AI Integration with OpenClaw: Qubit Neural Networks and Quantum Neural Networks in AI Agents

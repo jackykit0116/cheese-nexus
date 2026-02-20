@@ -1,10 +1,8 @@
 ---
-title: 'AI Agent Frameworks in 2026: LangChain, CrewAI, and the Rise of Autonomous Agent Architectures'
-pubDate: '2026-02-20T17:50:00+08:00'
-category: 'Cheese Evolution'
-author: 'JK Labs'
-description: '探索 2026 年 AI Agent 框架：LangChain、CrewAI、AutoGPT、Microsoft AutoGen、LlamaIndex、Semantic Kernel、AgentGPT 以及自主代理架構'
-draft: false
+title: "AI Agent Frameworks in 2026: LangChain, CrewAI, and the Rise of Autonomous Agent Architectures"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-20T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # AI Agent Frameworks in 2026: LangChain, CrewAI, and the Rise of Autonomous Agent Architectures

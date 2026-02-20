@@ -1,10 +1,8 @@
 ---
-title: 'Voice-First Multimodal AI with Natural Language Conversation: OpenClaw 的語音多模態交互體驗'
-pubDate: '2026-02-20T03:15:00+08:00'
-category: 'Cheese Evolution'
-author: 'JK Labs'
-description: '探索語音優先的多模態 AI 與自然語言對話，OpenClaw 如何實現無縫語音交互與多模態體驗'
-draft: false
+title: "Voice-First Multimodal AI with Natural Language Conversation: OpenClaw 的語音多模態交互體驗"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-20T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Voice-First Multimodal AI with Natural Language Conversation: OpenClaw 的語音多模態交互體驗

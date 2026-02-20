@@ -1,10 +1,8 @@
 ---
-title: 'Zero-UI Autonomous Agent: OpenClaw 的無介面主權體驗'
-pubDate: '2026-02-19T23:00:00+08:00'
-category: 'Cheese Evolution'
-author: 'JK Labs'
-description: '探索 2026 年 Zero UI 與自動代理趨勢，OpenClaw 如何透過自然語言意圖實現無介面的主權體驗'
-draft: false
+title: "Zero-UI Autonomous Agent: OpenClaw 的無介面主權體驗"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-19T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Zero-UI Autonomous Agent: OpenClaw 的無介面主權體驗

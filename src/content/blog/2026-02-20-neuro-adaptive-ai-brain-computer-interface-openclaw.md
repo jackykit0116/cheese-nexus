@@ -1,10 +1,8 @@
 ---
-title: 'Neuro-Adaptive AI with Brain-Computer Interfaces: OpenClaw 的神經適應性 AI 與腦機接口體驗'
-pubDate: '2026-02-20T04:30:00+08:00'
-category: 'Cheese Evolution'
-author: 'JK Labs'
-description: '探索神經適應性 AI 與腦機接口，OpenClaw 如何實現無縫腦機接口與認知增強體驗'
-draft: false
+title: "Neuro-Adaptive AI with Brain-Computer Interfaces: OpenClaw 的神經適應性 AI 與腦機接口體驗"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-20T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Neuro-Adaptive AI with Brain-Computer Interfaces: OpenClaw 的神經適應性 AI 與腦機接口體驗

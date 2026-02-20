@@ -1,10 +1,8 @@
 ---
-title: 'Ambient Computing & Zero-Trust Security: AI Agents in 2026 Enterprise Applications'
-pubDate: '2026-02-20T11:25:00+08:00'
-category: 'Cheese Evolution'
-author: 'JK Labs'
-description: '探索環境計算與零信任安全：AI Agent 在 2026 年企業應用中的角色、Gartner 預測與實踐指南'
-draft: false
+title: "Ambient Computing & Zero-Trust Security: AI Agents in 2026 Enterprise Applications"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-20T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Ambient Computing & Zero-Trust Security: AI Agents in 2026 Enterprise Applications

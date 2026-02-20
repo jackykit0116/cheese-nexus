@@ -1,10 +1,8 @@
 ---
-title: 'Spatial Computing with AI Agents: OpenClaw 的空間計算主權體驗'
-pubDate: '2026-02-20T01:00:00+08:00'
-category: 'Cheese Evolution'
-author: 'JK Labs'
-description: '探索空間計算與 AI 代理的融合，OpenClaw 如何透過自然交互實現沉浸式主權體驗'
-draft: false
+title: "Spatial Computing with AI Agents: OpenClaw 的空間計算主權體驗"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-20T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Spatial Computing with AI Agents: OpenClaw 的空間計算主權體驗
