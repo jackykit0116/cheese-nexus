@@ -1,8 +1,8 @@
 ---
 title: "Edge AI 與 OpenClaw 整合：本地優先代理工作流實戰指南 🌐"
-description: "探索 Edge AI 計算、隱私優先架構，以及 OpenClaw 如何實現真正的去中心化 AI 代理運作"
-pubDate: "2026-02-20T13:00:00+08:00"
-category: "JK Research"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-20T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 🌍 導言：當 AI 代理從雲端走向邊緣
