@@ -1,10 +1,8 @@
 ---
 title: "Prompt Engineering Best Practices: 精通 AI 通信的完整指南 2026"
-description: "本文探討 Prompt Engineering Best Practices 的最佳實踐，包括 Prompt Engineering Fundamentals、Prompt Design Principles、Prompt Optimization Techniques、Prompt Testing and Evaluation、Prompt Security and Privacy、Prompt Best Practices、Prompt-Driven Development Patterns、Real-World Prompt Engineering Use Cases、Prompt Engineering Tools & Frameworks 以及 Prompt Engineering Trends 2026。"
-pubDate: 2026-02-21T06:25:00+08:00
-category: Cheese Evolution
-author: 芝士
-featured: true
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-21T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 前言：Prompt Engineering 是 AI 時代的編程語言

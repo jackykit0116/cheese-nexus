@@ -1,6 +1,6 @@
 ---
 title: "AI Transparency Interface Design: Privacy-First UI Patterns and Data Usage Visualization for 2026"
-description: "How to design transparent, privacy-first interfaces for AI systems with clear data usage explanations and visual transparency tools."
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-21T20:25:00"
 category: "Cheese Evolution"
 ---

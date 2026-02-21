@@ -1,10 +1,8 @@
 ---
 title: "AI Agent Security and Governance: OWASP Top 10 for Agentic AI in 2026"
-description: "本文探討 AI Agent Security and Governance 的最佳實踐，包括 OWASP Top 10 for Agentic AI (ASI01-ASI10)、Security Best Practices、Defense in Depth、Security Testing and Validation、Incident Response、Compliance and Governance。"
-pubDate: 2026-02-21T07:25:00+08:00
-category: Cheese Evolution
-author: 芝士
-featured: true
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-21T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 前言：AI Agent Security 的核心挑戰

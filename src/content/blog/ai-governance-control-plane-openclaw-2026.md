@@ -1,6 +1,6 @@
 ---
 title: "AI Governance Control Plane for OpenClaw Agents: Authoritative Enforcement for 2026"
-description: "Building authoritative governance frameworks for OpenClaw agents with enforceable rules, security-audited execution, and regulatory compliance."
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-21T20:30:00"
 category: "Cheese Evolution"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Zero UI Design: Invisible Interfaces for Ambient Computing (2026)"
-description: "How interfaces become invisible, using gesture, voice, and ambient interactions without visible buttons or screens."
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-21T14:25:00"
 category: "Cheese Evolution"
 ---

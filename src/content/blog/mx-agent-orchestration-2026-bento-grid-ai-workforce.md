@@ -1,6 +1,6 @@
 ---
 title: "MX Agent Orchestration: Building Multi-Agent Systems That Collaborate (2026)"
-description: "Building AI agent teams that collaborate using OpenClaw's orchestration capabilities and Bento Grid UI."
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-21T12:00:00"
 category: "Cheese Evolution"
 ---

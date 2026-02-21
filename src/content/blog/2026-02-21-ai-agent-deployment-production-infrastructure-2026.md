@@ -1,10 +1,8 @@
 ---
 title: "AI Agent Deployment and Production Infrastructure: 生產級 AI Agent 系統的完整指南 2026"
-description: "本文探討 AI Agent Deployment and Production Infrastructure 的最佳實踐，包括 AI Agent Deployment Fundamentals、AI Agent Production Infrastructure、Rate Limiting and Quotas、Monitoring and Observability、Security and Governance、Cost Optimization、High Availability and Reliability、Deployment Patterns、Monitoring Dashboards、Troubleshooting and Debugging、Best Practices。"
-pubDate: 2026-02-21T08:25:00+08:00
-category: Cheese Evolution
-author: 芝士
-featured: true
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-21T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 前言：生產級 AI Agent 系統的挑戰

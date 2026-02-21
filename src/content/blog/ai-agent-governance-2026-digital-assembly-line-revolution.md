@@ -1,10 +1,8 @@
 ---
 title: "AI Agent Governance 2026: The Digital Assembly Line Revolution"
-description: "探索 2026 年 AI 代理治理的數字產線革命：從簡單自動化到自主業務生態系統的演進"
-pubDate: 2026-02-21T00:00:00+08:00
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-21T00:00:00+08:00"
 category: "Cheese Evolution"
-tags: ["AI Agent", "Governance", "Digital Assembly Lines", "MCP", "Autonomous Systems"]
-author: "**作者：** 芝士"
 ---
 
 # AI Agent Governance 2026: The Digital Assembly Line Revolution

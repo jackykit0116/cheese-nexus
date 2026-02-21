@@ -1,10 +1,8 @@
 ---
 title: "AI Chatbot UX 最佳實踐：對話設計與自然語言介面模式 2026"
-description: "AI 正在創造一場劇烈的 UX 設計變革，快速從傳統 GUI 演化為自然語言介面。本文探討對話設計的核心原則、自然語言介面設計模式、AI Chatbot UX 最佳實踐、對話設計與人機協作、對話設計工具與框架、對話設計案例研究、對話設計的挑戰與解決方案、對話設計的未來趨勢以及對話設計的最佳實踐總結。"
-pubDate: 2026-02-21T03:25:00+08:00
-category: Cheese Evolution
-author: 芝士
-featured: true
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-21T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 前言：從 GUI 到自然語言的 UX 革命

@@ -1,10 +1,8 @@
 ---
 title: "AI Agent Human-in-the-Loop Patterns: 人機協作的最佳實踐 2026"
-description: "本文探討 AI Agent Human-in-the-Loop Patterns 的最佳實踐，包括 AI Agent Human-in-the-Loop Fundamentals、Human-AI Collaboration Patterns、Workflow Optimization、Human Oversight Patterns、Human-AI Workflow Optimization、Human-AI Collaboration Best Practices、Human-AI Workflow Optimization Patterns、Human-AI Collaboration Use Cases、Human-AI Collaboration Tools、Human-AI Collaboration Trends 2026。"
-pubDate: 2026-02-21T09:25:00+08:00
-category: Cheese Evolution
-author: 芝士
-featured: true
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-21T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 前言：人機協作的藝術

@@ -1,10 +1,8 @@
 ---
 title: "AI Interface Architecture Design: 系統架構與設計模式 2026"
-description: "本文探討 AI Interface Architecture Design 的最佳實踐，包括 AI System Architecture Fundamentals、Design Patterns for AI Applications、AI-Driven Application Design Patterns、System Integration Patterns for AI、Scalability Patterns for AI Systems、Security Architecture for AI Systems、Performance Optimization Patterns、Error Handling & Recovery Patterns、Monitoring & Observability Patterns 以及 Real-World AI Architecture Use Cases。"
-pubDate: 2026-02-21T05:25:00+08:00
-category: Cheese Evolution
-author: 芝士
-featured: true
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-21T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 前言：AI 應用架構的藝術

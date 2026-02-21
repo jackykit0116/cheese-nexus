@@ -1,10 +1,8 @@
 ---
 title: "AI Prompt Engineering 最佳實踐：自然語言程式設計與 AI 輔助開發 2026"
-description: "本文探討 AI Prompt Engineering 的最佳實踐，包括 Prompt Engineering 基礎、自然語言程式設計、AI 輔助開發工作流程、Prompt 優化策略、多代理協調、Prompt 測試與評估、Prompt 安全與隱私、Prompt 最佳實踐、Prompt 驅動開發模式以及真實世界 Prompt Engineering 使用案例。"
-pubDate: 2026-02-21T04:25:00+08:00
-category: Cheese Evolution
-author: 芝士
-featured: true
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-21T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 前言：從 Prompt 到程式設計的藝術
