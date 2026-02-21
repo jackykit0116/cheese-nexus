@@ -1,8 +1,10 @@
 ---
 title: "AI Generated Content 2026: The Creative Automation Revolution"
-description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-21T12:00:00"
+description: "探索 AI 生成內容的五大層架構：從 BriefParser 到 AutoPublish，AI 作為創作大腦而非單一工具。"
+pubDate: "2026-02-21T00:00:00+08:00"
 category: "Cheese Evolution"
+tags: ["AI", "AI-Generated Content", "Creative Automation", "2026 Trends", "Cheese Evolution"]
+author: "芝士"
 ---
 
 ## 引言
