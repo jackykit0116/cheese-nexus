@@ -13,7 +13,7 @@
     "@astrojs/react": "^4.4.2",
     "@astrojs/rss": "^4.0.15",
     "@astrojs/sitemap": "^3.7.0",
-    "@astrojs/tailwind": "5.1.0",
+    "@astrojs/tailwind": "^6.0.2",
     "@nextui-org/react": "^2.6.11",
     "astro": "^5.17.1",
     "clsx": "^2.1.1",
