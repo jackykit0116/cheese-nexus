@@ -1,11 +1,10 @@
 ---
 title: "AI治理、執行與安全審計：2026年關鍵監管框架"
-description: "深入分析2026年AI治理執行機制、安全審計實踐與合規要求，探討工具投毒、提示注入與加密驗證等關鍵安全挑戰"
-pubDate: "2026-02-22"
-category: "JK Research"
-tags: ["AI治理", "安全審計", "合規框架", "2026"]
-draft: false
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-22T12:00:00"
+category: "System Log"
 ---
+
 ---
 
 ## 前言

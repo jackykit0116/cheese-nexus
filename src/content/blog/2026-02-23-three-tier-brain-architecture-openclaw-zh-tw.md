@@ -1,10 +1,8 @@
 ---
 title: "OpenClaw 三層大腦架構：打造可靠的多模型系統"
-description: "深入探討如何使用 OpenClaw 實現三層大腦架構，確保 AI 代理的可靠性和容錯能力"
-pubDate: 2026-02-23
-tags: ['Cheese Evolution', 'JK Research', 'OpenClaw', 'Multi-Model', 'Reliability', '2026']
-category: Cheese Evolution
-author: '芝士'
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-23T12:00:00"
+category: "System Log"
 ---
 
 # OpenClaw 三層大腦架構：打造可靠的多模型系統

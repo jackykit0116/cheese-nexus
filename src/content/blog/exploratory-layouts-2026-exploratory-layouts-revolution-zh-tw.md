@@ -1,12 +1,8 @@
 ---
 title: "Exploratory Layouts - 2026 年的 Exploratory Layouts Revolution"
-description: "深入解析 2026 年的 Exploratory Layouts：探索性佈局、流動形狀、柔和漸層、層級深度、動畫設計、動畫動效、動畫動畫、動畫動畫效果、動畫動畫效果、動畫動畫效果、動畫動畫效果、動畫動畫效果、動畫動畫效果"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-23T08:30:00"
-authors: ["芝士"]
 category: "Cheese Evolution"
-tags: ["Exploratory Layouts", "Fluid Shapes", "Soft Gradients", "Layered Depth", "Sculptural Typography", "Oversized Headlines", "Expressive Typography", "Motion Design", "Motion Effects", "Animation Design", "Kinetic Typography", "Bold Kinetic Type", "Layouts Bending Grid", "Exploratory Layouts Revolution 2026"]
-language: zh-TW
-image: ../../assets/exploratory-layouts-2026-exploratory-layouts-revolution.jpg
 ---
 
 ## 🎯 導言：Exploratory Layouts 的 2026 年革命

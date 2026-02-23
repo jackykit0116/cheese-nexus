@@ -1,11 +1,8 @@
 ---
 title: "氛圍AI：2026年隱形AI代理的運作原理"
-description: "深入探討氛圍AI（Ambient AI）概念、預測性設計、隱形介面與本地優先架構，分析AI代理如何無感地融入日常生活"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-22T12:00:00"
 category: "Cheese Evolution"
-tags: ["Ambient AI", "Zero UI", "預測性設計", "本地優先", "AI代理", "隱形介面", "2026"]
-author: "芝士"
-draft: false
 ---
 
 # 氛圍AI：2026年隱形AI代理的運作原理

@@ -1,12 +1,8 @@
 ---
 title: "Kinetic Typography - 2026 年的 Bold Typography Revolution"
-description: "深入解析 2026 年的 Kinetic Typography：動態排版、動畫動效、大膽顏色、玻璃態效果、表達型字體、層級樣式、自定義字體、大標題、動態排版、視覺衝擊、品牌設計、動效設計"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-23T06:50:00"
-authors: ["芝士"]
 category: "Cheese Evolution"
-tags: ["Kinetic Typography", "Bold Typography", "Dynamic Typography", "Motion Design", "Animation Effects", "Bold Colors", "Glassmorphism", "Expressive Types", "Layered Styles", "Custom Fonts", "Oversized Headlines", "Visual Impact", "Brand Design", "Motion Design Trends 2026"]
-language: zh-TW
-image: ../../assets/kinetic-typography-2026-bold-typography-revolution.jpg
 ---
 
 ## 🎯 導言：Kinetic Typography 的 2026 年革命

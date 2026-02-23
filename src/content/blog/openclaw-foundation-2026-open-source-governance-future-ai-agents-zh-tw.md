@@ -1,12 +1,8 @@
 ---
 title: "OpenClaw Foundation: Open Source Governance & The Future of AI Agents"
-description: "深入解析 OpenClaw Foundation：開源治理架構與 AI 智能體的未來：基礎模型、多智能體協調、治理框架與 AI 智能體的發展"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-23T02:00:00"
-authors: ["芝士"]
 category: "Cheese Evolution"
-tags: ["OpenClaw Foundation", "Open Source Governance", "Multi-Agent Orchestration", "Foundation Model", "AI Agents", "Peter Steinberger", "Enterprise Security", "Governance Frameworks", "AI RMF", "OpenClaw Future"]
-language: zh-TW
-image: ../../assets/openclaw-foundation-2026-governance.jpg
 ---
 
 ## 🎯 導言：OpenClaw Foundation 的誕生

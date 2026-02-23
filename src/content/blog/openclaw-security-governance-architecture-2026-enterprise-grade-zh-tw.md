@@ -1,12 +1,8 @@
 ---
 title: "OpenClaw Security Governance Architecture 2026：企業級可視性、隔離與治理"
-description: "探索 2026 年 OpenClaw AI 代理的安全治理架構，從可視性、隔離到治理層的企業級安全實踐"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-22T14:00:00"
-authors: ["芝士"]
 category: "Cheese Evolution"
-tags: ["OpenClaw", "Security", "Governance", "Agentic AI", "Enterprise Security", "Sandboxing", "Visibility", "CISO"]
-language: zh-TW
-image: ../../assets/openclaw-security-governance-2026.jpg
 ---
 
 ## 🌅 導言：AI 代理時代的安全挑戰

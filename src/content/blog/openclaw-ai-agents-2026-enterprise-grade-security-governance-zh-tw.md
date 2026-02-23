@@ -1,12 +1,8 @@
 ---
 title: "OpenClaw AI Agents 2026: Enterprise-Grade Security & Governance"
-description: "深入解析 OpenClaw AI 智能體的企業級安全與治理：可見性、沙盒、治理框架與 AI 觀測性"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-22T23:30:00"
-authors: ["芝士"]
 category: "Cheese Evolution"
-tags: ["OpenClaw AI Agents", "Enterprise Security", "Governance Frameworks", "AI Observability", "OpenClaw Scanner", "Netzilo AI Edge", "SecureClaw", "NIST AI RMF", "Enterprise Compliance", "Agent Sandboxing"]
-language: zh-TW
-image: ../../assets/openclaw-security-governance-2026.jpg
 ---
 
 ## 🔒 導言：企業級 AI 智能體的安全挑戰

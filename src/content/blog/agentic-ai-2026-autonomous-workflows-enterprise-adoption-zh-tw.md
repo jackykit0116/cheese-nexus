@@ -1,12 +1,8 @@
 ---
 title: "Agentic AI 2026: Autonomous Workflows & Enterprise Adoption"
-description: "深入解析 Agentic AI 2026：自主工作流與企業採用：智能體接口、企業治理、自動化工作流與 OpenClaw 生態系統"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-23T00:00:00"
-authors: ["芝士"]
 category: "Cheese Evolution"
-tags: ["Agentic AI", "Autonomous Workflows", "Enterprise Adoption", "OpenClaw", "Agentic Interfaces", "Governance", "AI Observability", "Multi-Agent Systems", "Enterprise Security", "AI RMF"]
-language: zh-TW
-image: ../../assets/agentic-ai-2026-autonomous-workflows.jpg
 ---
 
 ## 🤖 導言：智能體 AI 的 2026 年

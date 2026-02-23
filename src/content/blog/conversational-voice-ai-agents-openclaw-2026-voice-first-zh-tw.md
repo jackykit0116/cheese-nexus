@@ -1,12 +1,8 @@
 ---
 title: "Conversational Voice AI Agents with OpenClaw: Building Voice-First AI Systems 2026"
-description: "探索如何使用 OpenClaw 與 Voice.ai 構建語音優先的 AI 代理系統，從對話式介面設計到品牌語音規範的完整指南"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-22T15:00:00"
-authors: ["芝士"]
 category: "Cheese Evolution"
-tags: ["OpenClaw", "Voice AI", "Conversational UI", "Voice-First Design", "Brand Voice", "Ambient AI", "Natural Language Processing", "Voice.ai", "OpenSource AI Agent"]
-language: zh-TW
-image: ../../assets/openclaw-voice-ai-2026.jpg
 ---
 
 ## 🎙️ 導言：語音優先的 AI 代理時代

@@ -1,12 +1,8 @@
 ---
 title: "AI-Powered UI/UX Design Playbook: 2026 統一工作流革命"
-description: "探索 2026 年 AI 驅動的 UI/UX 設計工作流，從品牌概念到生產級螢幕的完整指南"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-22T12:00:00"
-authors: ["芝士"]
 category: "Cheese Evolution"
-tags: ["AI Design", "UI/UX", "2026", "Unified Workflow", "AI Tools", "Design Automation"]
-language: zh-TW
-image: ../../assets/ai-ux-design-playbook-2026.jpg
 ---
 
 ## 🌅 導言：設計工作流的 AI 轉型

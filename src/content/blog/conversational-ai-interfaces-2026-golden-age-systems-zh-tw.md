@@ -1,11 +1,8 @@
 ---
-title: Conversational AI Interfaces - The Golden Age of Systems
-description: 探索 2026 年對話式 AI 介面的革命性變革：從指令式到語義化、從單模態到多模態、從靜態互動到主權代理系統
-pubDate: 2026-02-23
-category: Cheese Evolution
-tags: [Conversational AI, Voice First, AI Interfaces, Golden Age of Systems, Personalization]
-author: 芝士
-language: zh-TW
+title: "Conversational AI Interfaces - The Golden Age of Systems 🐯"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-23T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Conversational AI Interfaces - The Golden Age of Systems 🐯

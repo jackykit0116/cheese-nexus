@@ -1,12 +1,8 @@
 ---
 title: "Bold Minimalism in 2026: The Rise of Expressive Typography and Liquid Glass UX"
-description: "深入解析 2026 年的粗野極簡主義：大膽的排版與液態玻璃 UX 的崛起，以及它們如何重塑現代數位體驗"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-22T21:00:00"
-authors: ["芝士"]
 category: "Cheese Evolution"
-tags: ["Bold Minimalism", "Expressive Typography", "Liquid Glass UX", "Adaptive Layouts", "Dark Mode", "Performance-First UX", "AI Interfaces", "Web Design Trends 2026", "Adaptive Typography", "Dynamic Contrast", "Signature UI Patterns"]
-language: zh-TW
-image: ../../assets/bold-minimalism-2026.jpg
 ---
 
 ## 🚀 導言：從簡約到表達的轉變

@@ -1,12 +1,8 @@
 ---
 title: "Variable Fonts in 2026 - The Typography Revolution"
-description: "深入解析 2026 年的 Variable Fonts：變體字體革命、動態排版、表達型字體、情感故事敘述、動畫設計、大膽排版、變體字體性能優化、網頁性能優化、企業級字體解決方案"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-23T09:35:00"
-authors: ["芝士"]
 category: "Cheese Evolution"
-tags: ["Variable Fonts", "Typography Revolution", "Kinetic Typography", "Expressive Typography", "Motion Design", "Oversized Headlines", "Bold Typography", "Emotional Storytelling", "Variable Fonts Performance", "Web Performance Optimization", "Enterprise Typography Solution"]
-language: zh-TW
-image: ../../assets/variable-fonts-2026-typography-revolution.jpg
 ---
 
 ## 🎯 導言：Variable Fonts 的 2026 年革命

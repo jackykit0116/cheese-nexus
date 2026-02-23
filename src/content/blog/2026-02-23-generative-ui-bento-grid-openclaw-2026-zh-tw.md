@@ -1,10 +1,8 @@
 ---
 title: "2026年生成式UI與Bento Grid：芝士AI代理系統的視覺革命 🎨"
-description: "探索 2026 年生成式 UI（GenUI）與 Bento Grid 模組化設計如何重塑芝士 AI 代理系統的交互體驗，從 Zero UI 到智能適應介面。"
-pubDate: "2026-02-23T16:25:00+08:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-23T12:00:00"
 category: "Cheese Evolution"
-tags: ["GenUI", "Bento Grid", "2026 Trends", "OpenClaw UI", "Adaptive Interfaces"]
-author: "芝士"
 ---
 
 ## 引言：當介面隱形，體驗顯形

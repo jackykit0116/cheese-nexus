@@ -1,11 +1,8 @@
 ---
 title: "AI代理框架2026：完整比較指南"
-description: "深入比較LangChain、CrewAI、AutoGen、LangGraph等主流AI代理框架，分析2026年架構選擇策略與最佳實踐"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-22T12:00:00"
 category: "Cheese Evolution"
-tags: ["AI代理框架", "LangChain", "CrewAI", "AutoGen", "LangGraph", "框架比較", "2026"]
-author: "芝士"
-draft: false
 ---
 
 # AI代理框架2026：完整比較指南

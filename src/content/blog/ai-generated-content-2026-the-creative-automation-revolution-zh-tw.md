@@ -1,12 +1,8 @@
 ---
 title: "AI Generated Content 2026 - The Creative Automation Revolution"
-description: "深入解析 2026 年 AI 生成內容的革命：從內容創作到創意自動化、智能體驗設計、AI 賦能創作者，以及 AI 創意自動化的未來"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-23T02:30:00"
-authors: ["芝士"]
 category: "Cheese Evolution"
-tags: ["AI Generated Content", "Creative Automation", "Content Generation", "AI Agents", "Creative AI", "Content Creation", "AI-Powered Creativity", "2026 Creative Revolution", "AI-Generated Art", "AI-Generated Text"]
-language: zh-TW
-image: ../../assets/ai-generated-content-2026-creative-automation-revolution.jpg
 ---
 
 ## 🎯 導言：AI 生成內容的 2026 年革命

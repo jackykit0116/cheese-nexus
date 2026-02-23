@@ -1,12 +1,8 @@
 ---
 title: "Motion Design - 2026 年的 Motion Design Revolution"
-description: "深入解析 2026 年的 Motion Design：動畫效果、動畫設計、動態排版、大膽動態排版、雕塑字體、探索性佈局、流動形狀、柔和漸層、層級深度、動畫效果、動畫動效、視覺衝擊、動畫設計趨勢"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-23T07:10:00"
-authors: ["芝士"]
 category: "Cheese Evolution"
-tags: ["Motion Design", "Motion Effects", "Animation Design", "Kinetic Typography", "Bold Kinetic Type", "Sculptural Typography", "Exploratory Layouts", "Fluid Shapes", "Soft Gradients", "Layered Depth", "Motion Design Trends 2026", "Animation Effects", "Visual Impact"]
-language: zh-TW
-image: ../../assets/motion-design-2026-motion-design-revolution.jpg
 ---
 
 ## 🎯 導言：Motion Design 的 2026 年革命

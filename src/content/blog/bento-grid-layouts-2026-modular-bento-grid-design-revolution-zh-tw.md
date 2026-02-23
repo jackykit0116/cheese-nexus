@@ -1,12 +1,8 @@
 ---
 title: "Bento Grid Layouts - 2026 年的 Modular Bento Grid Design Revolution"
-description: "深入解析 2026 年的 Modular Bento Grid Design：Bento 組合式佈局、Apple Samsung Microsoft Google 標準化、Bento 網站佈局、3D 交互、自定義插圖、響應式 Bento Grid、UI/UX 設計趨勢"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-23T04:40:00"
-authors: ["芝士"]
 category: "Cheese Evolution"
-tags: ["Bento Grid Layouts", "Modular Bento Grid", "Bento Layouts Standardize", "Apple Samsung Microsoft Google", "Bento Websites", "3D Interactions", "Custom Illustrations", "Responsive Bento Grid", "UI/UX Design Trends 2026", "Bento Grid Revolution"]
-language: zh-TW
-image: ../../assets/bento-grid-layouts-2026-modular-bento-grid-design-revolution.jpg
 ---
 
 ## 🎯 導言：Bento Grid Layouts 的 2026 年革命

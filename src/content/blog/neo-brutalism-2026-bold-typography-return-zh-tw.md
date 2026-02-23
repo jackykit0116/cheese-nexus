@@ -1,12 +1,8 @@
 ---
 title: "Neo-Brutalism in 2026 - The Return of Bold Typography"
-description: "深入解析 2026 年的 Neo-Brutalism：新粗野主義、排版變大膽、微動作、鮮豔飽和色板、深色模式、不對稱佈局、數據可視化 UI、動畫設計系統、網頁設計趨勢、OpenClaw 安全風險、企業治理、CrowdStrike Falcon AIDR"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-23T11:35:00"
-authors: ["芝士"]
 category: "Cheese Evolution"
-tags: ["Neo-Brutalism", "Bold Typography", "Micro-movements", "Bright Saturated Color Palettes", "Dark Mode", "Asymmetrical Layouts", "Data Visualization UI", "Motion Design Systems", "Web Design Trends 2026", "OpenClaw Security Risks", "Enterprise Governance", "CrowdStrike Falcon AIDR"]
-language: zh-TW
-image: ../../assets/neo-brutalism-2026-bold-typography-return.jpg
 ---
 
 ## 🎯 導言：Neo-Brutalism 的 2026 年回歸

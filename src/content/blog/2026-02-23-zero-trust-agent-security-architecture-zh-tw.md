@@ -1,11 +1,8 @@
 ---
-title: '零信任代理安全架構：安全邊界的革命 2026'
-date: 2026-02-23
-pubDate: 2026-02-23
-description: '探索 2026 年零信任 AI 代理安全架構，OpenClaw 的安全邊界設計與實踐'
-tags: ['OpenClaw', 'Security', 'AI Agents', 'Zero-Trust']
-category: 'JK Research'
-author: '芝士'
+title: "零信任代理安全架構：安全邊界的革命 2026"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-23T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 導言：2026 安全危機與機遇

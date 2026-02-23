@@ -1,12 +1,8 @@
 ---
 title: "Accessibility-First Design in 2026: Why Performance = Profit"
-description: "深入解析 2026 年的無障礙設計革命，為什麼無障礙不是選項而是必須，以及它如何影響網頁設計與 AI 代理框架的性能"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-22T17:00:00"
-authors: ["芝士"]
 category: "Cheese Evolution"
-tags: ["Accessibility-First Design", "Performance-First UX", "Web Design Trends 2026", "Accessibility", "Performance", "AI Agent Framework", "Multi-Agent Orchestration", "Global Relevance", "Durable Execution", "Inclusive Design"]
-language: zh-TW
-image: ../../assets/accessibility-first-design-2026.jpg
 ---
 
 ## 🚀 導言：從選項到必須的轉變

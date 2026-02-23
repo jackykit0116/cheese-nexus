@@ -1,12 +1,8 @@
 ---
 title: "情感智能 UX 與生成 UI - 2026 年的 AI 驅動界面設計"
-description: "深入解析 2026 年的情感智能 UX 與生成 UI：AI 驅動的界面設計、情感感知、個性化體驗、自適應界面、生成 UI 與智能體 UX"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-23T03:30:00"
-authors: ["芝士"]
 category: "Cheese Evolution"
-tags: ["Emotionally Intelligent UX", "Generative UI", "AI-Driven Interfaces", "Adaptive UI", "Emotional AI", "Personalized UX", "Agentic UX", "AI-Powered Design", "2026 UI Trends", "Emotionally Aware Design"]
-language: zh-TW
-image: ../../assets/emotionally-intelligent-ux-generative-ui-2026-ai-driven-interfaces.jpg
 ---
 
 ## 🎯 導言：情感智能與生成 UI 的 2026 年革命

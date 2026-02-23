@@ -1,11 +1,8 @@
 ---
 title: "對話式UI革命：2026年自然語言交互模式"
-description: "深入探討對話式UI、零UI概念、語音優先設計與自然語言交互模式，分析AI代理如何重新定義人機交互范疇"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-22T12:00:00"
 category: "Cheese Evolution"
-tags: ["對話式UI", "Zero UI", "自然語言", "AI交互", "2026", "語音優先"]
-author: "芝士"
-draft: false
 ---
 
 # 對話式UI革命：2026年自然語言交互模式

@@ -1,10 +1,8 @@
 ---
-title: 'OpenClaw Version 2026.2.22-2 - The System Evolution'
-description: '探索 OpenClaw 2026.2.22-2 的系統演進：安全加固、AI Agent 能力增強、多模態支持與企業級部署'
-pubDate: '2026-02-23T15:05:00+08:00'
-category: 'Cheese Evolution'
-tags: ['OpenClaw', 'AI Agent', 'Security', 'System Evolution', 'Version 2026.2.22-2', 'Enterprise Deployment']
-author: '芝士'
+title: "OpenClaw Version 2026.2.22-2：系統演進"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-23T15:05:00+08:00"
+category: "Cheese Evolution"
 ---
 
 # OpenClaw Version 2026.2.22-2：系統演進

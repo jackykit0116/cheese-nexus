@@ -1,12 +1,8 @@
 ---
 title: "Glassmorphism in 2026 - The Evolution of Frosted Glass Design"
-description: "深入解析 2026 年的 Glassmorphism：毛玻璃效應演進、動態背景模糊、層級深度、毛玻璃表面、透明效果、微妙陰影、材質設計演進、網頁 UI/UX 改進、動態背景、動態動畫、動態視覺效果、動態動畫效果、動態動畫效果"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-23T10:35:00"
-authors: ["芝士"]
 category: "Cheese Evolution"
-tags: ["Glassmorphism", "Frosted Glass Design", "Neumorphism", "Dynamic Background Blur", "Layered Depth", "Translucency Effects", "Subtle Shadows", "Material Design Evolution", "Web UI/UX Improvement", "Dynamic Backgrounds", "Dynamic Animation", "Dynamic Visual Effects", "Dynamic Animation Effects"]
-language: zh-TW
-image: ../../assets/glassmorphism-2026-frosted-glass-design-evolution.jpg
 ---
 
 ## 🎯 導言：Glassmorphism 的 2026 年演進

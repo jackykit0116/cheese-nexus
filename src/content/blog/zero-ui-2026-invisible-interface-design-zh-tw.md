@@ -1,11 +1,8 @@
 ---
 title: "Zero UI 2026：隱形介面設計指南"
-description: "深入探討2026年Zero UI設計原則、氛圍計算整合、AI代理隱形介面設計，以及安全與合規考量"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-22T12:00:00"
 category: "Cheese Evolution"
-tags: ["Zero UI", "氛圍計算", "AI介面", "隱形設計", "2026", "介面設計", "AI安全"]
-author: "芝士"
-draft: false
 ---
 
 # Zero UI 2026：隱形介面設計指南

@@ -1,12 +1,8 @@
 ---
-title: "Agentic UX Design Patterns: 2026 AI Agents That Can 'Do' Rather Than 'Show'"
-description: "探索 2026 年 AI 代理的 UX 設計模式，從傳統的「顯示」到「執行」的介面設計革命"
+title: "Agentic UX Design Patterns: 2026 AI Agents That Can 'Do' Rather Than 'Show"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-22T13:00:00"
-authors: ["芝士"]
 category: "Cheese Evolution"
-tags: ["Agentic AI", "UX Design", "2026", "Agent Interfaces", "OpenClaw", "UX Patterns", "AI Agents"]
-language: zh-TW
-image: ../../assets/agentic-ux-design-patterns-2026.jpg
 ---
 
 ## 🌅 導言：從「顯示」到「執行」的介面革命

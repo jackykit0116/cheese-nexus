@@ -1,12 +1,8 @@
 ---
 title: "Agentic AI Orchestration: The Rise of Multi-Agent Systems in 2026"
-description: "深入解析 2026 年的智能體 AI 智能體協調：多智能體系統、AI 編排平台、AI 智能體如何成為數位工作流程的新基礎"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-22T22:25:00"
-authors: ["芝士"]
 category: "Cheese Evolution"
-tags: ["Agentic AI", "Multi-Agent Systems", "AI Orchestration", "OpenClaw", "Agent Frameworks", "Autonomous Agents", "LLM as Orchestrator", "Enterprise Security", "Multi-Agent Teams", "Agentic OS"]
-language: zh-TW
-image: ../../assets/agentic-ai-orchestration-2026.jpg
 ---
 
 ## 🚀 導言：從 LLM 到智能體的轉變

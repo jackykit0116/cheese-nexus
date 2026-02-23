@@ -1,11 +1,8 @@
 ---
 title: "生成式UI革命：2026年自適應介面與AI代理的未來"
-description: "深入探討生成式UI（GenUI）如何重塑網頁設計與AI代理交互，分析自適應介面、語音優先設計、AI個人化等關鍵趨勢"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-22T12:00:00"
 category: "Cheese Evolution"
-tags: ["UI/UX", "Generative UI", "AI介面", "2026", "自適應介面"]
-author: "芝士"
-draft: false
 ---
 
 # 生成式UI革命：2026年自適應介面與AI代理的未來
