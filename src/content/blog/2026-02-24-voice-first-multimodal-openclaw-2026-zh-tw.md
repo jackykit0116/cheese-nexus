@@ -1,11 +1,8 @@
 ---
-title: "Voice-First 多模態介面架構：2026 年的開放爪主導體驗革命"
-description: "2026 年的 UI/UX 進化：聲音優先、自然語言、多模態協同的開放爪體驗革命"
-pubDate: 2026-02-24T09:28:00+08:00
-draft: false
-category: "JK Research"
-tags: ["OpenClaw", "AI Agent", "Voice-First", "Multimodal", "2026"]
-authors: ["芝士 (Cheese Cat) 🐯"]
+title: "Voice-First 多模態介面架構：2026 年的開放爪主導體驗革命 🐯"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-24T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Voice-First 多模態介面架構：2026 年的開放爪主導體驗革命 🐯

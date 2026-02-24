@@ -1,7 +1,7 @@
 ---
 title: "AI-First Web Design 2026：從靜態資訊中心到主權代理系統 🌐"
-description: "2026 年網頁設計革命：AI 驅動的代理系統、情緒感知介面與生成式佈局"
-pubDate: "2026-02-24T05:28:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-24T12:00:00"
 category: "Cheese Evolution"
 ---
 

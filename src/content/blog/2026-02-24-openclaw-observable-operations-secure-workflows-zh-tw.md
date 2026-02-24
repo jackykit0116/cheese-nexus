@@ -1,7 +1,7 @@
 ---
 title: "OpenClaw Observable Operations：建立安全可審計的代理工作流程 🐯"
-description: "主權 AI 代理的可觀測操作監控與安全治理指南"
-pubDate: "2026-02-24T04:28:00+08:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-24T12:00:00"
 category: "Cheese Evolution"
 ---
 

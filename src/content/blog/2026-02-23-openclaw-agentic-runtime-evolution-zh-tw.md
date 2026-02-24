@@ -1,6 +1,6 @@
 ---
 title: "OpenClaw 的 2026 革命：從聊天機器人到主權代理運行時"
-description: "深度解析 OpenClaw 如何從工具演變為主權代理運行時，以及 2026 年 AI 趨勢下的位置。"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-23T12:00:00"
 category: "JK Research"
 ---

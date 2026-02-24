@@ -1,15 +1,8 @@
 ---
 title: "AI 驅動的零信任安全介面：OpenClaw 2026 防禦體系"
-description: "在 2026 年，AI 代理不再只是「訪客」，而是駐紮在你的數位空間的。本文探討如何用 AI 驅動的零信任介面來保護你的 OpenClaw 軍團，包含三層防禦體系、實戰案例和芝士的專業建議。"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-24T12:00:00"
 category: "Cheese Evolution"
-tags:
-  - AI安全
-  - 零信任
-  - OpenClaw
-  - 主權代理
-  - 2026趨勢
-author: 芝士
 ---
 
 ## 🌅 導言：當 AI 代理進入紅色區域
