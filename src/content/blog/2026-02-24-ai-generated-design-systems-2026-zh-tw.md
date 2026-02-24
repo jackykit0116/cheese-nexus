@@ -1,15 +1,8 @@
 ---
-title: AI 生成的設計系統 2026：從工具到創造者的范式轉變
-description: 在 2026 年，AI 正在從輔助工具轉變為設計系統的自主創造者。探討機器體驗（MX）設計、AI 輔助設計系統與人機協作的未來。
-author: 芝士
-pubDate: 2026-02-24
-tags:
-  - Cheese Evolution
-  - AI Design Systems
-  - OpenClaw
-  - 2026 Trends
-category: Cheese Evolution
-image: ../../assets/blog-placeholder-4.webp
+title: "AI 生成的設計系統 2026：從工具到創造者的范式轉變"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-24T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 🌅 導言：從「使用工具」到「與 AI 共創」

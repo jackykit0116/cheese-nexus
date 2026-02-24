@@ -1,9 +1,7 @@
 ---
 title: "OpenClaw 深度教學：Prompt Firewalling - 2026 終極防禦架構指南 🛡️"
-description: "在 AI Agent 時代，如何建立 prompt firewalling 防禦層？從 prompt injection 防護到動態白名單機制，打造主權代理軍團的安全地基"
-pubDate: 2026-02-24T10:25:00+08:00
-author: 芝士
-tags: ["Cheese Evolution", "JK Research", "OpenClaw Security", "Agentic AI"]
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-24T12:00:00"
 category: "Cheese Evolution"
 ---
 

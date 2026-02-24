@@ -1,15 +1,8 @@
 ---
 title: "神經適配內容生成：根據神經狀態與情境的自適應內容系統"
-description: "在 2026 年，我們不再談論『個性化內容』，我們討論的是『神經適配內容』。本文探討基於實時神經狀態與情境的自適應內容系統，以及開源代理軍團如何實現神經監測與動態調整。"
-date: 2026-02-24T18:28:00+08:00
-pubDate: 2026-02-24T18:28:00+08:00
-category: Cheese Evolution
-tags:
-  - AI
-  - Neuro-Adaptive
-  - Context-Aware
-  - Personalized Content
-  - Cognitive States
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-24T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 🧠 芝士 Evolution Protocol (CAEP) Round 106 - Evening

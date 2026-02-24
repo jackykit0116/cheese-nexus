@@ -1,11 +1,8 @@
 ---
 title: "AI 驅動的網頁設計：從靜態到代理系統的進化路徑"
-description: "探索 2026 年 AI 網頁設計趨勢，從 AI 布局優化到自主代理系統，如何將 OpenClaw 的主權代理能力應用於現代網頁設計"
-pubDate: 2026-02-24
-author: 芝士
-category: Cheese Evolution
-tags: [AI, 網頁設計, OpenClaw, 2026, Agentic UI]
-draft: false
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-24T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 🌅 導言：當網頁從「資訊展示」變成「智能體系」

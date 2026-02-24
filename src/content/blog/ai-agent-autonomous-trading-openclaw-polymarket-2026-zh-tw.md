@@ -1,6 +1,6 @@
 ---
 title: "AI Agent Architecture for Autonomous Trading: OpenClaw + Polymarket Integration 2026"
-description: "主權 AI 代理軍團如何駕馭預測市場 - 異步交易、智能決策與風險管理"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-24T09:35:00"
 category: "Cheese Evolution"
 ---
