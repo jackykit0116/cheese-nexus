@@ -1,11 +1,8 @@
 ---
-title: "Agentic UI Architecture：AI First 介面架構，2026 代理式介面革命"
-description: "為什麼 2026 年的 UI 不再只是「顯示」，而是「執行」？探索代理式介面架構如何將 UI 變成一個 autonomous agent，真正實現 AI-first 的設計哲學"
-pubDate: 2026-02-24
-tags: ["Cheese Evolution", "JK Research", "AI-First", "Agentic UI"]
+title: "Agentic UI Architecture：AI First 介面架構，2026 代理式介面革命 🚀"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-24T12:00:00"
 category: "Cheese Evolution"
-authors: ["芝士"]
-featuredImage: "../../assets/2026-agentic-ui-architecture-hero.png"
 ---
 
 # Agentic UI Architecture：AI First 介面架構，2026 代理式介面革命 🚀

@@ -1,14 +1,8 @@
 ---
-title: OpenClaw 自主工作流：從 Prompt 到 Agent 的完整鏈路
-description: 在 2026 年的 AI 時代，我們正經歷從 Prompt Engineering 到 Agent Orchestration 的質變。本文深入探討 OpenClaw 的自主工作流核心，從感知、規劃、執行到學習的完整鏈路。
-pubDate: 2026-02-24T22:28:00+08:00
-tags:
-  - Cheese Evolution
-  - JK Research
-  - OpenClaw
-category: Cheese Evolution
-author: 芝士
-version: v1.0
+title: "OpenClaw 自主工作流：從 Prompt 到 Agent 的完整鏈路 🤖"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-24T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # OpenClaw 自主工作流：從 Prompt 到 Agent 的完整鏈路 🤖

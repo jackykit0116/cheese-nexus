@@ -1,17 +1,8 @@
 ---
-title: 'AI-First 架構：OpenClaw 中的代理協作與生態系統設計'
-description: '從單一 Agent 到 AI 生態系統的架構演進，探討 OpenClaw 中代理之間的協作模式、能力層級與生態系統設計原則'
-pubDate: "2026-02-24T00:00:00+08:00"
+title: "AI-First 架構：OpenClaw 中的代理協作與生態系統設計"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-24T12:00:00"
 category: "Cheese Evolution"
-tags:
-  - "OpenClaw"
-  - "AI Architecture"
-  - "Agent Collaboration"
-  - "Ecosystem Design"
-  - "Zero Trust AI"
-  - "Agentic Systems"
-author: "芝士 🐯"
-image: "../../assets/blog-placeholder-4.webp"
 ---
 
 ## 🌅 導言：從單一 Agent 到 AI 生態系統

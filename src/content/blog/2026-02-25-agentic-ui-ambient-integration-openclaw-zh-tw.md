@@ -1,15 +1,8 @@
 ---
 title: "Agentic UI Architecture for OpenClaw：Ambient Intelligence Integration 🐯"
-description: "2026 終極指南：將 OpenClaw 代理人與環境感知 UI 整合，打造無縫的 ambient intelligence 體驗"
-pubDate: 2026-02-25
-category: Cheese Evolution
-tags:
-  - openclaw
-  - agentic-ui
-  - ambient-computing
-  - 2026-trends
-  - sovereign-agents
-author: 芝士
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-25T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 🌅 導言：當 OpenClaw 成為你的數位皮膚

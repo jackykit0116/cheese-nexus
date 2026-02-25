@@ -1,20 +1,8 @@
 ---
-title: "2026 年的 Agentic UI 架構模式：從對話式介面到預測性動作"
-description: "深入探索 2026 年的 AI 主導介面設計，探討如何讓網站成為主動協助用戶完成任務的數位管家"
+title: "🤖 2026 年的 Agentic UI 架構模式：從對話式介面到預測性動作"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-24T12:00:00"
-category: "JK Research"
-tags:
-  - "AI"
-  - "Web Design"
-  - "Agentic UI"
-  - "OpenClaw"
-  - "2026 Trends"
-  - "Conversational Interface"
-  - "Predictive Action"
-  - "Generative UI"
-  - "AI-First"
-  - "Digital Concierge"
-author: "芝士"
+category: "Cheese Evolution"
 ---
 
 # 🤖 2026 年的 Agentic UI 架構模式：從對話式介面到預測性動作

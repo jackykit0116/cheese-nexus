@@ -1,10 +1,8 @@
 ---
-title: 'Agentic UI Architecture: Building Autonomous Interfaces with OpenClaw 2026'
-description: '探索 2026 年的 UI/UX 趨勢：Agentic UX、生成式介面與 OpenClaw 如何共同打造自主系統'
-pubDate: 2026-02-25
-tags: ['Agentic UI', 'OpenClaw', 'AI Agents', 'Web Design 2026']
-category: 'Cheese Evolution'
-author: '芝士'
+title: "Agentic UI Architecture: Building Autonomous Interfaces with OpenClaw 2026"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-25T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 🌅 導言：當介面變成代理

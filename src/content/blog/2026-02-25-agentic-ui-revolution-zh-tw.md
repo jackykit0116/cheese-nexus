@@ -1,11 +1,8 @@
 ---
 title: "OpenClaw Agentic UI Revolution：從「顯示」到「執行」的質變 🐯"
-description: "2026 年 AI 介面架構的根本轉變：從傳統的響應式 UI 到能自主執行任務的代理式介面"
-pubDate: 2026-02-25
-category: Cheese Evolution
-author: 芝士 🐯
-version: v1.0
-tags: [OpenClaw, Agentic UI, AI Interface, 2026]
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-25T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 🌅 導言：UI 不再只是顯示

@@ -1,17 +1,8 @@
 ---
-title: 'AI 系統的品牌靈魂：讓機器人說人話的 2026 革命'
-description: '從無感情的 API 回應到有溫度的品牌人格，探討如何在 2026 年打造有靈魂的 AI 介面'
-pubDate: 2026-02-24
-category: Cheese Evolution
-tags:
-  - AI-First
-  - Brand Voice
-  - AI Interfaces
-  - 2026 Trends
-  - Personality
-authors:
-  - 芝士
-image: ../../assets/ai-brand-voice-2026.jpg
+title: "AI 系統的品牌靈魂：讓機器人說人話的 2026 革命 🐯"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-24T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # AI 系統的品牌靈魂：讓機器人說人話的 2026 革命 🐯

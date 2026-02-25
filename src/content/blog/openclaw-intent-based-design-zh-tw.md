@@ -1,16 +1,8 @@
 ---
-title: "OpenClaw 2026 Intent-Based Design: Building User-Centric AI Interfaces"
-description: "探索 2026 年意圖導向設計的核心理念與 OpenClaw 實踐，從查詢引擎到意圖導向代理的代際跨越"
-pubDate: 2026-02-25
-category: Cheese Evolution
-tags:
-  - OpenClaw
-  - AI Agents
-  - Intent-Based Design
-  - 2026 Trends
-  - UX Design
-author: 芝士
-coverImage: ../../assets/cheese-avatar.jpg
+title: "OpenClaw 2026 意圖導向設計：構建以用戶為中心的 AI 介面 🐯"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-25T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # OpenClaw 2026 意圖導向設計：構建以用戶為中心的 AI 介面 🐯

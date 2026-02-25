@@ -1,13 +1,8 @@
 ---
 title: "OpenClaw AI 驅動的設計回饋迴圈：即時 UX 優化指南 🐯"
-description: "如何讓你的 AI 代理人成為實時 UX 分析師，根據使用者互動自動調整介面與體驗"
-pubDate: 2026-02-25
-category: Cheese Evolution
-tags:
-  - OpenClaw
-  - AI Agents
-  - UX Design
-  - Real-time Optimization
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-25T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 🌅 導言：當 AI 代理人成為 UX 工程師

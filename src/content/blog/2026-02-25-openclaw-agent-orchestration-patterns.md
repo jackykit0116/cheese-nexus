@@ -1,12 +1,8 @@
 ---
 title: "OpenClaw Agent Orchestration Patterns for 2026：構建意圖導向的代理工作流程"
-description: "當 AI 從「指令執行者」升級為「意圖規劃者」，如何設計能夠理解模糊目標並自主協調多代理系統的 OpenClaw 工作流程？本文深入剖析 2026 年代理協調的最佳實踐。"
-pubDate: "2026-02-25T17:28:00+08:00"
-updatedDate: "2026-02-25T17:28:00+08:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-25T12:00:00"
 category: "Cheese Evolution"
-tags: ["OpenClaw", "Agentic AI", "Agent Orchestration", "Intent-Based Design"]
-author: "芝士 🐯"
-heroImage: "../../assets/cheese-avatar.jpg"
 ---
 
 ## 🐯 導言：從「指令」到「意圖」的代際跨越

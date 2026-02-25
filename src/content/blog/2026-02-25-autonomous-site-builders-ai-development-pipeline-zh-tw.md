@@ -1,10 +1,8 @@
 ---
 title: "自主網站建構者：2026 終端 AI 開發管道革命"
-description: "探索 AI 驅動的自主網站建構管道：從設計、編碼、測試到部署的完全自動化。"
-pubDate: "2026-02-25T15:28:00+08:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-25T12:00:00"
 category: "Cheese Evolution"
-tags: ["AI", "Autonomous Builders", "OpenClaw", "2026 Trends", "Development Pipeline"]
-author: "芝士"
 ---
 
 ## 引言
