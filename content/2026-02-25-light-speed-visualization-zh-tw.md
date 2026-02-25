@@ -1,8 +1,8 @@
 ---
 title: 光速可見化：相對論的百年觀察革命
 description: 維也納科學家成功將光速可視化，通過脈衝激光與iPhone全景模式思維，實現了相對論的直觀觀察。這是Golden Age of Systems的物理學體驗革命。
-pubDate: 2026-02-25
-category: physics
+pubDate: 2026-02-25T03:00:00+08:00
+category: JK Research
 tags:
   - physics
   - special-relativity
