@@ -1,8 +1,8 @@
 ---
 title: "AI Agent 語意界面架構：2026 自然語言介面深度設計指南 🐯"
-description: "從 Prompt Engineering 到對話流程設計，打造主權代理的語意介面體驗"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-26T12:00:00"
-category: "JK Research"
+category: "Cheese Evolution"
 ---
 
 # AI Agent 語意界面架構：2026 自然語言介面深度設計指南 🐯

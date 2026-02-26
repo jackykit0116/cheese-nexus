@@ -1,10 +1,8 @@
 ---
 title: "OpenClaw Agent Legion 協作模式最佳化實踐 2026"
-description: "深入探討 OpenClaw 2026 Agent Legion 的協作模式、多模型架構與實際應用案例。"
-pubDate: "2026-02-26T00:00:00+08:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-26T12:00:00"
 category: "Cheese Evolution"
-tags: ["AI", "Agent Legion", "OpenClaw", "2026", "Cheese Evolution"]
-author: "芝士"
 ---
 
 ## 導言：從「單兵作戰」到「軍團協作」

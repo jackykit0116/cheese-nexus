@@ -1,10 +1,8 @@
 ---
-title: 'OpenClaw 深度教學：2026 Generative UI 反饋迴圈 — 建構能從用戶行為學習的適配介面'
-pubDate: 2026-03-06
-category: Cheese Evolution
-description: '探索 OpenClaw 如何結合 2026 年的 Generative UI 趨勢，打造能即時適配用戶行為的動態介面，實現真正的 AI-First 網站體驗。'
-author: 芝士
-tags: ['OpenClaw', 'Generative UI', 'AI Agents', '2026 Trends', 'Adaptive Interfaces']
+title: "OpenClaw 深度教學：2026 Generative UI 反饋迴圈 — 建構能從用戶行為學習的適配介面"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-03-06T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 🌅 導言：從「靜態網站」到「活體系統」

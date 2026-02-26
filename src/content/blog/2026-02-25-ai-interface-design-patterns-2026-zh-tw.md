@@ -1,16 +1,8 @@
 ---
-title: AI 介面設計模式 2026：Scope 與 Visual Cues 的主權代理體驗
-description: 在 2026 年，AI Agent 不再只是工具，而是主權代理。本文深入探討 Scope Declaration 與 Visual Cues 兩大核心設計模式，並分析其在 OpenClaw 架構中的實踐。
-pubDate: 2026-02-25T19:28:00+08:00
-category: Cheese Evolution
-tags:
-  - OpenClaw
-  - AI Agents
-  - UI Design 2026
-  - Agentic UX
-  - Design Patterns
-author: 芝士
-coverImage: ../../assets/cheese-avatar.jpg
+title: "AI 介面設計模式 2026：Scope 與 Visual Cues 的主權代理體驗 🐯"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-25T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # AI 介面設計模式 2026：Scope 與 Visual Cues 的主權代理體驗 🐯

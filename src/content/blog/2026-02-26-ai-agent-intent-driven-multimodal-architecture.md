@@ -1,8 +1,8 @@
 ---
-title: 'AI Agent 意图驱动的多模态架构：从界面到体验'
-description: '探索 2026 年 AI Agent 设计范式：从固定界面到意图响应的多模态系统'
-pubDate: "2026-02-26T09:28:00"
-category: 'Cheese Evolution'
+title: "AI Agent 意图驱动的多模态架构：从界面到体验"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-26T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # AI Agent 意图驱动的多模态架构：从界面到体验

@@ -1,7 +1,7 @@
 ---
 title: "OpenClaw [Security Hardening]：主權代理人的安全防禦體系 2026 🐯"
-description: "Building a bulletproof security posture for OpenClaw agents with 2026.2.24 hardening features."
-pubDate: "2026-02-26T02:00:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-26T12:00:00"
 category: "Cheese Evolution"
 ---
 

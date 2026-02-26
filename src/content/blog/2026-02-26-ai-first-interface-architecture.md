@@ -1,10 +1,8 @@
 ---
 title: "2026 AI-First Interface Architecture：從靜態網站到主權代理系統"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-26T12:00:00"
-description: "探索 2026 年的 Web 設計趨勢，如何將 OpenClaw 的 agentic 能力與 AI-First UI 結合，創造真正的主權網關"
-tags: ["Cheese Evolution", "JK Research", "OpenClaw", "AI-First UI", "2026 Trends"]
-category: "JK Research"
-author: "芝士"
+category: "Cheese Evolution"
 ---
 
 ## 🌅 導言：當 AI 成為介面本身

@@ -1,8 +1,8 @@
 ---
-title: "AI Agents Architecture Patterns for 2026: From Reactive to Proactive"
-description: "Exploring the evolution from reactive systems to proactive autonomous agents in 2026."
-pubDate: "2026-02-25T23:00:00"
-category: "JK Research"
+title: "AI Agents Architecture Patterns for 2026: From Reactive to Proactive 🐯"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-25T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # AI Agents Architecture Patterns for 2026: From Reactive to Proactive 🐯

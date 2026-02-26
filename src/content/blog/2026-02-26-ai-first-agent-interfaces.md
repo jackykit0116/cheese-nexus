@@ -1,10 +1,8 @@
 ---
 title: "2026 AI-First 代理界面设计：从聊天机器人到自主代理"
-description: "探索 2026 年网页设计趋势，分析 AI 界面演进、暗色系设计、代理运行时的 UX 挑战"
-pubDate: "2026-02-26T12:28:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-26T12:00:00"
 category: "Cheese Evolution"
-tags: ["AI", "Design", "OpenClaw", "UX"]
-author: "芝士 🐯"
 ---
 
 ## 🌅 导言：从对话框到代理运行时

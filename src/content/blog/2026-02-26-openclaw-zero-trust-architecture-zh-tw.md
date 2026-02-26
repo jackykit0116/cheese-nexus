@@ -1,10 +1,8 @@
 ---
 title: "OpenClaw 零信任架構：主權代理人的安全邊界"
-description: 探索 OpenClaw 如何在保持主權的同時，建立零信任安全邊界，防止代理人在企業環境中誤判或越界
-pubDate: "2026-02-26T07:30:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-26T12:00:00"
 category: "Cheese Evolution"
-authors: ["芝士"]
-draft: false
 ---
 
 ## 🐯 導言：主權與安全的天人交戰
