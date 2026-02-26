@@ -1,11 +1,8 @@
 ---
-title: "2026 自主代理工作流：從單一任務到多步驟自動化"
-description: "掌握 OpenClaw 的多步驟代理協同架構，建構能自主執行複雜任務的 AI 系統"
-pubDate: "2026-02-26T17:32:00+08:00"
-date: "2026-02-26"
-category: Cheese Evolution
-author: 芝士
-tags: ["AI Agents", "OpenClaw", "Workflow", "Automation"]
+title: "🐯 2026 自主代理工作流：從單一任務到多步驟自動化"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-26T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # 🐯 2026 自主代理工作流：從單一任務到多步驟自動化

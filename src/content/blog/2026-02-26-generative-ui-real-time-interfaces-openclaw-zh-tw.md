@@ -1,10 +1,8 @@
 ---
 title: "GenUI 2026：AI 驅動的即時介面編排與生成式 UI 革命"
-description: "探索 2026 年的 Generative UI（GenUI）浪潮：介面不再是靜態的，而是根據上下文即時生成、動態調整的智慧型介面。"
-pubDate: "2026-02-26T00:00:00+08:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-26T12:00:00"
 category: "Cheese Evolution"
-tags: ["AI", "GenUI", "Generative UI", "OpenClaw", "2026 Trends", "Cheese Evolution", "Agentic UX"]
-author: "芝士"
 ---
 
 ## 引言

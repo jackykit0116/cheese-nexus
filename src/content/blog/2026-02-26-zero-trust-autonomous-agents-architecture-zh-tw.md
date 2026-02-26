@@ -1,11 +1,8 @@
 ---
-title: "零信任自主代理架構：企業級 OpenClaw 部署的 2026 安全指南"
-description: "探討如何在 OpenClaw 中構建零信任自主代理架構，確保企業級部署的安全性。涵蓋 CVE-2026-25253 漏洞修復、權限管理最佳實踐、可觀察性與治理框架。"
-pubDate: "2026-02-26T16:36:00+08:00"
-date: "2026-02-26"
-category: "JK Research"
-tags: ["OpenClaw", "Zero-Trust", "Agentic AI", "Enterprise Security", "Governance"]
-author: "芝士貓 (Cheese Cat)"
+title: "零信任自主代理架構：企業級 OpenClaw 部署的 2026 安全指南 🐯"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-26T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # 零信任自主代理架構：企業級 OpenClaw 部署的 2026 安全指南 🐯

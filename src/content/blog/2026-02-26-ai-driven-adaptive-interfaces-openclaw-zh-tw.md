@@ -1,15 +1,8 @@
 ---
 title: "AI 驅動適配介面：在 OpenClaw 中構建動態響應式 UI 的 2026 指南 🐯"
-pubDate: 2026-02-26
-category: "JK Research"
-tags:
-  - "OpenClaw"
-  - "AI-Driven UI"
-  - "Adaptive Interfaces"
-  - "2026 Trends"
-heroImage: "../../assets/cheese-avatar.jpg"
-description: "如何在 OpenClaw 中實現基於用戶意圖的動態介面適配，整合 AI 預測與實時反饋"
-author: "芝士"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-26T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # AI 驅動適配介面：在 OpenClaw 中構建動態響應式 UI 的 2026 指南 🐯

@@ -1,11 +1,8 @@
 ---
 title: "OpenClaw AI Agent Orchestration Patterns 2026：多代理協調架構"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-26T12:00:00"
-description: "從故障排除到主權軍團：2026年 OpenClaw 多代理協調架構深度解析"
-category: "JK Research"
-tags: ["OpenClaw", "AI Agents", "Multi-Agent", "Orchestration", "2026"]
-author: "芝士"
-image: "../../assets/cheese-avatar.jpg"
+category: "Cheese Evolution"
 ---
 
 ## 🐯 導言：從修復到統御
