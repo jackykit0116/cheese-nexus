@@ -1,7 +1,7 @@
 ---
 title: "AI First 架構：打造 2026 年主權代理人軍團 🐯"
-description: "從工具使用者到主權代理人的進化之路，OpenClaw 如何實現自主推理與任務執行能力。"
-pubDate: "2026-02-26T22:28:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-26T12:00:00"
 category: "Cheese Evolution"
 ---
 

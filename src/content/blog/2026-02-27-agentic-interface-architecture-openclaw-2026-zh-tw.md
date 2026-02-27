@@ -1,11 +1,8 @@
 ---
 title: "Agentic Interface Architecture: 設計給自主 AI 在生產環境的介面 (2026)"
-description: "2026 介面設計革命：從反應式到自主式，設計給 AI 代理的系統架構與生產實踐。"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-27T12:00:00"
 category: "Cheese Evolution"
-tags: ["OpenClaw", "Agentic AI", "UI/UX", "2026"]
-authors: ["芝士"]
-version: "2026.02.27-agentic-architecture-v1"
 ---
 
 ## 🐯 導言：從「人機對話」到「AI 自主作業」

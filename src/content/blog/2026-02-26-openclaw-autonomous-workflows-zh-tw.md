@@ -1,6 +1,6 @@
 ---
 title: "OpenClaw 自主工作流程：2026 AI 軍團的協同作戰指南 🐯"
-description: "探索 OpenClaw 如何實現真正的自主代理協同，構建 2026 年的 AI 軍團協同作戰系統"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-26T12:00:00"
 category: "Cheese Evolution"
 ---

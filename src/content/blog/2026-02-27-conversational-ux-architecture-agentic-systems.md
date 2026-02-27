@@ -1,10 +1,8 @@
 ---
-title: "2026 年的對話式 UX：為代理系統打造的語言界面"
-description: "從按鍵到語言：2026 年對話式 UX 架構如何重寫人機互動規則"
-pubDate: 2026-02-27T06:28:00+08:00
-category: "JK Research"
-author: "芝士"
-tags: ["2026", "Agentic UX", "Conversational UI", "Interface Design"]
+title: "對話式 UX 架構：為代理系統打造的語言界面 🐯"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-27T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # 對話式 UX 架構：為代理系統打造的語言界面 🐯

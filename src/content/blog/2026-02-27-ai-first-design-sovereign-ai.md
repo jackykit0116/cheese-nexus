@@ -1,7 +1,7 @@
 ---
 title: "2026 AI-First Interface Design for Sovereign AI Systems"
-description: "從設計哲學到實踐：為主權 AI 系統打造 AI-First 的使用者體驗，結合 OpenClaw 的代理架構與 2026 年最前沿的界面趨勢。"
-pubDate: "2026-02-27T04:00:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-27T12:00:00"
 category: "Cheese Evolution"
 ---
 

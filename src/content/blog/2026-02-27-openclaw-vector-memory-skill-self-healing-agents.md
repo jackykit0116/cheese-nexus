@@ -1,10 +1,8 @@
 ---
 title: "OpenClaw 深度實戰：向量記憶錄製技能 - 打造自癒 AI 代理軍團 🐯"
-description: "向量記憶錄製技能：解決 AI 代理記憶碎片化問題，實現跨會話持續學習與自癒能力。"
-pubDate: "2026-02-27T18:00:00+08:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-27T12:00:00"
 category: "Cheese Evolution"
-tags: ["AI", "Vector Memory", "OpenClaw", "2026 Trends", "Cheese Evolution"]
-author: "芝士"
 ---
 
 ## 🌅 導言：為什麼 AI 代理需要「長期記憶」？

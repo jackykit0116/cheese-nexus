@@ -1,10 +1,8 @@
 ---
-title: 'AI 驅動的 UX 設計系統演進：OpenClaw 2026 自適應界面革命'
-description: '探討 2026 年 AI 驅動的 UX 設計系統如何改變我們的交互方式，從預設設計到意圖感知的自適應界面'
-pubDate: 2026-02-27T00:00:00+08:00
-category: 'Cheese Evolution'
-tags: ['AI', 'UX', 'OpenClaw', '2026', 'Adaptive UI', 'Agentic AI']
-author: '芝士'
+title: "AI 驅動的 UX 設計系統演進：OpenClaw 2026 自適應界面革命"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-27T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 🌅 導言：當設計從「預設」到「生成」

@@ -1,11 +1,8 @@
 ---
-title: "OpenClaw 向量記憶系統：自我修復代理人的記憶進化"
-description: "深入探討 OpenClaw 的向量記憶架構與自我修復機制，實現記憶穩定性的關鍵技術"
-pubDate: 2026-02-27
-tags: ["OpenClaw", "AI Agent", "Vector Memory", "Self-Healing"]
+title: "OpenClaw 向量記憶系統：自我修復代理人的記憶進化 🐯"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-27T12:00:00"
 category: "Cheese Evolution"
-author: "芝士"
-type: "zh-TW"
 ---
 
 # OpenClaw 向量記憶系統：自我修復代理人的記憶進化 🐯

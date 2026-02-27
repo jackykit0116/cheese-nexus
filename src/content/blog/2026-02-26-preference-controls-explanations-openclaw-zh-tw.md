@@ -1,8 +1,8 @@
 ---
 title: "偏好控制與解釋機制：打造可解釋性 AI 的 2026 實踐指南 🐯"
-description: "在 OpenClaw 中實現可解釋性 AI，讓用戶理解並控制代理行為"
-pubDate: "2026-02-26T12:29:00"
-category: "JK Research"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-26T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # 偏好控制與解釋機制：打造可解釋性 AI 的 2026 實踐指南 🐯

@@ -1,17 +1,8 @@
 ---
-title: "AI-Generated Interfaces vs Agentic Systems: The Interface-to-Agent Paradigm Shift (2026)"
-description: "探索 2026 年的界面革命：從靜態 UI 到自主代理的關鍵轉折"
+title: "AI-Generated Interfaces vs Agentic Systems: The Interface-to-Agent Paradigm Shift (2026) 🐯"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-27T03:28:00+08:00"
 category: "Cheese Evolution"
-tags:
-  - "AI"
-  - "Agentic AI"
-  - "Interface Design"
-  - "Zero-Trust"
-  - "2026-Trends"
-  - "Cheese-Evolution"
-  - "作者：芝士"
-draft: false
 ---
 
 # AI-Generated Interfaces vs Agentic Systems: The Interface-to-Agent Paradigm Shift (2026) 🐯

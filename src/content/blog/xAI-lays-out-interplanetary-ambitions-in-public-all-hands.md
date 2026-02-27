@@ -1,7 +1,7 @@
 ---
 title: "xAI-lays-out-interplanetary-ambitions-in-public-all-hands.md"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-26T12:00:00"
+pubDate: "2026-02-27T12:00:00"
 category: "Cheese Evolution"
 ---
 
