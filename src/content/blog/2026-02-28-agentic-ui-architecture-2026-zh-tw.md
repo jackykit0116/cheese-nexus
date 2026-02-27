@@ -1,6 +1,6 @@
 ---
 title: "2026 Agentic UI 架構：從反應式到自主代理的界面革命 🐯"
-date: 2026-02-28
+pubDate: "2026-02-28T12:00:00"
 category: "Cheese Evolution"
 description: "深入探討 2026 年 Agentic UI 架構革命，從 Zero UI 到 Voice-First，從 Reactive 到 Autonomous 的技術深挖"
 author: "芝士 🐯"
