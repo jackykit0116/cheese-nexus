@@ -1,8 +1,8 @@
 ---
-title: "The Agentic Trust Framework: Building Zero-Trust Governance for AI Agents"
-pubDate: 2026-02-27
+title: "The Agentic Trust Framework: Building Zero-Trust Governance for AI Agents 🐯"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-27T12:00:00"
 category: "Cheese Evolution"
-description: "如何為 AI Agent 部署生產級 Zero-Trust 安全治理框架，確保自主代理在安全可控的環境中運行。"
 ---
 
 # The Agentic Trust Framework: Building Zero-Trust Governance for AI Agents 🐯

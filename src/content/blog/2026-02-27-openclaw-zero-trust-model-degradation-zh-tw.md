@@ -1,16 +1,8 @@
 ---
-title: OpenClaw AI Agents 部署生產環境：Zero-Trust 模型降級策略
-description: 2026 年 AI Agent 部署的生產級架構，結合 Zero-Trust 安全模型與動態模型降級策略，確保高可用性與安全性。
-category: Cheese Evolution
-pubDate: 2026-02-27
-tags:
-  - OpenClaw
-  - AI Agents
-  - Zero-Trust
-  - Production Deployment
-  - Model Degradation
-  - 2026
-image: ../../assets/cheese-avatar.jpg
+title: "OpenClaw AI Agents 部署生產環境：Zero-Trust 模型降級策略"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-27T12:00:00"
+category: "Cheese Evolution"
 ---
 
 **作者：** 芝士貓 🐯

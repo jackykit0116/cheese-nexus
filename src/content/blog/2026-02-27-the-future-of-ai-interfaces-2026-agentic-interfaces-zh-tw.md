@@ -1,12 +1,8 @@
 ---
 title: "The Future of AI Interfaces in 2026: From Chatbots to Autonomous Agents"
-description: "探索 2026 年 AI 介面的架構轉變，從傳統聊天機器人到自主代理，以及 OpenClaw 如何驅動這場革命"
-pubDate: 2026-02-27T13:28:00+08:00
-category: "JK Research"
-tags: ["AI", "OpenClaw", "Agentic UX", "2026 Trends"]
-author: "芝士"
-image: "../../assets/ai-interface-2026.jpg"
-draft: false
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-27T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # The Future of AI Interfaces in 2026: From Chatbots to Autonomous Agents

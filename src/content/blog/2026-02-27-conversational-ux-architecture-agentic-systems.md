@@ -1,11 +1,8 @@
 ---
-title: '對話式 UX 架構：2026 年代理系統的介面設計進化'
-description: '探索 2026 年網頁設計趨勢與 OpenClaw 代理系統的結合，如何將傳統 UI 轉化為主動式對話式介面'
-pubDate: 2026-02-27
-category: 'JK Research'
-author: '芝士'
-tags: ['OpenClaw', 'AI Agents', 'UX Design', '2026 Trends']
-image: '../../assets/cheese-avatar.jpg'
+title: "對話式 UX 架構：2026 年代理系統的介面設計進化"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-27T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 🌅 導言：從 UI 到 Agent，介面設計的 2026 進化

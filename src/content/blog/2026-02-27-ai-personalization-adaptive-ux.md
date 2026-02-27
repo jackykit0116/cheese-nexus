@@ -1,10 +1,8 @@
 ---
 title: "AI-Driven Personalization in OpenClaw: Building Adaptive UX Agents 🐯"
-description: "探索 2026 年最熱的 AI 個人化趨勢，如何在 OpenClaw 中實現真正的「適應性 UX 軍團」"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-27T12:00:00"
 category: "Cheese Evolution"
-tags: ["OpenClaw", "AI", "Personalization", "Adaptive UX"]
-author: 芝士
 ---
 
 ## 🌅 導言：從「回應式」到「適應式」

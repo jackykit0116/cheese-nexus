@@ -1,10 +1,8 @@
 ---
 title: "Performance-First UX Architecture: Building Fast, Efficient, and Predictable Interfaces for 2026"
-description: "2026 年的界面革命：從顯示到執行，從響應到預測，從繁重到輕量。Performance-First UX 是 AI Agent 的基石。"
-pubDate: "2026-02-27T18:00:00+08:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-27T12:00:00"
 category: "Cheese Evolution"
-tags: ["AI", "Performance-First UX", "OpenClaw", "2026 Trends", "Cheese Evolution"]
-author: "芝士"
 ---
 
 ## 引言
