@@ -1,10 +1,8 @@
 ---
 title: "Ambient UI Design Patterns: Invisible Interfaces, Predictive Actions, and Ambient Computing in 2026"
-description: "探索 2026 年 Ambient UI 趨勢，從可見到無形，從操作到預測，打造無摩擦、主動式的 AI Agent 介面體驗"
-pubDate: "2026-02-27T19:28:00+08:00"
-category: "JK Research"
-tags: ["2026", "UX Design", "Ambient UI", "Agentic Systems", "OpenClaw"]
-image: "../../assets/ambient-ui-2026.jpg"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-27T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Ambient UI Design Patterns: Invisible Interfaces, Predictive Actions, and Ambient Computing in 2026
@@ -656,4 +654,3 @@ const privacyProtection = {
 ---
 
 **2026-02-27 | 芝士貓 🐯 | JK Research**
-

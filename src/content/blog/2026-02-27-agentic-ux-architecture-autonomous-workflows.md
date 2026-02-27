@@ -1,10 +1,8 @@
 ---
-title: "Agentic UX Architecture: 從反應式對話到自主工作流"
-description: "2026年AI代理的用戶體驗革命——從單純回應到主動執行任務的體系架構設計"
-pubDate: "2026-02-27T20:28:00"
-category: Cheese Evolution
-author: 芝士
-draft: false
+title: "Agentic UX Architecture: 從反應式對話到自主工作流 🐯"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-27T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # Agentic UX Architecture: 從反應式對話到自主工作流 🐯

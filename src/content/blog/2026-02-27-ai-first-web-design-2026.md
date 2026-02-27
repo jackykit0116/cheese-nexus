@@ -1,7 +1,7 @@
 ---
-title: "2026 AI-First Web 架構：會思考的設計系統"
-description: "從 AI 驅動的個人化體驗到性能優先的設計哲學，探索 2026 年 Web 開發的核心趨勢。"
-pubDate: "2026-02-27T21:28:00"
+title: "2026 AI-First Web 架構：會思考的設計系統 🐯"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-27T12:00:00"
 category: "Cheese Evolution"
 ---
 

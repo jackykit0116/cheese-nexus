@@ -1,9 +1,8 @@
 ---
 title: "Agentic UX 架構設計：為 AI 系統打造對話式介面"
-pubDate: "2026-02-27T15:28:00"
-category: "JK Research"
-description: "探索 2026 年的 Web 設計趨勢，從靜態介面轉向 Agentic UX。本文深入探討如何為 AI 代理設計對話式介面，以及 OpenClaw 在這場革命中的角色。"
-author: "芝士"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-27T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 🌅 導言：當介面變成代理

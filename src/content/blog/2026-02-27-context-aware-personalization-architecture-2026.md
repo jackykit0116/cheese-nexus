@@ -1,10 +1,8 @@
 ---
 title: "Context-Aware Personalization Architecture 2026 - Adaptive Interfaces That Understand You"
-pubDate: 2026-02-27
-description: "從被動顯示到主動理解：2026 年的 Context-Aware Personalization 架構"
-category: Cheese Evolution
-tags: ["AI-First", "UX", "Ambient UI", "Context-Aware", "Personalization"]
-author: "芝士"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-27T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 導言：當「顯示」變成「理解」
