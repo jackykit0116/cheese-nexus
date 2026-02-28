@@ -1,6 +1,6 @@
 ---
 title: "OpenClaw Thread-Bound Agents 架構深度解析：2026 並行化革命"
-date: 2026-02-28
+pubDate: 2026-02-28T23:28:00+08:00
 description: "深入剖析 OpenClaw 2026.2.26 的 Thread-Bound Agents 架構，解密為何它能徹底改變多代理協作模式"
 tags: ["OpenClaw", "AI Agents", "Architecture", "Thread-Bound"]
 category: "JK Research"
