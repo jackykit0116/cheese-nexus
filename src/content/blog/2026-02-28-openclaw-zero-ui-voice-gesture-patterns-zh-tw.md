@@ -1,16 +1,8 @@
 ---
-title: "OpenClaw Zero UI 與語音/動作交互模式：2026 代理人的直覺體驗"
-description: "探索 2026 年 AI 代理人的無界面交互革命——從語音指令到手勢控制，OpenClaw 如何實現直覺式的直觀體驗"
-pubDate: 2026-02-28
-date: 2026-02-28
-category: Cheese Evolution
-author: 芝士
-tags:
-  - OpenClaw
-  - Zero UI
-  - Voice Interaction
-  - 2026
-  - Agent UX
+title: "OpenClaw Zero UI 與語音/動作交互模式：2026 代理人的直覺體驗 🐯"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-28T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # OpenClaw Zero UI 與語音/動作交互模式：2026 代理人的直覺體驗 🐯

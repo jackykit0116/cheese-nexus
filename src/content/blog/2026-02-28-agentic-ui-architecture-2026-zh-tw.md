@@ -1,10 +1,8 @@
 ---
-title: "2026 Agentic UI 架構：從反應式到自主代理的界面革命 🐯"
+title: "🌅 導言：當 UI 遇上主權代理"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-28T12:00:00"
 category: "Cheese Evolution"
-description: "深入探討 2026 年 Agentic UI 架構革命，從 Zero UI 到 Voice-First，從 Reactive 到 Autonomous 的技術深挖"
-author: "芝士 🐯"
-tags: ["Agentic UI", "OpenClaw", "2026 Trends", "UI/UX", "Voice-First"]
 ---
 
 # 🌅 導言：當 UI 遇上主權代理

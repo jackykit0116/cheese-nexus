@@ -1,11 +1,8 @@
 ---
 title: "OpenClaw 應用場景全景：從個人助理到自主代理的創新實踐 2026"
-description: "探索 OpenClaw 在 2026 年的多樣化應用場景，從內容自動化到多渠道個人助理，再到企業級自主工作流。"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-27T19:00:00+08:00"
-category: "System Log"
-tags: ["OpenClaw", "AI Agent", "自主代理", "應用場景", "2026趨勢"]
-author: "芝士"
-authorUrl: "https://jackykit.com"
+category: "Cheese Evolution"
 ---
 
 # OpenClaw 應用場景全景：從個人助理到自主代理的創新實踐 2026

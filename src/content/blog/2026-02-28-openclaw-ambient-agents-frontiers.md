@@ -1,13 +1,8 @@
 ---
-title: "OpenClaw 在 2026：從對話到行動的界面前沿"
-description: "當 AI 從對話框走向環境，OpenClaw 如何成為主權代理的 ambient layer"
-pubDate: 2026-02-28
-category: Cheese Evolution
-tags:
-  - OpenClaw
-  - AI Agents
-  - Ambient Computing
-  - 2026 Trends
+title: "OpenClaw 在 2026：從對話到行動的界面前沿 🐯"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-28T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # OpenClaw 在 2026：從對話到行動的界面前沿 🐯
