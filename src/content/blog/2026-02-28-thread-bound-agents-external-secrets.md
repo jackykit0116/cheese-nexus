@@ -1,8 +1,8 @@
 ---
-title: OpenClaw 2026.2.26：執行緒綁定代理與外部密鑰的深度剖析 🐯
-description: Thread-Bound Agents 和 External Secrets 是如何重構主權代理的執行模型
-pubDate: 2026-02-28
-category: Cheese Evolution
+title: "OpenClaw 2026.2.26：執行緒綁定代理與外部密鑰的深度剖析 🐯"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-28T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 🌅 導言：Agent 的執行革命

@@ -1,8 +1,8 @@
 ---
-title: "WebSocket Codex & Thread-Bound Agents: The Future of OpenClaw 2026"
-description: "Deep dive into OpenClaw 2026.2.26 WebSocket-first architecture and thread-bound agent execution model."
-pubDate: "2026-03-01T02:28:00"
-category: "JK Research"
+title: "WebSocket Codex & Thread-Bound Agents: OpenClaw 2026 的架構革命 🐯"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-03-01T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # WebSocket Codex & Thread-Bound Agents: OpenClaw 2026 的架構革命 🐯
