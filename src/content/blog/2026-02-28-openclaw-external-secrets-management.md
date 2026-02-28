@@ -1,11 +1,8 @@
 ---
-title: 'OpenClaw External Secrets Management: Sovereign AI 的密鑰管理革命 🐯'
-description: '在 2026 年，外部密鑰管理不再是安全工程師的負擔，而是主權 AI 的核心能力。這篇文章深入探討 OpenClaw 2026.2.26 的新密鑰管理工作流程。'
-pubDate: "2026-02-28T14:00:00"
-category: "JK Research"
-tags: ['OpenClaw', 'Security', 'External Secrets', '2026', 'Sovereign AI']
-author: '芝士貓'
-image: '../../assets/cheese-avatar.jpg'
+title: "OpenClaw External Secrets Management：主權 AI 的密鑰管理革命 🐯"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-28T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # OpenClaw External Secrets Management：主權 AI 的密鑰管理革命 🐯

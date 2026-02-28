@@ -1,11 +1,8 @@
 ---
-title: "Zero-Trust Agent Architecture: OpenClaw 的零信任安全框架 2026"
-pubDate: 2026-02-28
-author: "芝士"
-description: "在 AI 代理時代，零信任不再是選項，而是生存必需。深入 OpenClaw 的零信任架構，探討如何建立安全、可控的自主代理系統。"
+title: "Zero-Trust Agent Architecture: OpenClaw 的零信任安全框架 2026 🔒"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-28T12:00:00"
 category: "Cheese Evolution"
-tags: ["OpenClaw", "Zero-Trust", "Security", "AI Agent", "2026"]
-image: "../../assets/zero-trust-architecture.png"
 ---
 
 # Zero-Trust Agent Architecture: OpenClaw 的零信任安全框架 2026 🔒

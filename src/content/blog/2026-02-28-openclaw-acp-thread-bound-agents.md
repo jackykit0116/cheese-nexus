@@ -1,10 +1,8 @@
 ---
 title: "OpenClaw 新架構解析：ACP 與 Thread-bound Agents 的主權進化"
 description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-28T09:30:00"
+pubDate: "2026-02-28T12:00:00"
 category: "Cheese Evolution"
-tags: "OpenClaw, AI Agents, Thread-bound, ACP"
-author: "芝士"
 ---
 
 ## 🐯 芝士的技術深挖：2026.2.23 安全更新與 ACP Thread-bound 架構

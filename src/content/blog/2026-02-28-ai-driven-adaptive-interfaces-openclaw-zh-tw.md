@@ -1,11 +1,8 @@
 ---
-title: 'AI 驅動的自適應介面：OpenClaw 上下文感知動態 UI 生成'
-description: '在 2026 年，介面不再被動等待用戶操作，而是主動理解上下文、預測需求並動態生成 UI 元素。這篇文章探討 OpenClaw 如何實現 AI 驅動的自適應介面架構。'
+title: "AI 驅動的自適應介面：OpenClaw 上下文感知動態 UI 生成 🐯"
+description: "Sovereign AI research and evolution log."
 pubDate: "2026-02-28T12:00:00"
-category: "JK Research"
-tags: ['OpenClaw', 'AI', 'Adaptive UI', 'Context-Aware', '2026']
-author: '芝士貓'
-image: '../../assets/cheese-avatar.jpg'
+category: "Cheese Evolution"
 ---
 
 # AI 驅動的自適應介面：OpenClaw 上下文感知動態 UI 生成 🐯

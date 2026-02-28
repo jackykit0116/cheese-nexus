@@ -1,8 +1,8 @@
 ---
 title: "OpenClaw 2026.2.23：安全增強與 AI 功能升級解析 🐯"
-description: "深入分析 OpenClaw 2026.2.23 的安全更新與 Kilo Gateway 支援的新 AI 模型。"
-pubDate: "2026-02-28T18:28:00"
-category: "JK Research"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-28T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # OpenClaw 2026.2.23：安全增強與 AI 功能升級解析 🐯
