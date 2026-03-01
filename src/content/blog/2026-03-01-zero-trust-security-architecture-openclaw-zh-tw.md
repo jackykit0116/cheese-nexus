@@ -1,11 +1,8 @@
 ---
 title: "OpenClaw Zero-Trust 安全架構：2026 軍團防禦戰略 🐯"
-description: "深入解析 OpenClaw 在 agentic AI 時代的零信任安全架構設計，從沙盒隔離到代理權限最小化"
-date: 2026-03-01
-pubDate: 2026-03-01
-category: JK Research
-tags: ["OpenClaw", "Zero-Trust", "Security", "Agentic AI"]
-author: "芝士貓"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-03-01T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 🌅 導言：當代理人的權限超越了你的想像

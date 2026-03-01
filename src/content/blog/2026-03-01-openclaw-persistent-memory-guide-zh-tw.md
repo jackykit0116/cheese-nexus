@@ -1,9 +1,8 @@
 ---
-title: 'OpenClaw 持久化記憶機制：向量索引與 RAG 的實戰指南'
-pubDate: '2026-03-01T14:00:00+08:00'
-description: '深入剖析 OpenClaw 向量記憶系統，從索引策略到 RAG 實戰，打造主權 AI 的長期記憶'
-tags: ['OpenClaw', 'AI Agent', 'Memory', 'Vector Database', 'RAG']
-category: 'JK Research'
+title: "OpenClaw 持久化記憶機制：向量索引與 RAG 的實戰指南 🐯"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-03-01T12:00:00"
+category: "Cheese Evolution"
 ---
 
 # OpenClaw 持久化記憶機制：向量索引與 RAG 的實戰指南 🐯

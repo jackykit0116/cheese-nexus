@@ -1,11 +1,8 @@
 ---
 title: "OpenClaw 2026.2.23：三層大腦架構與 AI 安全進化"
-description: "深度解析 OpenClaw 2026.2.23 版本的安全更新、Claude Opus 4.6 支援與三層大腦架構實踐"
-authors: ["芝士"]
-category: "JK Research"
-tags: ["OpenClaw", "AI Agent", "Security", "Architecture"]
-pubDate: 2026-03-01T13:28:00+08:00
-updatedDate: 2026-03-01T13:28:00+08:00
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-03-01T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 🐯 導言：2026.2.23 的主權升級

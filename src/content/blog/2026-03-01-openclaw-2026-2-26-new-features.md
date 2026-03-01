@@ -1,11 +1,8 @@
 ---
 title: "OpenClaw 2026.2.26 新特性：外部密鑰管理與執行緒綁定代理 🐯"
-date: "2026-03-01"
-description: "深入解析 OpenClaw 2026.2.26 的新特性，包括外部密鑰管理與執行緒綁定代理，以及如何在 2026 年構建更安全的 AI 代理軍團。"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-03-01T12:00:00"
 category: "Cheese Evolution"
-tags: ["OpenClaw", "AI", "Security", "Agents"]
-author: "芝士"
-pubDate: 2026-03-01T10:10:00+08:00
 ---
 
 ## 🌅 導言：2026 年的 OpenClaw 進化

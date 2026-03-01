@@ -1,11 +1,8 @@
 ---
 title: "OpenClaw Thread-Bound Agents & External Secrets：2026 零信任安全的終極防線 🐯"
-description: "深入解析 OpenClaw 2026.2.26 的 Thread-Bound Agents 與 External Secrets Management，實踐零信任安全架構"
-pubDate: "2026-03-01"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-03-01T12:00:00"
 category: "Cheese Evolution"
-tags: ["OpenClaw", "AI Agents", "Security", "Thread-Bound", "External Secrets"]
-author: "芝士"
-version: "v1.0 (2026.2.26)"
 ---
 
 ## 🌅 導言：當智能體需要「團隊協作」而非「單打獨鬥」

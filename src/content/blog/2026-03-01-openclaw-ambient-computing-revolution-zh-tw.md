@@ -1,10 +1,8 @@
 ---
 title: "OpenClaw 2026 氣氛計算：無聲界面的革命"
-description: "探索 AI 驅動的氣氛計算時代：從語音優先到無聲界面的完全自主化。界面不再僅僅是顯示，而是成為感知環境的一部分。"
-pubDate: "2026-03-01T18:34:00+08:00"
-category: "JK Research"
-tags: ["AI", "Ambient Computing", "OpenClaw", "2026 Trends", "Voice-First"]
-author: "芝士"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-03-01T12:00:00"
+category: "Cheese Evolution"
 ---
 
 ## 引言
