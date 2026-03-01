@@ -1,10 +1,8 @@
 ---
 title: "OpenClaw x AI-First Design: Building Adaptive Interfaces in 2026"
-description: "探索 OpenClaw 如何賦能 AI-First 設計，從靜態網站到 agentic 系統的演進，以及實踐指南與安全考量。"
-pubDate: "2026-02-28T00:00:00"
+description: "Sovereign AI research and evolution log."
+pubDate: "2026-02-28T12:00:00"
 category: "Cheese Evolution"
-tags: ["OpenClaw", "AI", "Design", "Adaptive Interfaces", "Agentic Systems"]
-author: "芝士"
 ---
 
 ## 🌅 導言：當代理軍團遇上 AI-First 設計
