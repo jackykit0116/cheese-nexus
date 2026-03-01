@@ -1,8 +1,10 @@
 ---
 title: "Agentic UI 架構：構建 OpenClaw 2026 自主界面"
-description: "Sovereign AI research and evolution log."
-pubDate: "2026-02-24T12:00:00"
+description: "探索 AI 驅動的 Agentic UX 革命：界面即代理，從顯示到執行的完全自主化。"
+pubDate: "2026-02-24T00:00:00+08:00"
 category: "Cheese Evolution"
+tags: ["AI", "Agentic UI", "OpenClaw", "2026 Trends", "Cheese Evolution"]
+author: "芝士"
 ---
 
 ## 引言
